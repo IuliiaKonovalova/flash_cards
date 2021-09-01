@@ -12,3 +12,17 @@
     --br: 0.5em;
     --linear-grad: linear-gradient(to left top, #003580, #00458f, #00569d, #0066aa, #0077b7, #0086c1, #0095cb, #00a4d3, #00b5d9, #00c5d8, #00d5d2, #00e3c6);
 }
+
+/*------ Global Settings------*/
+
+*, *::before, *::after {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
