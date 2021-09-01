@@ -61,10 +61,65 @@ body {
 .card__holder {
     grid-column: 2/3;
     grid-row: 2/3;
-    background: var(--linear-grad);
     justify-self: center;
     align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
 }
+
+/* .card__main {
+    width: 80%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    background: var(--linear-grad);
+    transition: transform 1s;
+    /*direction od movement
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+border-radius: var(--br);
+} */
+
+/* .card__main.id-flipped {
+    transform: rotateY(180deg);
+} */
+
+.card {
+/* position: absolute; */
+    width: 70%;
+    height: 100%;
+    background: var(--linear-grad);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*hide back-side*/
+    /* -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; */
+    overflow: hidden;
+    border-radius: var(--br);
+    box-shadow: 0px 3px 18px 3px rgba(255, 254, 254, 0.2);
+}
+
+.card--front {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cornsilk;
+    background-color: cornflowerblue;
+}
+
+p {
+    width: 50%;
+}
+
+.card--hidden {
+    display: none;
+}
+
+
 
 /* Button Styling */
 
