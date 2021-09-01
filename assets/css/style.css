@@ -38,12 +38,21 @@ body {
 
 
 .title__holder {
-    grid-column:  2/3;
+    grid-column:  1/4;
     grid-row: 1/2;
     justify-self: center;
     align-items: center;
     background-color: burlywood;
-    display: grid;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: .2rem;
+    font-size: 3vh;
 }
 
 .card__holder {
