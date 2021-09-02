@@ -129,3 +129,11 @@ generateCard();
 // Change Card on click
 
 cardNextButton.addEventListener('click', generateCard);
+
+// Click enter to go to another card
+
+cardNextButton.addEventListener('keydown', function (event) {
+     if (event.key === 'Enter') {
+          generateCard();
+     }
+});
