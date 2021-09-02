@@ -91,3 +91,14 @@ const flashcards = [
           ipa: '[ˈjel.oʊ]',
      },
 ];
+
+/**
+ *
+ * Generate random index for the FC
+ */
+
+const createRandom = function () {
+     return Math.floor(Math.random() * flashcards.length);
+};
+
+createRandom();
