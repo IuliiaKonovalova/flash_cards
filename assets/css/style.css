@@ -65,7 +65,7 @@ body {
     justify-content: center;
     width: 30vw;
     height: 60vh;
-    perspective: 1000px;
+    perspective: 60vw;
 }
 
 .card {
@@ -101,6 +101,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.topic {
+    color: purple;
 }
 
 /* Styling the Back side of the FC*/
