@@ -99,12 +99,28 @@ body {
 .card--front {
     background: var(--linear-grad);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+
+
 .topic {
-    color: purple;
+    color: var(--clr-neutral-900);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 4vh;
+    margin-bottom: 3vh;
+}
+
+.image {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    display: block;
 }
 
 /* Styling the Back side of the FC*/
