@@ -112,6 +112,11 @@ function generateCard() {
      let CardIpa = document.getElementsByClassName('english__ipa')[0];
 
      let randomIndex = createRandom();
+
+     cardTopic.innerText = flashcards[randomIndex].topic;
+     cardImage.innerHTML = `<img src = ${flashcards[randomIndex].image}>`;
+     cardWord.innerText = flashcards[randomIndex].word;
+     CardIpa.innerText = flashcards[randomIndex].ipa;
 }
 
 generateCard();
