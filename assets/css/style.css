@@ -32,14 +32,41 @@ body {
     color: var(--clr-neutral-100);
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 4fr 2fr;
+    grid-template-rows: 1fr 5fr 2fr;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* --- << Menu page >> --- */
 
-.menu__title {
-    
+.menu__header {
+    grid-column:  2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.menu__main {
+    grid-column:  2/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.menu__footer {
+    grid-column:  2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-items: center;
 }
 
 /* --- << FC page >> --- */
