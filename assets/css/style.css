@@ -36,10 +36,47 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Menu Button */
+
+.button__menu {
+    grid-column:  1/2;
+    grid-row: 1/2;
+    justify-self: left;
+    align-items: center;
+    margin: 2rem;
+}
+
+.button__menu a {
+    text-decoration: none;
+    outline: none;
+}
+
+.menu__link {
+    background-color: var(--clr-primary-500);
+    padding: 2vh;
+    font-size: 2vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--clr-neutral-900);
+	text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+    background: linear-gradient(to bottom, var(--clr-primary-100) 5%, #1e62d0 100%);
+	background-color: var(--clr-primary-900);
+	border: 1px solid #337fed;
+    border-radius: var(--br);
+	display: inline-block;
+	cursor: pointer;
+}
+
+.menu__link:hover {
+	background:linear-gradient(to bottom, #0d67f7 20%, var(--clr-primary-100) 100%);
+	background-color:#1e62d0;
+}
+
 /* Title Styling */
 
 .title__holder {
-    grid-column:  1/4;
+    grid-column:  2/3;
     grid-row: 1/2;
     justify-self: center;
     align-items: center;
