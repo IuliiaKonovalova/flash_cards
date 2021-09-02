@@ -1,4 +1,7 @@
 const card = document.querySelector('.card');
+const cardNextButton = document.querySelector('#card__next');
+
+// Flip card on the click
 
 card.addEventListener('click', function (e) {
      e.preventDefault();
@@ -101,11 +104,12 @@ const createRandom = function () {
      return Math.floor(Math.random() * flashcards.length);
 };
 
-createRandom();
+/**
+ * Function generates the Flash Card for the user
+ * with all visible elements
+ */
 
-console.log(createRandom());
-
-function generateCard() {
+const generateCard = function () {
      let cardTopic = document.getElementsByClassName('topic')[0];
      let cardImage = document.getElementsByClassName('image')[0];
      let cardWord = document.getElementsByClassName('english__word')[0];
@@ -117,6 +121,10 @@ function generateCard() {
      cardImage.innerHTML = `<img src = ${flashcards[randomIndex].image}>`;
      cardWord.innerText = flashcards[randomIndex].word;
      CardIpa.innerText = flashcards[randomIndex].ipa;
-}
+};
 
 generateCard();
+
+// Change Card on click
+
+cardNextButton.addEventListener('click', generateCard);
