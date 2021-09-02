@@ -116,11 +116,14 @@ body {
 
 .image {
     width: 50%;
+    border: 1px solid var(--clr-neutral-900);
+    border-radius: var(--br);
 }
 
 img {
     width: 100%;
     display: block;
+    border-radius: var(--br);
 }
 
 /* Styling the Back side of the FC*/

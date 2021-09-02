@@ -121,6 +121,7 @@ const generateCard = function () {
      cardImage.innerHTML = `<img src = ${flashcards[randomIndex].image}>`;
      cardWord.innerText = flashcards[randomIndex].word;
      CardIpa.innerText = flashcards[randomIndex].ipa;
+     card.classList.remove('is-flipped');
 };
 
 generateCard();
