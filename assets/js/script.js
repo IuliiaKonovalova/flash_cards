@@ -102,3 +102,16 @@ const createRandom = function () {
 };
 
 createRandom();
+
+console.log(createRandom());
+
+function generateCard() {
+     let cardTopic = document.getElementsByClassName('topic')[0];
+     let cardImage = document.getElementsByClassName('image')[0];
+     let cardWord = document.getElementsByClassName('english__word')[0];
+     let CardIpa = document.getElementsByClassName('english__ipa')[0];
+
+     let randomIndex = createRandom();
+}
+
+generateCard();
