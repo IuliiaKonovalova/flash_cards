@@ -235,11 +235,10 @@ img {
 /* Button Styling */
 
 .button__holder {
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 3/4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
 }
 
 .card__next {
@@ -267,3 +266,10 @@ img {
 }
 
 
+@media screen and (max-width: 60rem) {
+    .card__holder {
+        width: 20rem;
+        perspective: 50rem;
+    }
+    
+}
