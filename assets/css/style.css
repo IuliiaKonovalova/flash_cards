@@ -63,6 +63,8 @@ body {
 .menu__incentive, .menu__message {
     font-size: 3vh;
     letter-spacing: 0.1rem;
+    display: flex;
+    text-align: center;
 }
 
 .menu__main {
@@ -80,6 +82,7 @@ body {
     text-align: center;
     align-items: center;
     margin: 5vh auto;
+    font-size: 5rem;
 }
 
 .menu__footer {
@@ -287,9 +290,33 @@ img {
 
 
 @media screen and (max-width: 60rem) {
+
+/* --- << Menu page >> --- */
+
+
+
+    .menu__title {
+        font-size: 2rem;
+        margin-bottom: 5vh;
+        padding: 1rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .menu__incentive, .menu__message {
+        font-size: 3vh;
+        letter-spacing: 0.0.5rem;
+    }
+
+
+    .btn__links {
+        width: 20rem;
+        margin: 5vh auto;
+        font-size: 1.5rem;
+    }
+
+
     .card__holder {
         width: 20rem;
         perspective: 50rem;
     }
-    
 }
