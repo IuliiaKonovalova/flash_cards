@@ -242,6 +242,7 @@ img {
     font-weight: bold;
     color: var(--clr-neutral-900);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384);
+    text-align: center;
 
 }
 

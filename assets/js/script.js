@@ -1,5 +1,4 @@
 // Wait for the DOM to finish loading before running the quiz
-// Get the button elements and add event listeners to them
 
 document.addEventListener('DOMContentLoaded', function () {
      generateCard();
@@ -110,6 +109,72 @@ const flashcards = [
           image: 'assets/images/yellow_color.jpg',
           word: 'yellow',
           ipa: '[ˈjel.oʊ]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/collect_pencils.jpg',
+          word: 'collect pencils',
+          ipa: '[kəˈlekt ˈpen.səls]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/do_puzzles.jpg',
+          word: 'do puzzles',
+          ipa: '[duː ˈpʌz.əls]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/play_ball_games.jpg',
+          word: 'play ball games',
+          ipa: '[pleɪ bɑːl ɡeɪms]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/play_chess.jpg',
+          word: 'play chess',
+          ipa: '[pleɪ chess]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/play_the_piano.jpg',
+          word: 'play the piano',
+          ipa: '[pleɪ ðə piˈæn.oʊ]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/play_with_balloons.jpg',
+          word: 'play with balloons',
+          ipa: '[pleɪ wɪð bəˈluːns]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/play_with.jpg',
+          word: 'play with',
+          ipa: '[pleɪ wɪð]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/relay_race.jpg',
+          word: 'relay race',
+          ipa: '[ˈriː.leɪ reɪs]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/turn_green.jpg',
+          word: 'turn green',
+          ipa: '[tɝːn ɡriːn]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/turn_red.jpg',
+          word: 'turn red',
+          ipa: '[tɝːn red]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/play_games.jpg',
+          word: 'play games',
+          ipa: '[pleɪ ɡeɪms]',
      },
 ];
 
