@@ -50,6 +50,21 @@ body {
     margin-top: 5vh;
 }
 
+.menu__title {
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    padding: 2rem;
+    background: var(--linear-grad);
+    color: var(--clr-neutral-900);
+    border-radius: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+.menu__incentive, .menu__message {
+    font-size: 3vh;
+    letter-spacing: 0.1rem;
+}
+
 .menu__main {
     grid-column:  1/4;
     grid-row: 2/3;
