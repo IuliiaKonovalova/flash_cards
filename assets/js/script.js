@@ -7,10 +7,12 @@ card.addEventListener('click', function (e) {
      e.preventDefault();
      card.classList.toggle('is-flipped');
 });
+
 // Wait for the DOM to finish loading before running the quiz
 
 document.addEventListener('DOMContentLoaded', function () {
      generateCard();
+
      // Change Card on click
 
      cardNextButton.addEventListener('click', generateCard);
