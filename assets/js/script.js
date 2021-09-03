@@ -1,3 +1,21 @@
+// Wait for the DOM to finish loading before running the quiz
+// Get the button elements and add event listeners to them
+
+document.addEventListener('DOMContentLoaded', function () {
+     generateCard();
+     // Change Card on click
+
+     cardNextButton.addEventListener('click', generateCard);
+
+     // Click enter to go to another card
+
+     cardNextButton.addEventListener('keydown', function (event) {
+          if (event.key === 'Enter') {
+               generateCard();
+          }
+     });
+});
+
 const card = document.querySelector('.card');
 const cardNextButton = document.querySelector('#card__next');
 
@@ -123,17 +141,3 @@ const generateCard = function () {
      CardIpa.innerText = flashcards[randomIndex].ipa;
      card.classList.remove('is-flipped');
 };
-
-generateCard();
-
-// Change Card on click
-
-cardNextButton.addEventListener('click', generateCard);
-
-// Click enter to go to another card
-
-cardNextButton.addEventListener('keydown', function (event) {
-     if (event.key === 'Enter') {
-          generateCard();
-     }
-});
