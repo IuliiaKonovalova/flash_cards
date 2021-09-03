@@ -1,3 +1,12 @@
+const card = document.querySelector('.card');
+const cardNextButton = document.querySelector('#card__next');
+
+// Flip card on the click
+
+card.addEventListener('click', function (e) {
+     e.preventDefault();
+     card.classList.toggle('is-flipped');
+});
 // Wait for the DOM to finish loading before running the quiz
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -13,16 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
                generateCard();
           }
      });
-});
-
-const card = document.querySelector('.card');
-const cardNextButton = document.querySelector('#card__next');
-
-// Flip card on the click
-
-card.addEventListener('click', function (e) {
-     e.preventDefault();
-     card.classList.toggle('is-flipped');
 });
 
 const flashcards = [
@@ -136,7 +135,7 @@ const flashcards = [
      },
      {
           topic: 'actions',
-          image: 'assets/images/play_the_piano.jpg',
+          image: 'assets/images/play_the_piano.jpeg',
           word: 'play the piano',
           ipa: '[pleɪ ðə piˈæn.oʊ]',
      },
@@ -175,6 +174,12 @@ const flashcards = [
           image: 'assets/images/play_games.jpg',
           word: 'play games',
           ipa: '[pleɪ ɡeɪms]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/play_cards.jpg',
+          word: 'play cards',
+          ipa: '[pleɪ kɑːrds]',
      },
 ];
 
