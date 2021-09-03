@@ -237,7 +237,7 @@ img {
 
 .english__word {
     margin-bottom: 5rem;
-    font-size: 10vh;
+    font-size: 5vh;
     letter-spacing: 0.4rem;
     font-weight: bold;
     color: var(--clr-neutral-900);
