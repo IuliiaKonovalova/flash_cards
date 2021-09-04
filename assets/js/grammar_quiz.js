@@ -49,3 +49,17 @@ const grammarQuestions = [
 const createRandomBlock = function () {
      return Math.floor(Math.random() * grammarQuestions.length);
 };
+
+/**
+ * Function generates the Flash Card for the user
+ * with all visible elements
+ */
+
+const generateGrammarQuestion = function () {
+     let grammarQuestion = document.getElementsByClassName(
+          'grammar-quiz__question'
+     )[0];
+     let grammarAnswers = document.getElementsByClassName(
+          'grammar-quiz__answers'
+     )[0].children;
+};
