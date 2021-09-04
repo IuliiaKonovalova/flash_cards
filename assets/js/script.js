@@ -514,12 +514,11 @@ const grammarQuestions = [
      {
           grammarQuestion: 'Do you like apples?',
           grammarAnswers: [
-               'Yes, I do. I like apples',
-               "Yes, I don't. I like apples",
-               'Yes, I am. I like apples',
-               "No, I do. I don't like apples",
+               { text: 'Yes, I do. I like apples', correct: true },
+               { text: "Yes, I don't. I like apples", correct: false },
+               { text: 'Yes, I am. I like apples', correct: false },
+               { text: "No, I do. I don't like apples", correct: false },
           ],
-          correct: 'Yes, I do. I like apples',
      },
      {
           grammarQuestion: 'Do you like watermelons?',
@@ -532,3 +531,19 @@ const grammarQuestions = [
           correct: 'Yes, I do. I like watermelons',
      },
 ];
+
+/**
+ *
+ * Generate random index for the FC
+ */
+
+const createRandomGrammarQuestion = function () {
+     let RandomGrammarQuestion = Math.floor(
+          Math.random() * grammarQuestions.length
+     );
+     let randomGrammarAnswer =
+          grammarQuestions[RandomGrammarQuestion].grammarAnswers;
+     return RandomGrammarQuestion;
+};
+
+createRandomGrammarQuestion();
