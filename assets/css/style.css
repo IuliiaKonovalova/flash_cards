@@ -391,6 +391,45 @@ img {
         width: 20rem;
         perspective: 50rem;
     }
+    /* --- << Grammar_quiz page >> --- */
+
+.grammar-quiz__holder{
+    width: 25rem;
+    height: 100%;
+}
+
+.grammar-quiz__question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 3rem auto; 
+}
+
+.grammar-quiz__answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.grammar-quiz__answer {
+    /* align-items: center; */
+    justify-self: center;
+    /* justify-content: center; */
+    /* align-self: center; */
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 3vh;
+    letter-spacing: 0.1rem;
+    /* border-radius: 1rem;
+    border: 1px solid var(--clr-neutral-900);
+    background: #00e3c57a; */
+}
+
 }
 
 @media screen and (max-width: 80rem) and (min-width: 60rem){
