@@ -24,26 +24,56 @@ const grammarQuestions = [
      {
           grammarQuestion: 'Do you like apples?',
           grammarChoices: [
-               { text: 'Yes, I do. I like apples', correct: true },
-               { text: "Yes, I don't. I like apples", correct: false },
-               { text: 'Yes, I am. I like apples', correct: false },
-               { text: "No, I do. I don't like apples", correct: false },
+               { text: 'Yes, I do. I like apples.', correct: true },
+               { text: "Yes, I don't. I like apples.", correct: false },
+               { text: 'Yes, I am. I like apples.', correct: false },
+               { text: "No, I do. I don't like apples.", correct: false },
           ],
      },
      {
-          grammarQuestion: 'Do you like watermelons?',
+          grammarQuestion: 'Do you like melons?',
           grammarChoices: [
-               { text: 'Yes, I do. I like watermelons', correct: true },
-               { text: 'Yes, I am. I like watermelons', correct: false },
-               { text: 'Yes, I do. I like watermelon', correct: false },
-               { text: "Yes, I do. I don't like watermelons", correct: false },
+               { text: 'Yes, I do. I like melons.', correct: true },
+               { text: 'Yes, I am. I like melon.', correct: false },
+               { text: 'Yes, I do. I like melones.', correct: false },
+               { text: "Yes, I do. I don't like watermelons.", correct: false },
+          ],
+     },
+     {
+          grammarQuestion: 'Do you like pineapples?',
+          grammarChoices: [
+               { text: "No, I don't. I don't like pineapples.", correct: true },
+               {
+                    text: "No, I don't. I don't like pineapples.",
+                    correct: false,
+               },
+               { text: "No, I do. I don't like pineapples.", correct: false },
+               { text: "No, I'm not. I don't like pineapple.", correct: false },
+          ],
+     },
+     {
+          grammarQuestion: 'Do you like pears?',
+          grammarChoices: [
+               { text: "No, I don't. I don't like pears.", correct: true },
+               { text: 'Yes, I am. I like pear.', correct: false },
+               { text: 'Yes, I am. I like pears.', correct: false },
+               { text: "No, I'm not. I don't like pears.", correct: false },
+          ],
+     },
+     {
+          grammarQuestion: 'Do you like bananas?',
+          grammarChoices: [
+               { text: 'Yes, I do. Bananas are yummy.', correct: true },
+               { text: "No, I don't. Bananas are yummy.", correct: false },
+               { text: 'Yes, I do. Bananas is yucky.', correct: false },
+               { text: "No, I don't. Banana are yucky", correct: false },
           ],
      },
 ];
 
 /**
  *
- * Generate random questions for the Quiz
+ * Generate random index for the Quiz
  */
 
 const createRandomBlock = function () {
@@ -69,4 +99,15 @@ const generateGrammarQuestion = function () {
           questionBlock.grammarChoices.sort(() => Math.random() - 0.5)
      );
 
+     //Applying random question function
 
+     let randomBlockIndex = createRandomBlock();
+
+     grammarQuestion.innerText =
+          grammarQuestions[randomBlockIndex].grammarQuestion;
+     for (answer of grammarAnswers) {
+          answer.innerText =
+               grammarQuestions[randomBlockIndex].grammarChoices[0].text;
+          grammarQuestions[randomBlockIndex].grammarChoices.shift();
+     }
+};
