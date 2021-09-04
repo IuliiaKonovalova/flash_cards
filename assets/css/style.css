@@ -288,6 +288,33 @@ img {
 	background-color:#1e62d0;
 }
 
+/* --- << Grammar_quiz page >> --- */
+
+.grammar-quiz__holder{
+    grid-column:  1/4;
+    grid-row: 2/3;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    width: 30vw;
+    height: 60vh;
+    perspective: 60vw;
+    background: var(--linear-grad);
+    color: var(--clr-neutral-900);
+}
+
+.grammar-quiz__question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.grammar-quiz__answers {
+    display: grid;
+}
+
 
 @media screen and (max-width: 60rem) {
 
