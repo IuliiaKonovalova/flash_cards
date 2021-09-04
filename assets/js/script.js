@@ -507,3 +507,28 @@ const generateCard = function () {
      CardIpa.innerText = flashcards[randomIndex].ipa;
      card.classList.remove('is-flipped');
 };
+
+/// << << GRAMMAR QUIZ >> >> ///
+
+const grammarQuestions = [
+     {
+          grammarQuestion: 'Do you like apples?',
+          grammarAnswers: [
+               'Yes, I do. I like apples',
+               "Yes, I don't. I like apples",
+               'Yes, I am. I like apples',
+               "No, I do. I don't like apples",
+          ],
+          correct: 'Yes, I do. I like apples',
+     },
+     {
+          grammarQuestion: 'Do you like watermelons?',
+          grammarAnswers: [
+               'Yes, I do. I like watermelon',
+               'Yes, I am. I like watermelons',
+               'Yes, I do. I like watermelons',
+               "Yes, I do. I don't like watermelons",
+          ],
+          correct: 'Yes, I do. I like watermelons',
+     },
+];
