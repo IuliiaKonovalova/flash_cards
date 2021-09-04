@@ -317,10 +317,14 @@ img {
 .grammar-quiz__holder{
     grid-column:  1/4;
     grid-row: 2/3;
-    align-items: center;
+
     justify-self: center;
+
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    min-width: 40vw;
+    align-items: center;
+    min-width: 50vw;
     height: 60vh;
     perspective: 60vw;
     background: var(--linear-grad);
@@ -335,22 +339,26 @@ img {
     align-items: center;
     font-size: 3rem;
     font-weight: bold;
-    margin: 3rem auto; 
+    margin-bottom: 3rem; 
 }
 
 .grammar-quiz__answers {
-    display: grid;
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
 
 }
 
 .grammar-quiz__answer {
     /* align-items: center; */
-    justify-self: center;
+    justify-content: center;
+    margin: 2vh;
     /* justify-content: center; */
     /* align-self: center; */
-    width: 90%;
-    padding: 1rem;
+    width: 100%;
+    padding: 1.5rem 2rem;
     font-size: 2rem;
     letter-spacing: 0.1rem;
     border-radius: 1rem;
@@ -412,7 +420,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    /* gap: 2rem; */
 
 }
 
