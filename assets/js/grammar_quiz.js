@@ -85,7 +85,7 @@ const createRandomBlock = function () {
  * with all visible elements
  */
 
-const generateGrammarQuestion = function () {
+const generateGrammarQuestion = function (question) {
      let grammarQuestion = document.getElementsByClassName(
           'grammar-quiz__question'
      )[0];
@@ -105,9 +105,16 @@ const generateGrammarQuestion = function () {
 
      grammarQuestion.innerText =
           grammarQuestions[randomBlockIndex].grammarQuestion;
-     for (answer of grammarAnswers) {
-          answer.innerText =
-               grammarQuestions[randomBlockIndex].grammarChoices[0].text;
-          grammarQuestions[randomBlockIndex].grammarChoices.shift();
+
+     for (let i = 0; i < grammarAnswers.length; i++) {
+          grammarAnswers[i].innerText =
+               grammarQuestions[randomBlockIndex].grammarChoices[i].text;
      }
+
+     // for (answer of grammarAnswers) {
+     //      answer.innerText =
+     //           grammarQuestions[randomBlockIndex].grammarChoices[0].text;
+
+     //      grammarQuestions[randomBlockIndex].grammarChoices.shift();
+     //  }
 };
