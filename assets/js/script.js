@@ -471,6 +471,12 @@ const flashcards = [
           word: 'jacket',
           ipa: '[ˈdʒæk.ɪt]',
      },
+     {
+          topic: 'clothes',
+          image: 'assets/images/t_shirt.jpg',
+          word: 'T-shirt',
+          ipa: '[ˈtiː.ʃɝːt]',
+     },
 ];
 
 /**
