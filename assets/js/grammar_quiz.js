@@ -62,4 +62,11 @@ const generateGrammarQuestion = function () {
      let grammarAnswers = document.getElementsByClassName(
           'grammar-quiz__answers'
      )[0].children;
-};
+
+     //Generate random order of the answers
+
+     grammarQuestions.forEach((questionBlock) =>
+          questionBlock.grammarChoices.sort(() => Math.random() - 0.5)
+     );
+
+
