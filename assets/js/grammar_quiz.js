@@ -19,3 +19,33 @@ document.addEventListener('DOMContentLoaded', function () {
           }
      });
 });
+
+const grammarQuestions = [
+     {
+          grammarQuestion: 'Do you like apples?',
+          grammarChoices: [
+               { text: 'Yes, I do. I like apples', correct: true },
+               { text: "Yes, I don't. I like apples", correct: false },
+               { text: 'Yes, I am. I like apples', correct: false },
+               { text: "No, I do. I don't like apples", correct: false },
+          ],
+     },
+     {
+          grammarQuestion: 'Do you like watermelons?',
+          grammarChoices: [
+               { text: 'Yes, I do. I like watermelons', correct: true },
+               { text: 'Yes, I am. I like watermelons', correct: false },
+               { text: 'Yes, I do. I like watermelon', correct: false },
+               { text: "Yes, I do. I don't like watermelons", correct: false },
+          ],
+     },
+];
+
+/**
+ *
+ * Generate random questions for the Quiz
+ */
+
+const createRandomBlock = function () {
+     return Math.floor(Math.random() * grammarQuestions.length);
+};
