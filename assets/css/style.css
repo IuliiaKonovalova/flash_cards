@@ -133,6 +133,30 @@ body {
 
 /* Title Styling */
 
+.btn__back {
+    background: linear-gradient(to bottom, var(--clr-primary-100) 5%, #1e62d0 100%);
+	background-color: var(--clr-primary-900);
+    padding: 1rem;
+    border-radius: var(--br);
+    color: var(--clr-neutral-900);
+    text-transform: uppercase;
+    font-weight: bold;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+
+.btn__back a {
+    text-decoration: none;
+    outline: none;
+
+}
+
 .title__holder {
     grid-column:  2/3;
     grid-row: 1/2;
@@ -145,7 +169,6 @@ body {
 
 .title {
     text-transform: uppercase;
-
     letter-spacing: .2rem;
     font-size: 3vh;
 }
@@ -342,7 +365,9 @@ img {
         font-size: 1.5rem;
     }
 
-
+    .title__holder {
+        display: none;
+    }
     .card__holder {
         width: 20rem;
         perspective: 50rem;
