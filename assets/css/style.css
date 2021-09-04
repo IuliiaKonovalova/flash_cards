@@ -320,25 +320,42 @@ img {
     align-items: center;
     justify-self: center;
     justify-content: center;
-    width: 30vw;
+    min-width: 40vw;
     height: 60vh;
     perspective: 60vw;
     background: var(--linear-grad);
+    border-radius: var(--br);
     color: var(--clr-neutral-900);
+    padding: 1rem;
 }
 
 .grammar-quiz__question {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
+    margin: 3rem auto; 
 }
 
 .grammar-quiz__answers {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
-    gap: 2rem
+    gap: 2rem;
+
+}
+
+.grammar-quiz__answer {
+    /* align-items: center; */
+    justify-self: center;
+    /* justify-content: center; */
+    /* align-self: center; */
+    width: 90%;
+    padding: 1rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--clr-neutral-900);
+    background: #00e3c57a;
 }
 
 
