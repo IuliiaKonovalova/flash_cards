@@ -549,6 +549,36 @@ const flashcards = [
           word: 'fall/autumn',
           ipa: '[fɑːl / ˈɑː.t̬əm]',
      },
+     {
+          topic: 'countries',
+          image: 'assets/images/china.jpg',
+          word: 'China',
+          ipa: '[ˈtʃaɪ.nə]',
+     },
+     {
+          topic: 'countries',
+          image: 'assets/images/canada.jpg',
+          word: 'Canada',
+          ipa: '[ˈkæn.ə.də]',
+     },
+     {
+          topic: 'countries',
+          image: 'assets/images/america.jpg',
+          word: 'America',
+          ipa: '[əˈmer.ɪ.kə]',
+     },
+     {
+          topic: 'countries',
+          image: 'assets/images/britain.jpg',
+          word: 'Britain',
+          ipa: '[ˈbrɪt.ən]',
+     },
+     {
+          topic: 'countries',
+          image: 'assets/images/japan.jpg',
+          word: 'Japan',
+          ipa: '[dʒəˈpæn]',
+     },
 ];
 
 /**
