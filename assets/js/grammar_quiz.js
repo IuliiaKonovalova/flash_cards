@@ -27,50 +27,53 @@ const grammarQuestions = [
      {
           grammarQuestion: 'Do you like apples?',
           grammarChoices: [
-               { text: 'Yes, I do. I like apples.', correct: true },
-               { text: "Yes, I don't. I like apples.", correct: false },
-               { text: 'Yes, I am. I like apples.', correct: false },
-               { text: "No, I do. I don't like apples.", correct: false },
+               'Yes, I do. I like apples.',
+               "Yes, I don't. I like apples.",
+               'Yes, I am. I like apples.',
+               "No, I do. I don't like apples.",
           ],
+          correct: 'Yes, I do. I like apples.',
      },
      {
           grammarQuestion: 'Do you like melons?',
           grammarChoices: [
-               { text: 'Yes, I do. I like melons.', correct: true },
-               { text: 'Yes, I am. I like melon.', correct: false },
-               { text: 'Yes, I do. I like melones.', correct: false },
-               { text: "Yes, I do. I don't like watermelons.", correct: false },
+               'Yes, I do. I like melons.',
+               'Yes, I am. I like melon.',
+               'Yes, I do. I like melones.',
+               "Yes, I do. I don't like watermelons.",
           ],
+          correct: 'Yes, I do. I like melons.',
      },
      {
           grammarQuestion: 'Do you like pineapples?',
           grammarChoices: [
-               { text: "No, I don't. I don't like pineapples.", correct: true },
-               {
-                    text: "No, I don't. I don't like pineapples.",
-                    correct: false,
-               },
-               { text: "No, I do. I don't like pineapples.", correct: false },
-               { text: "No, I'm not. I don't like pineapple.", correct: false },
+               "No, I don't. I don't like pineapples.",
+               "No, I don't. I don't like pineapples.",
+               "No, I do. I don't like pineapples.",
+               "No, I'm not. I don't like pineapple.",
           ],
+
+          correct: "No, I don't. I don't like pineapples.",
      },
      {
           grammarQuestion: 'Do you like pears?',
           grammarChoices: [
-               { text: "No, I don't. I don't like pears.", correct: true },
-               { text: 'Yes, I am. I like pear.', correct: false },
-               { text: 'Yes, I am. I like pears.', correct: false },
-               { text: "No, I'm not. I don't like pears.", correct: false },
+               "No, I don't. I don't like pears.",
+               'Yes, I am. I like pear.',
+               'Yes, I am. I like pears.',
+               "No, I'm not. I don't like pears.",
           ],
+          correct: "No, I don't. I don't like pears.",
      },
      {
           grammarQuestion: 'Do you like bananas?',
           grammarChoices: [
-               { text: 'Yes, I do. Bananas are yummy.', correct: true },
-               { text: "No, I don't. Bananas are yummy.", correct: false },
-               { text: 'Yes, I do. Bananas is yucky.', correct: false },
-               { text: "No, I don't. Banana are yucky", correct: false },
+               'Yes, I do. Bananas are yummy.',
+               "No, I don't. Bananas are yummy.",
+               'Yes, I do. Bananas is yucky.',
+               "No, I don't. Banana are yucky",
           ],
+          correct: 'Yes, I do. Bananas are yummy.',
      },
 ];
 
@@ -141,13 +144,14 @@ const generateGrammarQuestion = function () {
 
      for (let i = 0; i < grammarAnswers.length; i++) {
           grammarAnswers[i].innerText =
-               grammarQuestions[randomBlockIndex].grammarChoices[i].text;
+               grammarQuestions[randomBlockIndex].grammarChoices[i];
      }
 };
 
 function checkForAnswer() {
      if (
-          grammarQuestions[randomBlockIndex].grammarChoices[i].correct === true
+          document.getElementById('grammar-quiz__answer').innerText ===
+          grammarQuestions.correct
      ) {
           document.getElementsByClassName(
                'grammar-quiz__answer'
