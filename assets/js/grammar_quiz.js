@@ -146,6 +146,7 @@ const generateGrammarQuestion = function () {
           grammarAnswers[i].innerText =
                grammarQuestions[randomBlockIndex].grammarChoices[i];
      }
+     grammarQuestions.splice([randomBlockIndex], 1);
 };
 
 let answers = document.getElementsByClassName('grammar-quiz__answer');
