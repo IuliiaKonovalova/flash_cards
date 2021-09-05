@@ -473,9 +473,57 @@ const flashcards = [
      },
      {
           topic: 'clothes',
-          image: 'assets/images/t_shirt.jpg',
-          word: 'T-shirt',
-          ipa: '[ˈtiː.ʃɝːt]',
+          image: 'assets/images/jeans.jpg',
+          word: 'jeans',
+          ipa: '[dʒiːnz]',
+     },
+     {
+          topic: 'clothes',
+          image: 'assets/images/pants.jpg',
+          word: 'pants',
+          ipa: '[pænts]',
+     },
+     {
+          topic: 'clothes',
+          image: 'assets/images/scarf.jpg',
+          word: 'scarf',
+          ipa: '[skɑːrf]',
+     },
+     {
+          topic: 'clothes',
+          image: 'assets/images/shirt.jpg',
+          word: 'shirt',
+          ipa: '[ʃɝːt]',
+     },
+     {
+          topic: 'clothes',
+          image: 'assets/images/skirt.jpg',
+          word: 'skirt',
+          ipa: '[skɝːt',
+     },
+     {
+          topic: 'clothes',
+          image: 'assets/images/socks.jpg',
+          word: 'socks',
+          ipa: '[sɑːks]',
+     },
+     {
+          topic: 'clothes',
+          image: 'assets/images/vest.jpg',
+          word: 'vest',
+          ipa: '[vest]',
+     },
+     {
+          topic: 'clothes',
+          image: 'assets/images/uniform.jpg',
+          word: 'uniform',
+          ipa: '[ˈjuː.nə.fɔːrm]',
+     },
+     {
+          topic: 'clothes',
+          image: 'assets/images/gloves.jpg',
+          word: 'gloves',
+          ipa: '[ɡlʌvs]',
      },
 ];
 
@@ -507,43 +555,3 @@ const generateCard = function () {
      CardIpa.innerText = flashcards[randomIndex].ipa;
      card.classList.remove('is-flipped');
 };
-
-/// << << GRAMMAR QUIZ >> >> ///
-
-const grammarQuestions = [
-     {
-          grammarQuestion: 'Do you like apples?',
-          grammarAnswers: [
-               { text: 'Yes, I do. I like apples', correct: true },
-               { text: "Yes, I don't. I like apples", correct: false },
-               { text: 'Yes, I am. I like apples', correct: false },
-               { text: "No, I do. I don't like apples", correct: false },
-          ],
-     },
-     {
-          grammarQuestion: 'Do you like watermelons?',
-          grammarAnswers: [
-               'Yes, I do. I like watermelon',
-               'Yes, I am. I like watermelons',
-               'Yes, I do. I like watermelons',
-               "Yes, I do. I don't like watermelons",
-          ],
-          correct: 'Yes, I do. I like watermelons',
-     },
-];
-
-/**
- *
- * Generate random index for the FC
- */
-
-const createRandomGrammarQuestion = function () {
-     let RandomGrammarQuestion = Math.floor(
-          Math.random() * grammarQuestions.length
-     );
-     let randomGrammarAnswer =
-          grammarQuestions[RandomGrammarQuestion].grammarAnswers;
-     return RandomGrammarQuestion;
-};
-
-createRandomGrammarQuestion();
