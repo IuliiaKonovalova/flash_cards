@@ -525,6 +525,30 @@ const flashcards = [
           word: 'gloves',
           ipa: '[ɡlʌvs]',
      },
+     {
+          topic: 'seasons',
+          image: 'assets/images/summer.jpg',
+          word: 'summer',
+          ipa: '[ˈsʌm.ɚ]',
+     },
+     {
+          topic: 'seasons',
+          image: 'assets/images/winter.jpg',
+          word: 'winter',
+          ipa: '[ˈwɪn.t̬ɚ]',
+     },
+     {
+          topic: 'seasons',
+          image: 'assets/images/spring.jpg',
+          word: 'spring',
+          ipa: '[sprɪŋ]',
+     },
+     {
+          topic: 'seasons',
+          image: 'assets/images/fall.jpg',
+          word: 'fall/autumn',
+          ipa: '[fɑːl / ˈɑː.t̬əm]',
+     },
 ];
 
 /**
