@@ -1,14 +1,17 @@
 /// << << GRAMMAR QUIZ >> >> ///
 
 const cardNextButton = document.querySelector('#card__next');
-const answerOptions = document.getElementById('grammar-quiz__answer');
+const answerOptions = document.querySelectorAll('.grammar-quiz__answer');
+console.log(answerOptions);
 
 // Wait for the DOM to finish loading before running the quiz
 
 document.addEventListener('DOMContentLoaded', function () {
      generateGrammarQuestion();
 
-     answerOptions.addEventListener('click', checkForAnswer);
+     answerOptions.forEach((quizAnswer) =>
+          quizAnswer.addEventListener('click', checkForAnswer)
+     );
 
      // Change Card on click
 
@@ -150,12 +153,12 @@ const generateGrammarQuestion = function () {
 
 function checkForAnswer() {
      if (
-          document.getElementById('grammar-quiz__answer').innerText ===
+          document.querySelectorAll('.grammar-quiz__answer').innerText ===
           grammarQuestions.correct
      ) {
-          document.getElementsByClassName(
-               'grammar-quiz__answer'
-          ).style.backgroundColor = 'red';
+          document.querySelector(
+               '.grammar-quiz__answers'
+          ).children.style.backgroundColor = 'red';
      }
 }
 //      const currentQuestion = shuffledQuestions[indexNumber]; //gets current Question
