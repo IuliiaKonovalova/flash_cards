@@ -317,16 +317,12 @@ img {
 .grammar-quiz__holder{
     grid-column:  1/4;
     grid-row: 2/3;
-
     justify-self: center;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 50vw;
-    height: 60vh;
-    perspective: 60vw;
     background: var(--linear-grad);
     border-radius: var(--br);
     color: var(--clr-neutral-900);
@@ -347,16 +343,11 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 2rem; */
-
 }
 
 .grammar-quiz__answer {
-    /* align-items: center; */
     justify-content: center;
     margin: 2vh;
-    /* justify-content: center; */
-    /* align-self: center; */
     width: 100%;
     padding: 1.5rem 2rem;
     font-size: 2rem;
@@ -407,35 +398,15 @@ img {
 }
 
 .grammar-quiz__question {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 2rem;
-    font-weight: bold;
-    margin: 3rem auto; 
-}
-
-.grammar-quiz__answers {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* gap: 2rem; */
-
+    margin-bottom: 2rem; 
 }
 
 .grammar-quiz__answer {
-    /* align-items: center; */
-    justify-self: center;
-    /* justify-content: center; */
-    /* align-self: center; */
     width: 90%;
-    padding: 0.5rem;
     font-size: 3vh;
-    letter-spacing: 0.1rem;
-    /* border-radius: 1rem;
-    border: 1px solid var(--clr-neutral-900);
-    background: #00e3c57a; */
+    letter-spacing: 0.05rem;
+    margin: 1vh;
 }
 
 }
@@ -459,7 +430,7 @@ img {
     
         .menu__link {
             width: 30rem;
-            margin: 5vh auto;
+            margin: 1rem auto;
             font-size: 1.5rem;
         }
     }
