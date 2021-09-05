@@ -9,9 +9,9 @@ console.log(answerOptions);
 document.addEventListener('DOMContentLoaded', function () {
      generateGrammarQuestion();
 
-     answerOptions.forEach((quizAnswer) =>
-          quizAnswer.addEventListener('click', checkForAnswer)
-     );
+     // answerOptions.forEach((quizAnswer) =>
+     //      quizAnswer.addEventListener('click', checkForAnswer)
+     // );
 
      // Change Card on click
 
@@ -51,7 +51,7 @@ const grammarQuestions = [
           grammarQuestion: 'Do you like pineapples?',
           grammarChoices: [
                "No, I don't. I don't like pineapples.",
-               "No, I don't. I don't like pineapples.",
+               "No, I don't. I dont like pineapples.",
                "No, I do. I don't like pineapples.",
                "No, I'm not. I don't like pineapple.",
           ],
@@ -121,7 +121,7 @@ const createRandomBlock = function () {
  * Function generates the Flash Card for the user
  * with all visible elements
  */
-
+let currentAnswer;
 const generateGrammarQuestion = function () {
      let grammarQuestion = document.getElementsByClassName(
           'grammar-quiz__question'
@@ -139,6 +139,7 @@ const generateGrammarQuestion = function () {
      //Applying random question function
 
      let randomBlockIndex = createRandomBlock();
+     currentAnswer = grammarQuestions[randomBlockIndex].correct;
 
      //Add data to the html from the grammarQuestions array
 
@@ -149,18 +150,49 @@ const generateGrammarQuestion = function () {
           grammarAnswers[i].innerText =
                grammarQuestions[randomBlockIndex].grammarChoices[i];
      }
+     function resetBackgroundAnswers(event) {
+          event.target.style.backgroundColor = '#00e3c57a';
+     }
+     resetBackgroundAnswers();
 };
 
-function checkForAnswer() {
-     if (
-          document.querySelectorAll('.grammar-quiz__answer').innerText ===
-          grammarQuestions.correct
-     ) {
-          document.querySelector(
-               '.grammar-quiz__answers'
-          ).children.style.backgroundColor = 'red';
+let answers = document.getElementsByClassName('grammar-quiz__answer');
+
+for (let answer of answers) {
+     answer.addEventListener('click', checkAnswers);
+}
+
+function checkAnswers(event) {
+     if (event.target.innerText === currentAnswer) {
+          event.target.style.backgroundColor = 'green';
+          setTimeout(function () {
+               event.target.style.backgroundColor = '#00e3c57a';
+          }, 500);
+     } else {
+          event.target.style.backgroundColor = 'red';
      }
 }
+
+// function checkForAnswers() {
+//      if (
+//           document.querySelectorAll('.grammar-quiz__answer').innerText ===
+//           grammarQuestions.correct
+//      ) {
+//           document.getElementById(
+//                'grammar-quiz__answer1'
+//           ).style.backgroundColor = 'red';
+//           document.getElementById(
+//                'grammar-quiz__answer2'
+//           ).style.backgroundColor = 'red';
+//           document.getElementById(
+//                'grammar-quiz__answer3'
+//           ).style.backgroundColor = 'red';
+//           document.getElementById(
+//                'grammar-quiz__answer4'
+//           ).style.backgroundColor = 'red';
+//      }
+// }
+
 //      const currentQuestion = shuffledQuestions[indexNumber]; //gets current Question
 //      const currentQuestionAnswer = currentQuestion.correctOption; //gets current Question's answer
 //      const options = document.getElementsByName('option'); //gets all elements in dom with name of 'option' (in this the radio inputs)
