@@ -579,6 +579,66 @@ const flashcards = [
           word: 'Japan',
           ipa: '[dʒəˈpæn]',
      },
+     {
+          topic: 'food',
+          image: 'assets/images/biscuits.jpg',
+          word: 'biscuits',
+          ipa: '[ˈbɪs.kɪt]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/bread.jpg',
+          word: 'bread',
+          ipa: '[bred]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/cherry_pie.jpg',
+          word: 'cherry pie',
+          ipa: '[ˈtʃer.i paɪ]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/chicken.jpg',
+          word: 'chicken',
+          ipa: '[ˈtʃɪk.ɪn]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/chocolate.jpg',
+          word: 'chocolate',
+          ipa: '[ˈtʃɑːk.lət]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/cookbook.jpg',
+          word: 'cookbook',
+          ipa: '[ˈkʊk.bʊk]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/cooked_fish.jpg',
+          word: 'fish',
+          ipa: '[fɪʃ]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/egg.jpg',
+          word: 'egg',
+          ipa: '[eɡ]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/hot_dog.jpg',
+          word: 'hot dog',
+          ipa: '[ˈhɑːt ˌdɑːɡ]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/ice_cream.jpg',
+          word: 'ice cream',
+          ipa: '[ˈaɪs ˌkriːm]',
+     },
 ];
 
 /**
