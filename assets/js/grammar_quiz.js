@@ -101,17 +101,21 @@ const createRandomBlock = function () {
 };
 
 let currentAnswer;
-let shuffledQuestions = [];
+let temporaryQuestionsArray = [];
 
-let inde;
-
-delete grammarQuestions[inde];
 /**
  * Function generates the Flash Card for the user
  * with all visible elements
  */
 
 const generateGrammarQuestion = function () {
+     if (grammarQuestions.length === 0) {
+          grammarQuestions.push.apply(
+               grammarQuestions,
+               temporaryQuestionsArray
+          );
+     }
+
      let grammarQuestion = document.getElementsByClassName(
           'grammar-quiz__question'
      )[0];
@@ -128,12 +132,8 @@ const generateGrammarQuestion = function () {
      //Applying random question function
 
      let randomBlockIndex = createRandomBlock();
-     shuffledQuestions.push(grammarQuestions[randomBlockIndex]);
 
      currentAnswer = grammarQuestions[randomBlockIndex].correct;
-     // inde = grammarQuestions[randomBlockIndex];
-
-     // console.log(inde);
 
      //Add data to the html from the grammarQuestions array
 
@@ -146,6 +146,8 @@ const generateGrammarQuestion = function () {
           grammarAnswers[i].innerText =
                grammarQuestions[randomBlockIndex].grammarChoices[i];
      }
+
+     temporaryQuestionsArray.push(grammarQuestions[randomBlockIndex]);
      grammarQuestions.splice([randomBlockIndex], 1);
 };
 
