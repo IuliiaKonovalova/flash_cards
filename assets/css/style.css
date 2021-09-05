@@ -232,12 +232,6 @@ body {
     margin-bottom: 3vh;
 }
 
-.image {
-    width: 50%;
-    border: 1px solid var(--clr-neutral-900);
-    border-radius: var(--br);
-}
-
 img {
     width: 100%;
     display: block;

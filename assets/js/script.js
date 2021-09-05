@@ -755,7 +755,12 @@ const generateCard = function () {
 
      cardTopic.innerText = flashcards[randomIndex].topic;
      cardImage.innerHTML = `<img src = ${flashcards[randomIndex].image}>`;
+
      cardWord.innerText = flashcards[randomIndex].word;
      CardIpa.innerText = flashcards[randomIndex].ipa;
      card.classList.remove('is-flipped');
+     document.querySelector('.image').style.border = '1px solid #200549';
+     document.querySelector('.image').style.width = '50%';
+     document.querySelector('.image').style.borderRadius = '0.7em';
+     document.getElementsByTagName('img').style.width = '100%';
 };
