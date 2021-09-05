@@ -687,6 +687,48 @@ const flashcards = [
           word: 'tofu',
           ipa: '[ˈtoʊ.fuː]',
      },
+     {
+          topic: 'weekdays',
+          image: 'assets/images/monday.jpg',
+          word: 'Monday',
+          ipa: '[ˈmʌn.deɪ]',
+     },
+     {
+          topic: 'weekdays',
+          image: 'assets/images/tuesday.jpg',
+          word: 'Tuesday',
+          ipa: '[ˈtuːz.deɪ]',
+     },
+     {
+          topic: 'weekdays',
+          image: 'assets/images/wednesday.jpg',
+          word: 'Wednesday',
+          ipa: '[ˈwenz.deɪ]',
+     },
+     {
+          topic: 'weekdays',
+          image: 'assets/images/thursday.jpg',
+          word: 'Thursday',
+          ipa: '[ˈθɝːz.deɪ]',
+     },
+     {
+          topic: 'weekdays',
+          image: 'assets/images/friday.jpg',
+          word: 'Friday',
+          ipa: '[ˈfraɪ.deɪ]',
+     },
+     {
+          topic: 'weekends',
+          image: 'assets/images/saturday.jpg',
+          word: 'Saturday',
+          ipa: '[ˈsæt̬.ɚ.deɪ]',
+     },
+     {
+          topic: 'weekends',
+          image: 'assets/images/sunday.jpg',
+          word: 'Sunday',
+          ipa: '[ˈsʌn.deɪ]',
+     },
 ];
 
 /**
