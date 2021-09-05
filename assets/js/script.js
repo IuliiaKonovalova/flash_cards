@@ -639,6 +639,54 @@ const flashcards = [
           word: 'ice cream',
           ipa: '[ˈaɪs ˌkriːm]',
      },
+     {
+          topic: 'food',
+          image: 'assets/images/jam.jpg',
+          word: 'jam',
+          ipa: '[jæm]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/noodles.jpg',
+          word: 'noodles',
+          ipa: '[ˈnuː.dəls]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/nuts.jpg',
+          word: 'nuts',
+          ipa: '[nʌts]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/oil.jpg',
+          word: 'oil',
+          ipa: '[ɔɪl]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/pizza.jpg',
+          word: 'pizza',
+          ipa: '[ˈpiːt.sə]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/rice.jpg',
+          word: 'rice',
+          ipa: '[raɪs]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/sweet_potatoes.jpg',
+          word: 'sweet potatoes',
+          ipa: '[ˌswiːt pəˈteɪ.t̬oʊs]',
+     },
+     {
+          topic: 'food',
+          image: 'assets/images/tofu.jpg',
+          word: 'tofu',
+          ipa: '[ˈtoʊ.fuː]',
+     },
 ];
 
 /**
