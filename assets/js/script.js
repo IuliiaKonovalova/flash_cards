@@ -46,6 +46,30 @@ const flashcards = [
           ipa: '[ˈɔːr.ɪndʒ]',
      },
      {
+          topic: 'fruits',
+          image: 'assets/images/grapes.jpg',
+          word: 'grapes',
+          ipa: '[ɡreɪps]',
+     },
+     {
+          topic: 'fruits',
+          image: 'assets/images/peach.jpg',
+          word: 'peach',
+          ipa: '[piːtʃ]',
+     },
+     {
+          topic: 'fruits',
+          image: 'assets/images/pear.jpg',
+          word: 'pear',
+          ipa: '[per]',
+     },
+     {
+          topic: 'fruits',
+          image: 'assets/images/strawberry.jpg',
+          word: 'strawberry',
+          ipa: '[ˈstrɑːˌber.i]',
+     },
+     {
           topic: 'colors',
           image: 'assets/images/orange_color.jpg',
           word: 'orange',
