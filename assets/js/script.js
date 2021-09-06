@@ -801,6 +801,66 @@ const flashcards = [
           word: 'September',
           ipa: '[sepˈtem.bɚ]',
      },
+     {
+          topic: 'drinks',
+          image: 'assets/images/apple_juice.jpg',
+          word: 'apple juice',
+          ipa: '[ˈæp.əl dʒuːs]',
+     },
+     {
+          topic: 'drinks',
+          image: 'assets/images/orange_juice.jpg',
+          word: 'orange juice',
+          ipa: '[ˈɔːr.ɪndʒ dʒuːs]',
+     },
+     {
+          topic: 'drinks',
+          image: 'assets/images/coffee.jpg',
+          word: 'coffee',
+          ipa: '[ˈkɑː.fi]',
+     },
+     {
+          topic: 'drinks',
+          image: 'assets/images/tea.jpg',
+          word: 'tea',
+          ipa: '[tiː]',
+     },
+     {
+          topic: 'drinks',
+          image: 'assets/images/coke.jpg',
+          word: 'coke',
+          ipa: '[koʊk]',
+     },
+     {
+          topic: 'drinks',
+          image: 'assets/images/juice.jpg',
+          word: 'juice',
+          ipa: '[dʒuːs]',
+     },
+     {
+          topic: 'drinks',
+          image: 'assets/images/lemonade.jpg',
+          word: 'lemonade',
+          ipa: '[ˌlem.əˈneɪd]',
+     },
+     {
+          topic: 'drinks',
+          image: 'assets/images/milk.jpg',
+          word: 'milk',
+          ipa: '[mɪlk]',
+     },
+     {
+          topic: 'drinks',
+          image: 'assets/images/soy_milk.jpg',
+          word: 'soy milk',
+          ipa: '[ˌsɔɪ mɪlk]',
+     },
+     {
+          topic: 'drinks',
+          image: 'assets/images/yogurt.jpg',
+          word: 'yogurt',
+          ipa: '[ˈjoʊ.ɡɚt]',
+     },
 ];
 
 /**
