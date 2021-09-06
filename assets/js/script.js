@@ -1014,7 +1014,7 @@ const flashcards = [
      {
           topic: 'holidays',
           image: 'assets/images/earth_day.jpg',
-          word: 'Tree-planting / The Earth Day',
+          word: 'Tree-planting Day/ The Earth Day',
           ipa: '[ˈtriːˌplæntɪŋ / ðiːˈɝːθˌdeɪ]',
      },
      {
@@ -1117,7 +1117,13 @@ const createRandom = function () {
  * with all visible elements
  */
 
+let temporaryCardsArray = [];
+
 const generateCard = function () {
+     if (flashcards.length === 0) {
+          flashcards.push.apply(flashcards, temporaryCardsArray);
+     }
+
      let cardTopic = document.getElementsByClassName('topic')[0];
      let cardImage = document.getElementsByClassName('image')[0];
      let cardWord = document.getElementsByClassName('english__word')[0];
@@ -1134,4 +1140,6 @@ const generateCard = function () {
      document.querySelector('.image').style.border = '1px solid #200549';
      document.querySelector('.image').style.width = '50%';
      document.querySelector('.image').style.borderRadius = '0.7em';
+     temporaryCardsArray.push(flashcards[randomIndex]);
+     flashcards.splice([randomIndex], 1);
 };
