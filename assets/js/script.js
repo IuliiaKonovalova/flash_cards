@@ -149,6 +149,18 @@ const flashcards = [
      },
      {
           topic: 'actions',
+          image: 'assets/images/open_the_window.jpg',
+          word: 'open the window',
+          ipa: '[ˈoʊ.pən ðə ˈwɪn.doʊ]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/close_the_window.jpg',
+          word: 'close the window',
+          ipa: '[kloʊz ðə ˈwɪn.doʊ]',
+     },
+     {
+          topic: 'actions',
           image: 'assets/images/do_puzzles.jpg',
           word: 'do puzzles',
           ipa: '[duː ˈpʌz.əls]',
@@ -294,8 +306,14 @@ const flashcards = [
      {
           topic: 'actions',
           image: 'assets/images/do_the_homework.jpg',
-          word: 'do the homework',
-          ipa: '[duː ðə ˈhoʊm.wɝːk]',
+          word: 'do homework',
+          ipa: '[duː ˈhoʊm.wɝːk]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/fly_a_kite.jpg',
+          word: 'fly a kite',
+          ipa: '[flaɪ ə kaɪt]',
      },
      {
           topic: 'actions',
