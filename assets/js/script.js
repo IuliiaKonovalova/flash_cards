@@ -1119,6 +1119,12 @@ const flashcards = [
           word: 'carrot',
           ipa: '[ˈker.ət]',
      },
+     {
+          topic: 'vegetables',
+          image: 'assets/images/cucumber.jpg',
+          word: 'cucumber',
+          ipa: '[ˈkjuː.kʌm.bɚ]',
+     },
 ];
 
 /**
