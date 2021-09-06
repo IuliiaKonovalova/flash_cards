@@ -762,5 +762,4 @@ const generateCard = function () {
      document.querySelector('.image').style.border = '1px solid #200549';
      document.querySelector('.image').style.width = '50%';
      document.querySelector('.image').style.borderRadius = '0.7em';
-     document.getElementsByTagName('img').style.width = '100%';
 };
