@@ -999,6 +999,84 @@ const flashcards = [
           word: 'stickers',
           ipa: '[ˈstɪk.ɚ]',
      },
+     {
+          topic: 'holidays',
+          image: 'assets/images/army_day.jpg',
+          word: 'Army Day',
+          ipa: '[ˈɑːr.miˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/new_year_day.jpg',
+          word: "New Year's Day",
+          ipa: '[ˌnuː ˈjɪrsˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/earth_day.jpg',
+          word: 'Tree-planting / The Earth Day',
+          ipa: '[ˈtriːˌplæntɪŋ / ðiːˈɝːθˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/national_day.jpg',
+          word: 'National Day',
+          ipa: '[ˈnæʃ.nəlˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/women_day.jpg',
+          word: "Women's Day",
+          ipa: '[ˈwɪm.ɪnsˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/teachers_day.jpg',
+          word: "Teachers' Day",
+          ipa: '[ˈtiː.tʃɚsˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/thanksgiving.jpg',
+          word: 'Thanksgiving',
+          ipa: '[ˌθæŋksˈɡɪv.ɪŋ ˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/mothers_day.jpg',
+          word: "Mother's Day",
+          ipa: '[ˈmʌð.ɚsˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/may_day.jpg',
+          word: 'May / Labor Day',
+          ipa: '[ˈmeɪ /ˈleɪ.bɚ ˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/fathers_day.jpg',
+          word: "Father's Day",
+          ipa: '[ˈfɑː.ðɚsˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/children_day.jpg',
+          word: "Children's Day",
+          ipa: '[ˈtʃɪl.drənˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/christmas_day.jpg',
+          word: 'Christmas Day',
+          ipa: '[ˈkrɪs.məsˌdeɪ]',
+     },
+     {
+          topic: 'holidays',
+          image: 'assets/images/chinese_new_year.jpg',
+          word: 'Chinese New Year',
+          ipa: '[ˌtʃaɪ.niːz ˌnuː ˈjɪr]',
+     },
 ];
 
 /**
