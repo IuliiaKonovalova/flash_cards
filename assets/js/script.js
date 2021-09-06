@@ -729,6 +729,78 @@ const flashcards = [
           word: 'Sunday',
           ipa: '[ˈsʌn.deɪ]',
      },
+     {
+          topic: 'months',
+          image: 'assets/images/april.jpg',
+          word: 'April',
+          ipa: '[ˈeɪ.prəl]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/august.jpg',
+          word: 'August',
+          ipa: '[ɑːˈɡʌst]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/january.jpg',
+          word: 'January',
+          ipa: '[ˈdʒæn.ju.er.i/]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/july.jpg',
+          word: 'July',
+          ipa: '[dʒʊˈlaɪ]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/june.jpg',
+          word: 'June',
+          ipa: '[dʒuːn]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/february.jpg',
+          word: 'February',
+          ipa: '[ˈfeb.ruː.er.i]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/december.jpg',
+          word: 'December',
+          ipa: '[dɪˈsem.bɚ]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/march.jpg',
+          word: 'March',
+          ipa: '[mɑːrtʃ]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/may.jpg',
+          word: 'May',
+          ipa: '[meɪ]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/november.jpg',
+          word: 'November',
+          ipa: '[noʊˈvem.bɚ]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/october.jpg',
+          word: 'October',
+          ipa: '[ɑːkˈtoʊ.bɚ]',
+     },
+     {
+          topic: 'months',
+          image: 'assets/images/september.jpg',
+          word: 'September',
+          ipa: '[sepˈtem.bɚ]',
+     },
 ];
 
 /**
