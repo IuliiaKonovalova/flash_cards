@@ -1077,6 +1077,30 @@ const flashcards = [
           word: 'Chinese New Year',
           ipa: '[ˌtʃaɪ.niːz ˌnuː ˈjɪr]',
      },
+     {
+          topic: 'vegetables',
+          image: 'assets/images/vegetables.jpg',
+          word: 'vegetables',
+          ipa: '[ˈvedʒ.tə.bəls]',
+     },
+     {
+          topic: 'vegetables',
+          image: 'assets/images/tomato.jpg',
+          word: 'tomato',
+          ipa: '[təˈmeɪ.t̬oʊ]',
+     },
+     {
+          topic: 'vegetables',
+          image: 'assets/images/potato.jpg',
+          word: 'potato',
+          ipa: '[pəˈteɪ.t̬oʊ]',
+     },
+     {
+          topic: 'vegetables',
+          image: 'assets/images/carrot.jpg',
+          word: 'carrot',
+          ipa: '[ˈker.ət]',
+     },
 ];
 
 /**
