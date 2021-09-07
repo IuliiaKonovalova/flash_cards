@@ -541,7 +541,7 @@ const flashcards = [
           topic: 'clothes',
           image: 'assets/images/skirt.jpg',
           word: 'skirt',
-          ipa: '[skɝːt',
+          ipa: '[skɝːt]',
      },
      {
           topic: 'clothes',
