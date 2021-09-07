@@ -1,31 +1,3 @@
-const card = document.querySelector('.card');
-const cardNextButton = document.querySelector('#card__next');
-
-// Flip card on the click
-
-card.addEventListener('click', function (e) {
-     e.preventDefault();
-     card.classList.toggle('is-flipped');
-});
-
-// Wait for the DOM to finish loading before running the quiz
-
-document.addEventListener('DOMContentLoaded', function () {
-     generateCard();
-
-     // Change Card on click
-
-     cardNextButton.addEventListener('click', generateCard);
-
-     // Click enter to go to another card
-
-     cardNextButton.addEventListener('keydown', function (event) {
-          if (event.key === 'Enter') {
-               generateCard();
-          }
-     });
-});
-
 const flashcards = [
      {
           topic: 'fruits',
@@ -1126,6 +1098,36 @@ const flashcards = [
           ipa: '[ˈkjuː.kʌm.bɚ]',
      },
 ];
+
+const card = document.querySelector('.card');
+const cardNextButton = document.querySelector('#card__next');
+
+// Flip card on the click
+
+card.addEventListener('click', function (e) {
+     e.preventDefault();
+     card.classList.toggle('is-flipped');
+});
+
+// Wait for the DOM to finish loading before running the quiz
+
+document.addEventListener('DOMContentLoaded', function () {
+     generateCard();
+
+     // Change Card on click
+
+     cardNextButton.addEventListener('click', generateCard);
+
+     // Click enter to go to another card
+
+     cardNextButton.addEventListener('keydown', function (event) {
+          if (event.key === 'Enter') {
+               generateCard();
+          }
+     });
+});
+
+
 
 /**
  *
