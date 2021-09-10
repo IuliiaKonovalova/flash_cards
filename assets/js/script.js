@@ -1101,8 +1101,8 @@ const flashcards = [
 
 const card = document.querySelector('.card');
 const cardNextButton = document.querySelector('#card__next');
-const btnVoiceUS = document.querySelector("#voice__option--US");
-const btnVoiceGB = document.querySelector("#voice__option--GB");
+const btnVoiceUs = document.querySelector("#voice__option--US");
+const btnVoiceGb = document.querySelector("#voice__option--GB");
 
 // Flip card on the click
 
@@ -1110,6 +1110,29 @@ card.addEventListener('click', function (e) {
      e.preventDefault();
      card.classList.toggle('is-flipped');
 });
+
+let currentWord;
+btnVoiceUs.addEventListener('click', clickHandlerUs);
+btnVoiceGb.addEventListener('click', clickHandlerBr);
+
+/**
+ * Add voice on click
+ * for US
+ */
+
+function clickHandlerUs(event) {
+     event.stopPropagation()
+     console.log("US click")
+     let msg = new SpeechSynthesisUtterance();
+     let voices = window.speechSynthesis.getVoices();
+     msg.voice = voices[1];
+     msg.text = currentWord;
+     msg.lang = 'en-US';
+     speechSynthesis.speak(msg);
+}
+
+
+
 
 // Wait for the DOM to finish loading before running the quiz
 
@@ -1147,7 +1170,7 @@ const createRandom = function () {
  */
 
 let temporaryCardsArray = [];
-let currentWord;
+
 
 const generateCard = function () {
      if (flashcards.length === 0) {
@@ -1168,6 +1191,8 @@ const generateCard = function () {
      CardIpa.innerText = flashcards[randomIndex].ipa;
 
      currentWord = flashcards[randomIndex].word;
+     
+
 
 
      card.classList.remove('is-flipped');
