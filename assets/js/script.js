@@ -597,7 +597,7 @@ const flashcards = [
           topic: 'food',
           image: 'assets/images/biscuits.jpg',
           word: 'biscuits',
-          ipa: '[ˈbɪs.kɪt]',
+          ipa: '[ˈbɪs.kɪts]',
      },
      {
           topic: 'food',
@@ -1113,7 +1113,7 @@ card.addEventListener('click', function (e) {
 
 let currentWord;
 btnVoiceUs.addEventListener('click', clickHandlerUs);
-btnVoiceGb.addEventListener('click', clickHandlerBr);
+btnVoiceGb.addEventListener('click', clickHandlerGb);
 
 /**
  * Add voice on click
@@ -1125,13 +1125,29 @@ function clickHandlerUs(event) {
      console.log("US click")
      let msg = new SpeechSynthesisUtterance();
      let voices = window.speechSynthesis.getVoices();
+     msg.lang = 'en-US';
      msg.voice = voices[1];
      msg.text = currentWord;
-     msg.lang = 'en-US';
+
      speechSynthesis.speak(msg);
 }
 
+/**
+ * Add voice on click
+ * for GB
+ */
 
+ function clickHandlerGb(event) {
+     event.stopPropagation()
+     console.log("GB click")
+     let msg = new SpeechSynthesisUtterance();
+     let voices = window.speechSynthesis.getVoices();
+     msg.lang = 'en-GB';
+     msg.voice = voices[1];
+     msg.text = currentWord;
+
+     speechSynthesis.speak(msg);
+}
 
 
 // Wait for the DOM to finish loading before running the quiz
