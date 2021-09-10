@@ -1124,9 +1124,7 @@ function clickHandlerUs(event) {
      event.stopPropagation()
      console.log("US click")
      let msg = new SpeechSynthesisUtterance();
-     let voices = window.speechSynthesis.getVoices();
      msg.lang = 'en-US';
-     msg.voice = voices[1];
      msg.text = currentWord;
 
      speechSynthesis.speak(msg);
@@ -1141,9 +1139,7 @@ function clickHandlerUs(event) {
      event.stopPropagation()
      console.log("GB click")
      let msg = new SpeechSynthesisUtterance();
-     let voices = window.speechSynthesis.getVoices();
      msg.lang = 'en-GB';
-     msg.voice = voices[1];
      msg.text = currentWord;
 
      speechSynthesis.speak(msg);
