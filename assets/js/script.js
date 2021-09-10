@@ -1101,6 +1101,8 @@ const flashcards = [
 
 const card = document.querySelector('.card');
 const cardNextButton = document.querySelector('#card__next');
+const btnVoiceUS = document.querySelector("#voice__option--US");
+const btnVoiceGB = document.querySelector("#voice__option--GB");
 
 // Flip card on the click
 
@@ -1125,6 +1127,7 @@ document.addEventListener('DOMContentLoaded', function () {
                generateCard();
           }
      });
+     
 });
 
 
@@ -1144,6 +1147,7 @@ const createRandom = function () {
  */
 
 let temporaryCardsArray = [];
+let currentWord;
 
 const generateCard = function () {
      if (flashcards.length === 0) {
@@ -1162,6 +1166,10 @@ const generateCard = function () {
 
      cardWord.innerText = flashcards[randomIndex].word;
      CardIpa.innerText = flashcards[randomIndex].ipa;
+
+     currentWord = flashcards[randomIndex].word;
+
+
      card.classList.remove('is-flipped');
      document.querySelector('.image').style.border = '1px solid #200549';
      document.querySelector('.image').style.width = '50%';
@@ -1169,3 +1177,6 @@ const generateCard = function () {
      temporaryCardsArray.push(flashcards[randomIndex]);
      flashcards.splice([randomIndex], 1);
 };
+
+
+
