@@ -759,7 +759,7 @@ const flashcards = [
           topic: 'months',
           image: 'assets/images/january.jpg',
           word: 'January',
-          ipa: '[ˈdʒæn.ju.er.i/]',
+          ipa: '[ˈdʒæn.ju.er.i]',
      },
      {
           topic: 'months',
@@ -1005,7 +1005,7 @@ const flashcards = [
           topic: 'holidays',
           image: 'assets/images/earth_day.jpg',
           word: 'Tree-planting Day/ The Earth Day',
-          ipa: '[ˈtriːˌplæntɪŋ / ðiːˈɝːθˌdeɪ]',
+          ipa: '[ˈtriːˌplæntɪŋˌdeɪ / ðiːˈɝːθˌdeɪ]',
      },
      {
           topic: 'holidays',
@@ -1029,7 +1029,7 @@ const flashcards = [
           topic: 'holidays',
           image: 'assets/images/thanksgiving.jpg',
           word: 'Thanksgiving',
-          ipa: '[ˌθæŋksˈɡɪv.ɪŋ ˌdeɪ]',
+          ipa: '[ˌθæŋksˈɡɪv.ɪŋ]',
      },
      {
           topic: 'holidays',
@@ -1040,8 +1040,8 @@ const flashcards = [
      {
           topic: 'holidays',
           image: 'assets/images/may_day.jpg',
-          word: 'May / Labor Day',
-          ipa: '[ˈmeɪ /ˈleɪ.bɚ ˌdeɪ]',
+          word: 'May Day/ Labor Day',
+          ipa: '[ˈmeɪˌdeɪ /ˈleɪ.bɚˌdeɪ]',
      },
      {
           topic: 'holidays',
@@ -1122,11 +1122,9 @@ btnVoiceGb.addEventListener('click', clickHandlerGb);
 
 function clickHandlerUs(event) {
      event.stopPropagation()
-     console.log("US click")
      let msg = new SpeechSynthesisUtterance();
      msg.lang = 'en-US';
      msg.text = currentWord;
-
      speechSynthesis.speak(msg);
 }
 
@@ -1135,13 +1133,11 @@ function clickHandlerUs(event) {
  * for GB
  */
 
- function clickHandlerGb(event) {
+function clickHandlerGb(event) {
      event.stopPropagation()
-     console.log("GB click")
      let msg = new SpeechSynthesisUtterance();
      msg.lang = 'en-GB';
      msg.text = currentWord;
-
      speechSynthesis.speak(msg);
 }
 
