@@ -1217,6 +1217,36 @@ const flashcards = [
           word: 'ping-pong ball',
           ipa: '[ˈpɪŋˌpɑːŋ.bɑːl]',
      },
+     {
+          topic: 'musical instruments',
+          image: 'assets/images/flute.jpg',
+          word: 'flute',
+          ipa: '[fluːt]',
+     },
+     {
+          topic: 'musical instruments',
+          image: 'assets/images/fiddle.jpg',
+          word: 'fiddle',
+          ipa: '[ˈfɪd.əl]',
+     },
+     {
+          topic: 'musical instruments',
+          image: 'assets/images/accordion.jpg',
+          word: 'accordion',
+          ipa: '[əˈkɔːr.di.ən]',
+     },
+     {
+          topic: 'musical instruments',
+          image: 'assets/images/piano.jpg',
+          word: 'piano',
+          ipa: '[piˈæn.oʊ]',
+     },
+     {
+          topic: 'musical instruments',
+          image: 'assets/images/violin.jpg',
+          word: 'violin',
+          ipa: '[ˌvaɪəˈlɪn]',
+     },
 ];
 
 const card = document.querySelector('.card');
