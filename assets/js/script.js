@@ -121,30 +121,6 @@ const flashcards = [
      },
      {
           topic: 'actions',
-          image: 'assets/images/go_fishing.jpg',
-          word: 'go fishing',
-          ipa: '[ɡoʊ ˈfɪʃ.ɪŋ]',
-     },
-     {
-          topic: 'actions',
-          image: 'assets/images/go_roller_skating.jpg',
-          word: 'go roller-skating',
-          ipa: '[ɡoʊ ˈroʊ.lɚ.skeɪ.t̬ɪŋ]',
-     },
-     {
-          topic: 'actions',
-          image: 'assets/images/go_skiing.jpg',
-          word: 'go skiing',
-          ipa: '[ɡoʊ ˈskiː.ɪŋ]',
-     },
-     {
-          topic: 'actions',
-          image: 'assets/images/go_swimming.jpg',
-          word: 'go swimming',
-          ipa: '[ɡoʊ ˈswɪm.ɪŋ]',
-     },
-     {
-          topic: 'actions',
           image: 'assets/images/go_to_the_park.jpg',
           word: 'go to the park',
           ipa: '[ɡoʊ tə ðə pɑːrk]',
@@ -352,12 +328,6 @@ const flashcards = [
           image: 'assets/images/fly_a_kite.jpg',
           word: 'fly a kite',
           ipa: '[flaɪ ə kaɪt]',
-     },
-     {
-          topic: 'actions',
-          image: 'assets/images/go_skating.jpg',
-          word: 'go skating',
-          ipa: '[ɡoʊ ˈskeɪ.t̬ɪŋ]',
      },
      {
           topic: 'actions',
@@ -1182,10 +1152,46 @@ const flashcards = [
           ipa: '[reɪs]',
      },
      {
-          topic: 'actions',
+          topic: 'sport',
           image: 'assets/images/relay_race.jpg',
           word: 'the relay race',
           ipa: '[ðə ˈriː.leɪ reɪs]',
+     },
+     {
+          topic: 'sport',
+          image: 'assets/images/go_fishing.jpg',
+          word: 'go fishing',
+          ipa: '[ɡoʊ ˈfɪʃ.ɪŋ]',
+     },
+     {
+          topic: 'sport',
+          image: 'assets/images/go_roller_skating.jpg',
+          word: 'go roller-skating',
+          ipa: '[ɡoʊ ˈroʊ.lɚ.skeɪ.t̬ɪŋ]',
+     },
+     {
+          topic: 'sport',
+          image: 'assets/images/go_skiing.jpg',
+          word: 'go skiing',
+          ipa: '[ɡoʊ ˈskiː.ɪŋ]',
+     },
+     {
+          topic: 'sport',
+          image: 'assets/images/go_swimming.jpg',
+          word: 'go swimming',
+          ipa: '[ɡoʊ ˈswɪm.ɪŋ]',
+     },
+     {
+          topic: 'sport',
+          image: 'assets/images/go_climbing.jpg',
+          word: 'go climbing',
+          ipa: '[ɡoʊ ˈklaɪ.mɪŋ]',
+     },
+     {
+          topic: 'sport',
+          image: 'assets/images/go_hiking.jpg',
+          word: 'go hiking',
+          ipa: '[ɡoʊ ˈhaɪ.kɪŋ]',
      },
      {
           topic: 'balls',
