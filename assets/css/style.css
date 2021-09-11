@@ -82,7 +82,6 @@ body {
 }
 
 .btn__links {
-
     display: flex;
     align-content: center;
     text-align: center;
@@ -106,7 +105,7 @@ body {
     grid-row: 1/2;
     justify-self: left;
     align-items: center;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .button__menu a {
@@ -142,7 +141,7 @@ body {
 .btn__back {
     background: linear-gradient(to bottom, var(--clr-primary-100) 5%, #1e62d0 100%);
     background-color: var(--clr-primary-900);
-    padding: 1rem;
+    padding: 1vh 1vw;
     border-radius: var(--br);
     color: var(--clr-neutral-900);
     text-transform: uppercase;
@@ -154,7 +153,6 @@ body {
     display: flex;
     align-content: center;
     align-items: center;
-
 }
 
 .btn__back a {
@@ -261,7 +259,9 @@ img {
 }
 
 .english__word {
+    margin-top: 2rem;
     margin-bottom: 7vh;
+    padding: auto 1rem;
     font-size: 5vh;
     letter-spacing: 0.4rem;
     font-weight: bold;
@@ -292,11 +292,9 @@ img {
 }
 
 .voice__btn {
-    width: 5rem;
-    height: 5rem;
+    width: 3vw;
+    height: 3vh;
     position: relative;
-    border: 2px solid var(--clr-neutral-900);
-    border-radius: 50%;
 }
 
 .voice__icon {
@@ -331,8 +329,8 @@ img {
 
 .card__next {
     background-color: var(--clr-primary-500);
-    padding: 2vh;
-    font-size: 2vh;
+    padding: 2vh 2vw;
+    font-size: 3.5vh;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--clr-neutral-900);
@@ -395,11 +393,15 @@ img {
 @media screen and (max-width: 60rem) {
 
     /* --- << Menu page >> --- */
+    body {
+
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 1fr 4fr 2fr;
+    }
 
     .menu__title {
         font-size: 1.5rem;
         margin-bottom: 5vh;
-        /* padding: 0; */
         letter-spacing: 0.1rem;
     }
 
@@ -420,10 +422,50 @@ img {
         display: none;
     }
 
+    /* Media for FCs */
     .card__holder {
         width: 20rem;
         perspective: 50rem;
     }
+
+    .topic {
+        font-size: 1.5rem;
+    }
+
+
+    .english__word {
+        font-size: 2.5rem;
+        letter-spacing: 0.1rem;
+        padding-bottom: 0;
+    }
+
+    .voice__options {
+        font-size: 1.5rem;
+
+    }
+
+    .voice__option {
+        padding: 1rem;
+    }
+
+
+    .voice__name {
+        padding-right: 2.5vw;
+        font-weight: bold;
+    }
+
+    .voice__icon {
+        font-size: 1.5rem;
+    }
+
+
+    .english__ipa {
+        letter-spacing: 0.0.5rem;
+        font-size: 2rem;
+        padding-bottom: 0;
+    }
+
+
 
     /* --- << Grammar_quiz page >> --- */
 
@@ -445,6 +487,7 @@ img {
     }
 
 }
+
 
 @media screen and (max-width: 80rem) and (min-width: 60rem) {
 
@@ -469,4 +512,150 @@ img {
         margin: 1rem auto;
         font-size: 1.5rem;
     }
+
+    /* Media for FCs */
+    .card__holder {
+        width: 20rem;
+        perspective: 50rem;
+    }
+
+    .topic {
+        font-size: 2vh;
+        padding: 0
+    }
+
+
+    .english__word {
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+        padding-bottom: 0;
+    }
+
+    .voice__options {
+        font-size: 1.5rem;
+
+    }
+
+    .voice__option {
+        padding: 1rem;
+    }
+
+
+    .voice__name {
+        padding-right: 2.5vw;
+        font-weight: bold;
+    }
+
+    .voice__icon {
+        font-size: 1.5rem;
+    }
+
+
+    .english__ipa {
+        letter-spacing: 0.0.5rem;
+        font-size: 2rem;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-height: landscape) and (max-width: 70rem) {
+
+
+
+    /* Card Styling */
+
+    .card__holder {
+        grid-column: 1/3;
+        grid-row: 2/5;
+        /* align-items: center;
+        justify-self: center;
+        justify-content: center;
+        width: 30vw;
+        
+        perspective: 60vw; */
+        height: 70vh;
+    }
+
+    /* img {
+        width: 100%;
+
+        display: block;
+        border-radius: var(--br);
+    } */
+
+    .card--front {
+        background: var(--linear-grad);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .english__word {
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .voice__options {
+        font-size: 1rem;
+    }
+
+    .voice__btn {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .voice__icon {
+        font-size: 1rem;
+
+    }
+
+    .voice__icon--hidden {
+        display: none;
+    }
+
+    .english__ipa {
+        margin-bottom: 7vh;
+        letter-spacing: 0;
+        font-size: 1.2rem;
+        color: var(--clr-neutral-300);
+    }
+
+
+
+    /* Button Styling */
+
+    .button__holder {
+        grid-column: 3/4;
+        grid-row: 1/4;
+        justify-self: center;
+        align-self: center;
+        padding-right: 5vw;
+    }
+
+    .card__next {
+        background-color: var(--clr-primary-500);
+        padding: 2vh 2vw;
+        font-size: 3.5vh;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: var(--clr-neutral-900);
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #1570cd;
+        background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+        background-color: #3d94f6;
+        border: 1px solid #337fed;
+        border-radius: var(--br);
+        box-shadow: inset 0px 2px 0px 0px #97c4fe;
+        display: inline-block;
+        cursor: pointer;
+
+    }
+
+    .card__next:hover {
+        background: linear-gradient(to bottom, #0d67f7 50%, #3d94f6 100%);
+        background-color: #1e62d0;
+    }
+
 }
