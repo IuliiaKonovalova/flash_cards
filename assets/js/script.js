@@ -1373,6 +1373,66 @@ const flashcards = [
           word: 'ten',
           ipa: '[ten]',
      },
+     {
+          topic: 'numbers',
+          image: 'assets/images/eleven.jpg',
+          word: 'eleven',
+          ipa: '[əˈlev.ən]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/twelve.jpg',
+          word: 'twelve',
+          ipa: '[twelv]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/thirteen.jpg',
+          word: 'thirteen',
+          ipa: '[θɝːˈtiːn]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/fourteen.jpg',
+          word: 'fourteen',
+          ipa: '[ˌfɔːrˈtiːn]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/fifteen.jpg',
+          word: 'fifteen',
+          ipa: '[ˌfɪfˈtiːn]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/sixteen.jpg',
+          word: 'sixteen',
+          ipa: '[ˌsɪkˈstiːn]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/seventeen.jpg',
+          word: 'seventeen',
+          ipa: '[ˌsev.ənˈtiːn]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/eighteen.jpg',
+          word: 'eighteen',
+          ipa: '[ˌeɪˈtiːn]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/nineteen.jpg',
+          word: 'nineteen',
+          ipa: '[ˌnaɪnˈtiːn]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/twenty.jpg',
+          word: 'twenty',
+          ipa: '[ˈtwen.t̬i]',
+     },
 ];
 
 const card = document.querySelector('.card');
