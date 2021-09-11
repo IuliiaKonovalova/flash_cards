@@ -1247,6 +1247,72 @@ const flashcards = [
           word: 'violin',
           ipa: '[ˌvaɪəˈlɪn]',
      },
+     {
+          topic: 'nature',
+          image: 'assets/images/cloud.jpg',
+          word: 'cloud',
+          ipa: '[klaʊd]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/flower.jpg',
+          word: 'flower',
+          ipa: '[ˈflaʊ.ɚ]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/grass.jpg',
+          word: 'grass',
+          ipa: '[ɡræs]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/lake.jpg',
+          word: 'lake',
+          ipa: '[leɪk]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/leaf.jpg',
+          word: 'leaf',
+          ipa: '[liːf]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/leaves.jpg',
+          word: 'leaves',
+          ipa: '[liːvz]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/moon.jpg',
+          word: 'moon',
+          ipa: '[muːn]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/river.jpg',
+          word: 'river',
+          ipa: '[ˈrɪv.ɚ]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/stars.jpg',
+          word: 'stars',
+          ipa: '[stɑːrs]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/sun.jpg',
+          word: 'sun',
+          ipa: '[sʌn]',
+     },
+     {
+          topic: 'nature',
+          image: 'assets/images/tree.jpg',
+          word: 'tree',
+          ipa: '[triː]',
+     },
 ];
 
 const card = document.querySelector('.card');
