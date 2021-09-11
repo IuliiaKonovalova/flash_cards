@@ -1187,6 +1187,30 @@ const flashcards = [
           word: 'the relay race',
           ipa: '[ðə ˈriː.leɪ reɪs]',
      },
+     {
+          topic: 'balls',
+          image: 'assets/images/basket_ball.jpg',
+          word: 'basketball',
+          ipa: '[ˈbæs.kət.bɑːl]',
+     },
+     {
+          topic: 'balls',
+          image: 'assets/images/tennis_ball.jpg',
+          word: 'tennis ball',
+          ipa: '[ˈten.ɪs bɑːl]',
+     },
+     {
+          topic: 'balls',
+          image: 'assets/images/foot_ball.jpg',
+          word: 'football',
+          ipa: '[ˈfʊt.bɑːl]',
+     },
+     {
+          topic: 'balls',
+          image: 'assets/images/ping_pong_ball.jpg',
+          word: 'ping-pong ball',
+          ipa: '[ˈpɪŋˌpɑːŋ.bɑːl]',
+     },
 ];
 
 const card = document.querySelector('.card');
