@@ -121,6 +121,42 @@ const flashcards = [
      },
      {
           topic: 'actions',
+          image: 'assets/images/go_fishing.jpg',
+          word: 'go fishing',
+          ipa: '[ɡoʊ ˈfɪʃ.ɪŋ]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/go_roller_skating.jpg',
+          word: 'go roller-skating',
+          ipa: '[ɡoʊ ˈroʊ.lɚ.skeɪ.t̬ɪŋ]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/go_skiing.jpg',
+          word: 'go skiing',
+          ipa: '[ɡoʊ ˈskiː.ɪŋ]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/go_swimming.jpg',
+          word: 'go swimming',
+          ipa: '[ɡoʊ ˈswɪm.ɪŋ]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/go_to_the_park.jpg',
+          word: 'go to the park',
+          ipa: '[ɡoʊ tə ðə pɑːrk]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/go_to_the_museum.jpg',
+          word: 'go to the museum',
+          ipa: '[ɡoʊ tə ðə mjuːˈziː.əm]',
+     },
+     {
+          topic: 'actions',
           image: 'assets/images/open_the_window.jpg',
           word: 'open the window',
           ipa: '[ˈoʊ.pən ðə ˈwɪn.doʊ]',
