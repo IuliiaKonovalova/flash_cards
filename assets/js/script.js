@@ -1313,6 +1313,66 @@ const flashcards = [
           word: 'tree',
           ipa: '[triː]',
      },
+     {
+          topic: 'numbers',
+          image: 'assets/images/one.jpg',
+          word: 'one',
+          ipa: '[wʌn]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/two.jpg',
+          word: 'two',
+          ipa: '[tuː]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/three.jpg',
+          word: 'three',
+          ipa: '[θriː]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/four.jpg',
+          word: 'four',
+          ipa: '[fɔːr]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/five.jpg',
+          word: 'five',
+          ipa: '[faɪv]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/six.jpg',
+          word: 'six',
+          ipa: '[sɪks]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/seven.jpg',
+          word: 'seven',
+          ipa: '[ˈsev.ən]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/eight.jpg',
+          word: 'eight',
+          ipa: '[eɪt]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/nine.jpg',
+          word: 'nine',
+          ipa: '[naɪn]',
+     },
+     {
+          topic: 'numbers',
+          image: 'assets/images/ten.jpg',
+          word: 'ten',
+          ipa: '[ten]',
+     },
 ];
 
 const card = document.querySelector('.card');
