@@ -199,6 +199,12 @@ const flashcards = [
      },
      {
           topic: 'actions',
+          image: 'assets/images/play_ping_pong.jpg',
+          word: 'play ping-pong',
+          ipa: '[pleɪ ˈpɪŋˌpɑːŋ]',
+     },
+     {
+          topic: 'actions',
           image: 'assets/images/play_basketball.jpg',
           word: 'play basketball',
           ipa: '[pleɪ ˈbæs.kət.bɑːl/]',
@@ -238,6 +244,30 @@ const flashcards = [
           image: 'assets/images/play_the_violin.jpg',
           word: 'play the violin',
           ipa: '[pleɪ ðə ˌvaɪəˈlɪn]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/see_grandfather.jpg',
+          word: 'see grandfather',
+          ipa: '[siː ˈɡræn.fɑː.ðɚ]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/see_grandmother.jpg',
+          word: 'see grandmother',
+          ipa: '[siː ˈɡræn.mʌð.ɚ]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/see_monkeys_in_the_zoo.jpg',
+          word: 'see monkeys in the zoo',
+          ipa: '[siː ˈmʌŋ.kis ɪn ðə zuː]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/swim_in_the_sea.jpg',
+          word: 'swim in the sea',
+          ipa: '[swɪm ɪn ðə siː]',
      },
      {
           topic: 'actions',
@@ -1132,6 +1162,30 @@ const flashcards = [
           image: 'assets/images/cucumber.jpg',
           word: 'cucumber',
           ipa: '[ˈkjuː.kʌm.bɚ]',
+     },
+     {
+          topic: 'sport',
+          image: 'assets/images/the_long_jump.jpg',
+          word: 'the long jump',
+          ipa: '[ðə lɑːŋ dʒʌmp]',
+     },
+     {
+          topic: 'sport',
+          image: 'assets/images/the_high_jump.jpg',
+          word: 'the high jump',
+          ipa: '[ðə haɪ dʒʌmp]',
+     },
+     {
+          topic: 'sport',
+          image: 'assets/images/race.jpg',
+          word: 'race',
+          ipa: '[reɪs]',
+     },
+     {
+          topic: 'actions',
+          image: 'assets/images/relay_race.jpg',
+          word: 'the relay race',
+          ipa: '[ðə ˈriː.leɪ reɪs]',
      },
 ];
 
