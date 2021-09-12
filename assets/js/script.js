@@ -1541,6 +1541,84 @@ const flashcards = [
           word: 'museum',
           ipa: '[mjuːˈziː.əm]',
      },
+     {
+          topic: 'places',
+          image: 'assets/images/park.jpg',
+          word: 'park',
+          ipa: '[pɑːrk]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/police_station.jpg',
+          word: 'police station',
+          ipa: '[pəˈliːs ˌsteɪ.ʃən]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/post_office.jpg',
+          word: 'post office',
+          ipa: '[ˈpoʊst ˌɑː.fɪs]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/restaurant.jpg',
+          word: 'restaurant',
+          ipa: '[ˈres.tə.rɑːnt]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/school.jpg',
+          word: 'school',
+          ipa: '[skuːl]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/shopping_mall.jpg',
+          word: 'shopping mall',
+          ipa: '[ˈʃɑː.pɪŋ ˌmɑːl]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/stadium.jpg',
+          word: 'stadium',
+          ipa: '[ˈsteɪ.di.əm]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/supermarket.jpg',
+          word: 'supermarket',
+          ipa: '[ˈsuː.pɚˌmɑːr.kɪt]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/theater.jpg',
+          word: 'theater',
+          ipa: '[ˈθiː.ə.t̬ɚ]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/train_station.jpg',
+          word: 'train station',
+          ipa: '[ˈtreɪn ˌsteɪ.ʃən]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/zoo.jpg',
+          word: 'zoo',
+          ipa: '[zuː]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/museum.jpg',
+          word: 'museum',
+          ipa: '[]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/museum.jpg',
+          word: 'museum',
+          ipa: '[]',
+     },
 ];
 
 const card = document.querySelector('.card');
