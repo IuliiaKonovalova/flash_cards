@@ -583,7 +583,7 @@ img {
 
 
 
-@media (max-height: 35rem) and (min-width: 50rem) {
+@media (max-height: 35rem) and (max-width: 60rem) {
     body {
         grid-template-columns: 1fr 3fr 1fr;
         grid-template-rows: 1fr 5fr 1fr;
@@ -598,7 +598,7 @@ img {
         justify-self: center;
         align-self: center;
         /* margin: 1rem */
-        /* height: 80vh; */
+        height: 70vh;
         /* width: 40rem */
         /* margin: 0; */
     }
