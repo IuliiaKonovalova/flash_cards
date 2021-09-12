@@ -1433,6 +1433,60 @@ const flashcards = [
           word: 'twenty',
           ipa: '[ˈtwen.t̬i]',
      },
+     {
+          topic: 'places',
+          image: 'assets/images/airport.jpg',
+          word: 'airport',
+          ipa: '[ˈer.pɔːrt]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/amusement_park.jpg',
+          word: 'amusement park',
+          ipa: '[əˈmjuːz.mənt ˌpɑːrk]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/apartment_building.jpg',
+          word: 'apartment building',
+          ipa: '[əˈpɑːrt.mənt ˌbɪl.dɪŋ]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/aquarium.jpg',
+          word: 'aquarium / underwater zoo',
+          ipa: '[əˈkwer.i.əm /ˌʌn.dɚˈwɑː.t̬ɚ zuː]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/bank.jpg',
+          word: 'bank',
+          ipa: '[bæŋk]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/beach.jpg',
+          word: 'beach',
+          ipa: '[biːtʃ]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/bookshop.jpg',
+          word: 'bookshop / bookstore',
+          ipa: '[ˈbʊk.ʃɑːp / ˈbʊk.stɔːr]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/bridge.jpg',
+          word: 'bridge',
+          ipa: '[brɪdʒ]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/bus_stop.jpg',
+          word: 'bus stop',
+          ipa: '[ˈbʌs ˌstɑːp]',
+     },
 ];
 
 const card = document.querySelector('.card');
