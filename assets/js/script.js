@@ -1487,6 +1487,60 @@ const flashcards = [
           word: 'bus stop',
           ipa: '[ˈbʌs ˌstɑːp]',
      },
+     {
+          topic: 'places',
+          image: 'assets/images/circus.jpg',
+          word: 'circus',
+          ipa: '[ˈsɝː.kəs]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/cinema.jpg',
+          word: 'cinema',
+          ipa: '[ˈsɪn.ə.mə]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/classroom.jpg',
+          word: 'classroom',
+          ipa: '[ˈklæs.rʊm]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/gate.jpg',
+          word: 'gate',
+          ipa: '[ɡeɪt]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/hospital.jpg',
+          word: 'hospital',
+          ipa: '[ˈhɑː.spɪ.t̬əl]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/house.jpg',
+          word: 'house',
+          ipa: '[haʊs]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/hut.jpg',
+          word: 'hut',
+          ipa: '[hʌt]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/library.jpg',
+          word: 'library',
+          ipa: '[ˈlaɪ.brer.i]',
+     },
+     {
+          topic: 'places',
+          image: 'assets/images/museum.jpg',
+          word: 'museum',
+          ipa: '[mjuːˈziː.əm]',
+     },
 ];
 
 const card = document.querySelector('.card');
