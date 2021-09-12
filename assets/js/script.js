@@ -1805,7 +1805,7 @@ const generateCard = function () {
      let randomIndex = createRandom();
 
      cardTopic.innerText = flashcards[randomIndex].topic;
-     cardImage.innerHTML = `<img src = ${flashcards[randomIndex].image}>`;
+     cardImage.innerHTML = `<img class="image--border" src = ${flashcards[randomIndex].image}>`;
 
      cardWord.innerText = flashcards[randomIndex].word;
      CardIpa.innerText = flashcards[randomIndex].ipa;
@@ -1816,9 +1816,10 @@ const generateCard = function () {
 
 
      card.classList.remove('is-flipped');
-     document.querySelector('.image').style.border = '1px solid #200549';
-     document.querySelector('.image').style.width = '50%';
-     document.querySelector('.image').style.borderRadius = '0.7em';
+     document.querySelector('.image--border').style.border = '1px solid #200549';
+     document.querySelector('.image--border').style.width = '35vh';
+     document.querySelector('.image--border').style.height = '35vh';
+     document.querySelector('.image--border').style.borderRadius = '0.7em';
      temporaryCardsArray.push(flashcards[randomIndex]);
      flashcards.splice([randomIndex], 1);
 };
