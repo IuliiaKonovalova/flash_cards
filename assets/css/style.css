@@ -220,11 +220,6 @@ body {
 
 .card--front {
     background: var(--linear-grad);
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; */
-    /* padding: 2rem; */
     display: grid;
     grid-template-rows: 1fr 4fr;
     width: 100%;
@@ -239,7 +234,6 @@ body {
     color: var(--clr-neutral-900);
     text-transform: uppercase;
     font-size: 4vh;
-    /* min-width: fit-content; */
     min-height: fit-content;
 }
 
@@ -247,22 +241,10 @@ body {
     grid-row: 2/3;
     justify-self: center;
     align-self: center;
-
     display: flex;
     justify-content: center;
     align-content: center;
-    /* max-width: 30vw; */
-    /* height: 100%;
-    width: 100%; */
     padding: 1rem auto;
-
-}
-
-img {
-    /* object-fit: scale-down; */
-    /* width: 100%; */
-    /* object-fit: contain; */
-    /* display: block; */
 }
 
 /* Styling the Back side of the FC*/
@@ -597,33 +579,11 @@ img {
         grid-row: 1/3;
         justify-self: center;
         align-self: center;
-        /* margin: 1rem */
         height: 70vh;
-        /* width: 40rem */
-        /* margin: 0; */
     }
 
     .button__holder {
         grid-row: 3/4;
-    }
-
-    .card--front {
-        /* grid-template-rows: 3vh 65vh; */
-
-        /* margin-top: 0; */
-        /* padding-top: 2vh;
-        min-width: fit-content;
-        min-height: fit-content; */
-    }
-
-    .topic {
-        /* align-self: end;
-        justify-content: center; */
-        /* margin: 0; */
-        /* align-self: center;
-        font-size: 5vh;
-        z-index: 999; */
-        /* font-size: 4rem; */
     }
 
 }
