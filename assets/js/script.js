@@ -1765,10 +1765,53 @@ const flashcards = [
      },
      {
           topic: 'professions',
-          image: 'assets/images/actor.jpg',
-          word: 'actor',
-          ipa: '[]',
+          image: 'assets/images/butcher.jpg',
+          word: 'butcher',
+          ipa: '[ˈbʊtʃ.ɚ]',
      },
+     {
+          topic: 'professions',
+          image: 'assets/images/cameraman.jpg',
+          word: 'cameraman',
+          ipa: '[ˈkæm.rə.mən]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/carpenter.jpg',
+          word: 'carpenter',
+          ipa: '[ˈkɑːr.pɪn.t̬ɚ]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/cashier.jpg',
+          word: 'cashier',
+          ipa: '[kæʃˈɪr]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/coach.jpg',
+          word: 'coach',
+          ipa: '[koʊtʃ]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/cook.jpg',
+          word: 'cook',
+          ipa: '[kʊk]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/dancer.jpg',
+          word: 'dancer',
+          ipa: '[ˈdæn.sɚ]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/delivery_man.jpg',
+          word: 'delivery_man',
+          ipa: '[dɪˈlɪv.ɚ.i.mæn]',
+     },
+
 ];
 
 const card = document.querySelector('.card');
