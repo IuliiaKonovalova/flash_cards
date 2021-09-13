@@ -1925,6 +1925,66 @@ const flashcards = [
           word: 'fisherman',
           ipa: '[]',
      },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[]',
+     },
 
 
 
