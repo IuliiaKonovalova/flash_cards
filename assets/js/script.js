@@ -1821,31 +1821,43 @@ const flashcards = [
           topic: 'professions',
           image: 'assets/images/dentist.jpg',
           word: 'dentist',
-          ipa: '[]',
+          ipa: '[ˈden.t̬ɪst]',
      },
      {
           topic: 'professions',
           image: 'assets/images/doctor.jpg',
           word: 'doctor',
-          ipa: '[]',
+          ipa: '[ˈdɑːk.tɚ]',
      },
      {
           topic: 'professions',
           image: 'assets/images/driver.jpg',
           word: 'driver',
-          ipa: '[]',
+          ipa: '[ˈdraɪ.vɚ]',
      },
      {
           topic: 'professions',
           image: 'assets/images/farmer.jpg',
           word: 'farmer',
-          ipa: '[]',
+          ipa: '[ˈfɑːr.mɚ]',
      },
      {
           topic: 'professions',
           image: 'assets/images/firefoghter.jpg',
           word: 'firefoghter',
-          ipa: '[]',
+          ipa: '[ˈfaɪrˌfaɪ.t̬ɚ]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/fisherman.jpg',
+          word: 'fisherman',
+          ipa: '[ˈfɪʃ.ɚ.mən]',
+     },
+     {
+          topic: 'professions',
+          image: 'assets/images/florist.jpg',
+          word: 'florist',
+          ipa: '[ˈflɔːr.ɪst]',
      },
      {
           topic: 'professions',
@@ -1859,21 +1871,6 @@ const flashcards = [
           word: 'fisherman',
           ipa: '[]',
      },
-
-     {
-          topic: 'professions',
-          image: 'assets/images/fisherman.jpg',
-          word: 'fisherman',
-          ipa: '[]',
-     },
-
-     {
-          topic: 'professions',
-          image: 'assets/images/fisherman.jpg',
-          word: 'fisherman',
-          ipa: '[]',
-     },
-
      {
           topic: 'professions',
           image: 'assets/images/fisherman.jpg',
