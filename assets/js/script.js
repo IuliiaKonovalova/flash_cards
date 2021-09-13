@@ -1985,9 +1985,96 @@ const flashcards = [
           word: 'writer',
           ipa: '[ˈraɪ.t̬ɚ]',
      },
-
-
-
+     {
+          topic: 'transport',
+          image: 'assets/images/ambulance.jpg',
+          word: 'ambulance',
+          ipa: '[ˈæm.bjə.ləns]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/bike.jpg',
+          word: 'bike',
+          ipa: '[baɪk]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/boat.jpg',
+          word: 'boat',
+          ipa: '[boʊt]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/bus.jpg',
+          word: 'bus',
+          ipa: '[bʌs]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/car.jpg',
+          word: 'car',
+          ipa: '[bʌs]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/fire_engine.jpg',
+          word: 'fire engine',
+          ipa: '[ˈfaɪr ˌen.dʒɪn]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/helicopter.jpg',
+          word: 'helicopter',
+          ipa: '[]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/hot_air_ballon.jpg',
+          word: 'hot-air balloon',
+          ipa: '[hɑːtˈer bəˌluːn]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/motorbike.jpg',
+          word: 'motorbike',
+          ipa: '[ˈmoʊ.t̬ɚ.baɪk]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/on_foot.jpg',
+          word: 'on foot',
+          ipa: '[ɑːnˈfʊt]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/plane.jpg',
+          word: 'plane / airplane',
+          ipa: '[pleɪn / ˈer.pleɪn]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/rocket.jpg',
+          word: 'rocket',
+          ipa: '[ˈrɑː.kɪt]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/school_bus.jpg',
+          word: 'school bus',
+          ipa: '[ˈskuːl ˌbʌs]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/rocket.jpg',
+          word: 'rocket',
+          ipa: '[]',
+     },
+     {
+          topic: 'transport',
+          image: 'assets/images/rocket.jpg',
+          word: 'rocket',
+          ipa: '[]',
+     },
 ];
 
 const card = document.querySelector('.card');
