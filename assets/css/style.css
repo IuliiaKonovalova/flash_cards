@@ -9,6 +9,7 @@
   --clr-accent-900: #9610d8;
   --br: 0.7em;
   --linear-grad: linear-gradient(to left top, #003580, #00458f, #00569d, #0066aa, #0077b7, #0086c1, #0095cb, #00a4d3, #00b5d9, #00c5d8, #00d5d2, #00e3c6);
+  --linear-grad-menu: linear-gradient(to bottom, #00e3c6 5%, #1e62d0 100%);
 }
 
 /*------ Global Settings------*/
@@ -37,7 +38,7 @@ body {
   color: var(--clr-neutral-100);
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 5fr 2fr;
+  grid-template-rows: 1fr 5fr;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -65,8 +66,7 @@ body {
   letter-spacing: 0.3rem;
 }
 
-.menu__incentive,
-.menu__message {
+.menu__incentive {
   font-size: 3vh;
   letter-spacing: 0.1rem;
   display: flex;
@@ -74,19 +74,37 @@ body {
 }
 
 .menu__main {
-  grid-column: 1/4;
+  grid-column: 2/3;
   grid-row: 2/3;
   justify-self: center;
   display: grid;
-  align-content: center;
-}
+  /* align-self: center; */
 
-.btn__links {
   display: flex;
   align-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5vh;
+}
+
+.menu__link {
+  width: 50rem;
+  min-width: 90%;
+  background-color: var(--clr-primary-500);
+  padding: 6vh;
+  font-size: 4vh;
+  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
-  align-items: center;
-  margin: 5vh auto;
+  color: var(--clr-neutral-900);
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #1570cd;
+  background: var(--linear-grad-menu);
+  background-color: var(--clr-primary-900);
+  border: 1px solid #337fed;
+  border-radius: var(--br);
+  display: inline-block;
+  cursor: pointer;
 }
 
 .menu__footer {
@@ -113,23 +131,7 @@ body {
   outline: none;
 }
 
-.menu__link {
-  width: 50rem;
-  background-color: var(--clr-primary-500);
-  padding: 2vh;
-  font-size: 4vh;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: var(--clr-neutral-900);
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #1570cd;
-  background: linear-gradient(to bottom, var(--clr-primary-100) 5%, #1e62d0 100%);
-  background-color: var(--clr-primary-900);
-  border: 1px solid #337fed;
-  border-radius: var(--br);
-  display: inline-block;
-  cursor: pointer;
-}
+
 
 .menu__link:hover {
   background: linear-gradient(to bottom, #0d67f7 20%, var(--clr-primary-100) 100%);
@@ -139,7 +141,7 @@ body {
 /* Title Styling */
 
 .btn__back {
-  background: linear-gradient(to bottom, var(--clr-primary-100) 5%, #1e62d0 100%);
+  background: var(--linear-grad-menu);
   background-color: var(--clr-primary-900);
   padding: 2vh 3vw;
   border-radius: var(--br);
