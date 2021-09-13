@@ -2,81 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Link for FontAwesome icons-->
-    <script src="https://kit.fontawesome.com/9237ee6e28.js" crossorigin="anonymous"></script>
-    <!--Link to the css file-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Flash Cards</title>
+  <!--Link for FontAwesome icons-->
+  <script src="https://kit.fontawesome.com/9237ee6e28.js" crossorigin="anonymous"></script>
+  <!--Link to the css file-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Flash Cards</title>
 </head>
 
 <body>
 
-    <!--Menu Button-->
+  <!--Menu Button-->
 
-    <div class="button__menu">
-        <a href="index.html" class="btn__back">menu</a>
-    </div>
+  <div class="button__menu">
+    <a href="index.html" class="btn__back">menu</a>
+  </div>
 
-    <!--Flash Card-->
+  <!--Flash Card-->
 
-    <div class="title__holder">
-        <h1 class="title">Practice makes perfect!</h1>
-    </div>
+  <div class="title__holder">
+    <h1 class="title">Practice makes perfect!</h1>
+  </div>
 
 
-    <div class="card__holder">
-        <div class="card">
+  <div class="card__holder">
+    <div class="card">
 
-            <!--Front of the card-->
+      <!--Front of the card-->
 
-            <div class="card__main card--front">
-                <h2 class="topic"></h2>
-                <div class="image">
-                </div>
+      <div class="card__main card--front">
+        <h2 class="topic"></h2>
+        <div class="image"></div>
+      </div>
+
+      <!--Back of the card-->
+
+      <div class="card__main card--back">
+        <div class="card__content">
+
+          <!--Word-->
+
+          <div class="english__word"></div>
+
+          <!--Word's IPA-->
+
+          <div class="english__ipa"></div>
+
+          <!--Word's Audio-->
+          <div class="voice__options">
+            <div class="voice__option" id="voice__option--US">
+              <p class="voice__name">US</p>
+              <a class="voice__btn"><i class="fas fa-volume-up voice__icon" id="voice__icon--US"></i></a>
             </div>
-
-            <!--Back of the card-->
-
-            <div class="card__main card--back">
-                <div class="card__content">
-
-                    <!--Word-->
-                    <div class="english__word"></div>
-
-                    <!--Word's IPA-->
-                    <div class="english__ipa"></div>
-
-                    <!--Word's Audio-->
-                    <div class="voice__options">
-                        <div class="voice__option" id="voice__option--US">
-                            <p class="voice__name">US</p>
-                            <a class="voice__btn">
-                                <i class="fas fa-volume-up voice__icon" id="voice__icon--US"></i></a>
-                        </div>
-                        <div class="voice__option" id="voice__option--GB">
-                            <p class="voice__name">GB</p>
-                            <a class="voice__btn">
-                                <i class="fas fa-volume-up voice__icon " id="voice__icon--BG"></i></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="voice__option" id="voice__option--GB">
+              <p class="voice__name">GB</p>
+              <a class="voice__btn"><i class="fas fa-volume-up voice__icon " id="voice__icon--BG"></i></a>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <!--Button Next Card-->
+  <!--Button Next Card-->
 
-    <div class="button__holder">
-        <button class="card__next" id="card__next">next card</button>
-    </div>
+  <div class="button__holder">
+    <button class="card__next" id="card__next">next card</button>
+  </div>
 
-    <!--Script for js file-->
+  <!--Script for js file-->
 
-    <script src="assets/js/script.js"></script>
+
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
