@@ -361,20 +361,19 @@ img {
   background: var(--linear-grad);
   border-radius: var(--br);
   color: var(--clr-neutral-900);
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .grammar-quiz__question--holder {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .grammar-quiz__question,
 .grammar-quiz__tasks {
   font-size: 5vh;
   font-weight: bold;
-  margin-bottom: 3rem;
+  margin-bottom: 5vh;
 }
 
 .grammar-quiz__tasks {
