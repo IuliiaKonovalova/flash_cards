@@ -186,6 +186,12 @@ const flashcards = [{
   },
   {
     topic: 'fruits',
+    image: 'assets/images/pumpkin.jpg',
+    word: 'pumpkin',
+    ipa: '[ˈpʌmp.kɪn]',
+  },
+  {
+    topic: 'fruits',
     image: 'assets/images/blackberries.jpg',
     word: 'blackberries',
     ipa: '[ˈblæk.ber.is]',
@@ -792,6 +798,12 @@ const flashcards = [{
   },
   {
     topic: 'food',
+    image: 'assets/images/sweet_potatoes_cooked.jpg',
+    word: 'sweet potatoes',
+    ipa: '[ˌswiːt pəˈteɪ.t̬oʊs]',
+  },
+  {
+    topic: 'food',
     image: 'assets/images/biscuits.jpg',
     word: 'biscuits',
     ipa: '[ˈbɪs.kɪts]',
@@ -886,12 +898,7 @@ const flashcards = [{
     word: 'rice',
     ipa: '[raɪs]',
   },
-  {
-    topic: 'food',
-    image: 'assets/images/sweet_potatoes.jpg',
-    word: 'sweet potatoes',
-    ipa: '[ˌswiːt pəˈteɪ.t̬oʊs]',
-  },
+
   {
     topic: 'food',
     image: 'assets/images/tofu.jpg',
@@ -1269,6 +1276,12 @@ const flashcards = [{
     image: 'assets/images/vegetables.jpg',
     word: 'vegetables',
     ipa: '[ˈvedʒ.tə.bəls]',
+  },
+  {
+    topic: 'vegetables',
+    image: 'assets/images/sweet_potatoes.jpg',
+    word: 'sweet potatoes',
+    ipa: '[ˌswiːt pəˈteɪ.t̬oʊs]',
   },
   {
     topic: 'vegetables',
