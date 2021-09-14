@@ -2017,8 +2017,8 @@ const flashcards = [{
   },
   {
     topic: 'professions',
-    image: 'assets/images/firefoghter.jpg',
-    word: 'firefoghter',
+    image: 'assets/images/firefighter.jpg',
+    word: 'firefighter',
     ipa: '[ˈfaɪrˌfaɪ.t̬ɚ]',
   },
   {
@@ -2203,7 +2203,7 @@ const flashcards = [{
   },
   {
     topic: 'transport',
-    image: 'assets/images/hot_air_ballon.jpg',
+    image: 'assets/images/hot_air_balloon.jpg',
     word: 'hot-air balloon',
     ipa: '[hɑːtˈer bəˌluːn]',
   },
