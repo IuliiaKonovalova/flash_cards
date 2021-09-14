@@ -150,11 +150,64 @@ const flashcards = [{
   },
   {
     topic: 'fruits',
-    image: 'assets/images/mandarin.jpg',
-    word: 'mandarin',
-    ipa: '[]',
+    image: 'assets/images/durian.jpg',
+    word: 'durian',
+    ipa: '[ˈdʊr.i.ən]',
   },
-
+  {
+    topic: 'fruits',
+    image: 'assets/images/fruits.jpg',
+    word: 'fruits',
+    ipa: '[fruːts]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/dragon_fruit.jpg',
+    word: 'dragon fruit',
+    ipa: '[ˈdræɡ.ən ˌfruːt]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/coconut.jpg',
+    word: 'coconut',
+    ipa: '[ˈkoʊ.kə.nʌt]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/cherry.jpg',
+    word: 'cherry',
+    ipa: '[ˈtʃer.i]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/blueberries.jpg',
+    word: 'blueberries',
+    ipa: '[ˈbluːˌbər.is]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/blackberries.jpg',
+    word: 'blackberries',
+    ipa: '[ˈblæk.ber.is]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/avocado.jpg',
+    word: 'avocado',
+    ipa: '[ˌæv.əˈkɑː.doʊ]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/apricot.jpg',
+    word: 'apricot',
+    ipa: '[ˈeɪ.prɪ.kɑːt]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/berries.jpg',
+    word: 'berries',
+    ipa: '[ˈber.is]',
+  },
   {
     topic: 'colors',
     image: 'assets/images/blue_color.jpg',
