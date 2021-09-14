@@ -805,8 +805,8 @@ const flashcards = [{
   {
     topic: 'food',
     image: 'assets/images/biscuits.jpg',
-    word: 'biscuits',
-    ipa: '[ˈbɪs.kɪts]',
+    word: 'cookies / biscuits',
+    ipa: '[ˈkʊk.is / ˈbɪs.kɪts]',
   },
   {
     topic: 'food',
@@ -823,8 +823,8 @@ const flashcards = [{
   {
     topic: 'food',
     image: 'assets/images/chicken.jpg',
-    word: 'chicken',
-    ipa: '[ˈtʃɪk.ɪn]',
+    word: 'roast chicken',
+    ipa: '[roʊst ˈtʃɪk.ɪn]',
   },
   {
     topic: 'food',
