@@ -39,6 +39,8 @@ const grammarQuestions = [{
   },
   {
     grammarQuestion: 'Do you like melons?',
+    grammarTaskFrom: '?',
+    grammarTaskTo: '.',
     grammarChoices: [
       'Yes, I do. I like melons.',
       'Yes, I am. I like melon.',
@@ -49,6 +51,8 @@ const grammarQuestions = [{
   },
   {
     grammarQuestion: 'Do you like pineapples?',
+    grammarTaskFrom: '?',
+    grammarTaskTo: '.',
     grammarChoices: [
       "No, I don't. I don't like pineapples.",
       "No, I don't. I dont like pineapples.",
@@ -60,6 +64,8 @@ const grammarQuestions = [{
   },
   {
     grammarQuestion: 'Do you like pears?',
+    grammarTaskFrom: '?',
+    grammarTaskTo: '.',
     grammarChoices: [
       "No, I don't. I don't like pears.",
       'Yes, I am. I like pear.',
@@ -70,6 +76,8 @@ const grammarQuestions = [{
   },
   {
     grammarQuestion: 'Do you like bananas?',
+    grammarTaskFrom: '?',
+    grammarTaskTo: '.',
     grammarChoices: [
       'Yes, I do. Bananas are yummy.',
       "No, I don't. Bananas are yummy.",
