@@ -356,36 +356,49 @@ img {
   grid-column: 1/4;
   grid-row: 2/3;
   justify-self: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 50vw;
+  align-self: center;
+  min-width: 40vw;
   background: var(--linear-grad);
   border-radius: var(--br);
   color: var(--clr-neutral-900);
   padding: 1rem;
 }
 
-.grammar-quiz__question {
-  font-size: 3rem;
+.grammar-quiz__question--holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grammar-quiz__question,
+.grammar-quiz__tasks {
+  font-size: 5vh;
   font-weight: bold;
   margin-bottom: 3rem;
 }
 
-.grammar-quiz__answers {
+.grammar-quiz__tasks {
   display: flex;
-  flex-direction: column;
+  background-color: yellow;
+}
+
+.grammar-quiz__tasks div {
+  margin: auto 1rem;
+}
+
+.grammar-quiz__answers {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1rem
 }
 
 .grammar-quiz__answer {
-  margin: 0.5rem;
   padding: 1rem 1.5rem;
-  font-size: 2rem;
+  font-size: 3vh;
   letter-spacing: 0.1rem;
   border-radius: 1rem;
   border: 1px solid var(--clr-neutral-900);
-
+  text-align: left;
 }
 
 @media screen and (max-width: 97rem) and (min-width: 46rem) {
@@ -487,22 +500,7 @@ img {
 
   /* --- << Grammar_quiz page >> --- */
 
-  .grammar-quiz__holder {
-    width: 25rem;
-    height: 100%;
-  }
 
-  .grammar-quiz__question {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .grammar-quiz__answer {
-    width: 90%;
-    font-size: 3vh;
-    letter-spacing: 0.05rem;
-    margin: 1vh;
-  }
 
 }
 
