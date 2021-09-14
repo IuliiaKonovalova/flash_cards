@@ -41,11 +41,73 @@ const flashcards = [{
     ipa: '[ˈstrɑːˌber.i]',
   },
   {
-    topic: 'colors',
-    image: 'assets/images/orange_color.jpg',
-    word: 'orange',
-    ipa: '[ˈɔːr.ɪndʒ]',
+    topic: 'fruits',
+    image: 'assets/images/watermelon.jpg',
+    word: 'watermelon',
+    ipa: '[ˈwɑː.t̬ɚˌmel.ən]',
   },
+  {
+    topic: 'fruits',
+    image: 'assets/images/melon.jpg',
+    word: 'melon',
+    ipa: '[ˈmel.ən]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/raspberries.jpg',
+    word: 'raspberries',
+    ipa: '[ˈræz.ber.is]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/pomegranate.jpg',
+    word: 'pomegranate',
+    ipa: '[ˈpɑː.məˌɡræn.ɪt]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/plum.jpg',
+    word: 'plum',
+    ipa: '[plʌm]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/pineapple.jpg',
+    word: 'pineapple',
+    ipa: '[ˈpaɪnˌæp.əl]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/persimmon.jpg',
+    word: 'persimmon',
+    ipa: '[pɚˈsɪm.ən]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/passion_fruit.jpg',
+    word: 'passion fruit',
+    ipa: '[ˈpæʃ.ən ˌfruːt]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
+
+
   {
     topic: 'colors',
     image: 'assets/images/blue_color.jpg',
