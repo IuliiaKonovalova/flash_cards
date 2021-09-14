@@ -92,12 +92,6 @@ const flashcards = [{
     topic: 'fruits',
     image: 'assets/images/papaya.jpg',
     word: 'papaya',
-    ipa: '[]',
-  },
-  {
-    topic: 'fruits',
-    image: 'assets/images/papaya.jpg',
-    word: 'papaya',
     ipa: '[pəˈpaɪ.ə]',
   },
   {
@@ -106,7 +100,48 @@ const flashcards = [{
     word: 'papaya',
     ipa: '[]',
   },
-
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/papaya.jpg',
+    word: 'papaya',
+    ipa: '[]',
+  },
 
   {
     topic: 'colors',
