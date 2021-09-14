@@ -98,7 +98,7 @@ const flashcards = [{
     topic: 'fruits',
     image: 'assets/images/papaya.jpg',
     word: 'papaya',
-    ipa: '[]',
+    ipa: '[pəˈpaɪ.ə]',
   },
   {
     topic: 'fruits',
