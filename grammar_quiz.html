@@ -2,56 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Link to the css file-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Flash Cards</title>
+  <!--Link for FontAwesome icons-->
+  <script src="https://kit.fontawesome.com/9237ee6e28.js" crossorigin="anonymous"></script>
+
+  <!--Link to the css file-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Flash Cards</title>
 </head>
 
 <body>
 
-    <!--Menu Button-->
+  <!--Menu Button-->
 
-    <div class="button__menu">
-        <a href="index.html" class="btn__back">menu</a>
+  <div class="button__menu">
+    <a href="index.html" class="btn__navigation"><i class="fas fa-arrow-circle-left"></i></a>
+  </div>
+
+  <div class="button__instructions">
+    <a href="index.html" class="btn__navigation"><i class="fas fa-info-circle"></i></a>
+  </div>
+
+  <!--Instructions-->
+
+  <div class="title__holder">
+    <h1 class="title">Pick the correct answer.</h1>
+  </div>
+
+  <!--Grammar quiz container-->
+
+  <div class="grammar-quiz__holder">
+    <div class="grammar-quiz__question">bla</div>
+    <div class="grammar-quiz__answers" id=''>
+      <button id="grammar-quiz__answer1" class="grammar-quiz__answer"></button>
+      <button id="grammar-quiz__answer2" class="grammar-quiz__answer"></button>
+      <button id="grammar-quiz__answer3" class="grammar-quiz__answer"></button>
+      <button id="grammar-quiz__answer4" class="grammar-quiz__answer"></button>
     </div>
+  </div>
 
-    <!--Instructions-->
+  <!--Button Next Question-->
 
-    <div class="title__holder">
-        <h1 class="title">Pick the correct answer.</h1>
-    </div>
+  <div class="button__holder">
+    <button class="card__next" id="card__next">next card</button>
+  </div>
 
-    <!--Grammar quiz container-->
-
-    <div class="grammar-quiz__holder">
-        <div class="grammar-quiz__question">bla</div>
-        <div class="grammar-quiz__answers" id=''>
-            <button id="grammar-quiz__answer1" class="grammar-quiz__answer"></button>
-            <button id="grammar-quiz__answer2" class="grammar-quiz__answer"></button>
-            <button id="grammar-quiz__answer3" class="grammar-quiz__answer"></button>
-            <button id="grammar-quiz__answer4" class="grammar-quiz__answer"></button>
-        </div>
-    </div>
-
-    <!--Button Next Question-->
-
-    <div class="button__holder">
-        <button class="card__next" id="card__next">next card</button>
-    </div>
-
-    <!--Grammar quiz info-->
-    <!-- <div class="grammar-quiz__info">
+  <!--Grammar quiz info-->
+  <!-- <div class="grammar-quiz__info">
         <h2>Score: <span id="grammar-quiz__score"></span></h2>
         <h2>Question: <span id="grammar-quiz__question-number"></span></h2>
     </div> -->
 
-    <!--Script for js file-->
+  <!--Script for js file-->
 
-    <script src="assets/js/grammar_quiz.js"></script>
+  <script src="assets/js/grammar_quiz.js"></script>
 </body>
 
 </html>

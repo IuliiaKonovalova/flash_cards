@@ -112,8 +112,6 @@ body {
   outline: none;
 }
 
-
-
 .menu__link:hover {
   background: linear-gradient(to bottom, #0d67f7 20%, var(--clr-primary-100) 100%);
   background-color: #1e62d0;
@@ -121,7 +119,7 @@ body {
 
 /* Title Styling */
 
-.btn__back {
+.btn__navigation {
   background: var(--linear-grad-menu);
   background-color: var(--clr-primary-900);
   padding: 2vh 3vw;
@@ -137,7 +135,7 @@ body {
   font-size: 4vh;
 }
 
-.btn__back a {
+.btn__navigation a {
   text-decoration: none;
   outline: none;
 }
@@ -341,6 +339,19 @@ img {
 
 /* --- << Grammar_quiz page >> --- */
 
+.button__instructions {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  justify-self: right;
+  align-items: center;
+  margin: 1rem;
+}
+
+.button__instructions a {
+  text-decoration: none;
+  outline: none;
+}
+
 .grammar-quiz__holder {
   grid-column: 1/4;
   grid-row: 2/3;
@@ -504,7 +515,7 @@ img {
 
   /* Media for FCs */
 
-  .btn__back {
+  .btn__navigation {
     font-size: 2rem;
   }
 
