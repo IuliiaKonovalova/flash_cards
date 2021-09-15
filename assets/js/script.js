@@ -2479,6 +2479,36 @@ const flashcards = [{
     ipa: '[biːns]',
   },
   {
+    topic: 'grains',
+    image: 'assets/images/buckwheat.jpg',
+    word: 'buckwheat',
+    ipa: '[ˈbʌk.wiːt]',
+  },
+  {
+    topic: 'grains',
+    image: 'assets/images/oats.jpg',
+    word: 'oats',
+    ipa: '[oʊts]',
+  },
+  {
+    topic: 'grains',
+    image: 'assets/images/rice_grains.jpg',
+    word: 'rice',
+    ipa: '[raɪs]',
+  },
+  {
+    topic: 'grains',
+    image: 'assets/images/soybeans.jpg',
+    word: 'soybeans',
+    ipa: '[ˈsɔɪ.biːns]',
+  },
+  {
+    topic: 'grains',
+    image: 'assets/images/wheat.jpg',
+    word: 'wheat',
+    ipa: '[wiːt]',
+  },
+  {
     topic: 'transport',
     image: 'assets/images/van.jpg',
     word: 'van',
