@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
 const grammarQuestions = [{
 
     grammarQuestion: 'Do you like apples?',
-    grammarTaskFrom: '?',
-    grammarTaskTo: '.',
+    grammarTaskFrom: '?+',
+    grammarTaskTo: '.+',
     grammarChoices: [
       'Yes, I do. I like apples.',
       "Yes, I don't. I like apples.",
