@@ -522,10 +522,11 @@ img {
   .card__next {
     padding: 1rem;
     font-size: 1.5rem;
+    margin: 1rem
   }
 
 
-  /* --- << Grammar_quiz page >> --- */
+  /* Media for quiz page */
 
   .button__instructions {
     grid-column: 3/4;
@@ -640,5 +641,35 @@ img {
   .card__next {
     font-size: 1rem;
   }
+}
 
+@media (max-height: 43.25rem) and (min-width: 30rem) {
+
+  /* Media for quiz page */
+
+  .grammar-quiz__holder {
+    padding: 1.5rem;
+  }
+
+  .grammar-quiz__question--holder {
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+    gap: 1rem;
+  }
+
+  .grammar-quiz__question,
+  .grammar-quiz__tasks {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .grammar-quiz__answer {
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .card__next {
+    margin: 1rem;
+  }
 }
