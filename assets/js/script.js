@@ -2467,6 +2467,18 @@ const flashcards = [{
     ipa: '[væn]',
   },
   {
+    topic: 'grains',
+    image: 'assets/images/lentil.jpg',
+    word: 'lentil',
+    ipa: '[ˈlen.t̬əl]',
+  },
+  {
+    topic: 'grains',
+    image: 'assets/images/beans.jpg',
+    word: 'beans',
+    ipa: '[biːns]',
+  },
+  {
     topic: 'transport',
     image: 'assets/images/van.jpg',
     word: 'van',
