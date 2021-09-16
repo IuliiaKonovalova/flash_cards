@@ -776,20 +776,6 @@ img {
 
   /* Styling instruction*/
 
-  .overlay {
-    /* background: red; */
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    z-index: 5;
-  }
-
-  .overlay--hidden {
-    display: none;
-  }
-
   .modal {
     width: 43rem;
     max-width: 90%;
@@ -806,17 +792,5 @@ img {
 
   .modal__instructions ul li {
     font-size: 3.5vh;
-  }
-
-  .sign {
-    /* color: var(--clr-neutral-900);
-    margin-right: 2rem; */
-
-    background-color: #00e3c5;
-
-  }
-
-  .modal--hidden {
-    display: none;
   }
 }
