@@ -403,7 +403,6 @@ img {
 /* Styling instruction*/
 
 .overlay {
-  /* background: red; */
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -418,7 +417,6 @@ img {
 
 .modal {
   z-index: 10;
-  /* position: absolute; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -426,10 +424,9 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50rem;
+  width: 43rem;
   height: 35rem;
   background-color: var(--clr-neutral-900);
-  padding: 5rem;
   border-radius: var(--br);
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.7);
 }
@@ -638,6 +635,35 @@ img {
     font-size: 1.5rem;
     letter-spacing: 0.02rem;
   }
+
+  /* Styling instruction*/
+
+  .modal {
+    width: 90%;
+    height: 50%;
+  }
+
+  .close-modal {
+    top: 0.8rem;
+    right: 1.1rem;
+    font-size: 3.5rem;
+  }
+
+  .modal__instructions ul {
+    gap: 1rem;
+  }
+
+  .modal__instructions ul li {
+    font-size: 1.7vh;
+  }
+
+  .sign {
+    margin-right: 1.2rem;
+    width: 3rem;
+  }
+
+
+
 }
 
 
@@ -746,5 +772,51 @@ img {
 
   .card__next {
     margin: 1rem;
+  }
+
+  /* Styling instruction*/
+
+  .overlay {
+    /* background: red; */
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 5;
+  }
+
+  .overlay--hidden {
+    display: none;
+  }
+
+  .modal {
+    width: 43rem;
+    max-width: 90%;
+    height: 90%;
+  }
+
+  .close-modal {
+    font-size: 4rem;
+  }
+
+  .modal__instructions ul {
+    gap: 1rem;
+  }
+
+  .modal__instructions ul li {
+    font-size: 3.5vh;
+  }
+
+  .sign {
+    /* color: var(--clr-neutral-900);
+    margin-right: 2rem; */
+
+    background-color: #00e3c5;
+
+  }
+
+  .modal--hidden {
+    display: none;
   }
 }
