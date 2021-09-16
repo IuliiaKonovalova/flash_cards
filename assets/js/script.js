@@ -898,12 +898,71 @@ const flashcards = [{
     word: 'rice',
     ipa: '[raɪs]',
   },
-
   {
     topic: 'food',
     image: 'assets/images/tofu.jpg',
     word: 'tofu',
     ipa: '[ˈtoʊ.fuː]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/bacon.jpg',
+    word: 'bacon',
+    ipa: '[ˈbeɪ.kən]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/baguettes.jpg',
+    word: 'baguettes',
+    ipa: '[bæɡˈets]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/barbecue.jpg',
+    word: 'barbecue',
+    ipa: '[ˈbɑːr.bə.kjuː]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/butter.jpg',
+    word: 'butter',
+    ipa: '[ˈbʌt̬.ɚ]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/cake.jpg',
+    word: 'cake',
+    ipa: '[keɪk]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/candies.jpg',
+    word: 'candies',
+    ipa: '[ˈkæn.dis]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/cereals.jpg',
+    word: 'cereal',
+    ipa: '[ˈsɪr.i.əl]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/cheese.jpg',
+    word: 'cheese',
+    ipa: '[tʃiːz]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/chicken_nuggets.jpg',
+    word: 'chicken nuggets',
+    ipa: '[ˈtʃɪk.ɪn ˈnʌɡ.ɪts]',
+  },
+  {
+    topic: 'food',
+    image: 'assets/images/tofu.jpg',
+    word: 'tofu',
+    ipa: '[]',
   },
   {
     topic: 'weekdays',
