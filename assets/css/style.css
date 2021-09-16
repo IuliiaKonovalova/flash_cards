@@ -412,6 +412,10 @@ img {
   z-index: 5;
 }
 
+.overlay--hidden {
+  display: none;
+}
+
 .modal {
   z-index: 10;
   /* position: absolute; */
@@ -465,6 +469,10 @@ img {
   background-color: #00e3c585;
   width: 5rem;
   text-align: center;
+}
+
+.modal--hidden {
+  display: none;
 }
 
 @media screen and (max-width: 97rem) and (min-width: 46rem) {

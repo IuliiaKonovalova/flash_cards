@@ -1,29 +1,5 @@
 /// << << GRAMMAR QUIZ >> >> ///
 
-const cardNextButton = document.querySelector('#card__next');
-
-// Wait for the DOM to finish loading before running the quiz
-
-document.addEventListener('DOMContentLoaded', function () {
-  generateGrammarQuestion();
-
-  // answerOptions.forEach((quizAnswer) =>
-  //      quizAnswer.addEventListener('click', checkForAnswer)
-  // );
-
-  // Change Card on click
-
-  cardNextButton.addEventListener('click', generateGrammarQuestion);
-
-  // Click enter to go to another card
-
-  cardNextButton.addEventListener('keydown', function (event) {
-    if (event.key === 'Enter') {
-      generateGrammarQuestion();
-    }
-  });
-});
-
 const grammarQuestions = [{
 
     grammarQuestion: 'Do you like apples?',
@@ -87,6 +63,64 @@ const grammarQuestions = [{
     correct: 'Yes, I do. Bananas are yummy.',
   },
 ];
+
+const btnNextCard = document.querySelector('#card__next');
+const modal = document.querySelector('#modal');
+const overlay = document.querySelector('#overlay');
+const btnCloseModal = document.querySelector('#close-modal');
+const btnOpenModal = document.querySelector('#button__instructions');
+
+// Wait for the DOM to finish loading before running the quiz
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  //New question
+  generateGrammarQuestion();
+
+  //Open Instructions for the quiz
+  btnOpenModal.addEventListener('click', openModal);
+
+  //Close instructions for the quiz
+  btnCloseModal.addEventListener('click', closeModal);
+
+  overlay.addEventListener('click', closeModal);
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+      closeModal();
+    }
+  });
+
+  // Change Card on click
+
+  btnNextCard.addEventListener('click', generateGrammarQuestion);
+
+  // Click enter to go to another card
+
+  btnNextCard.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+      generateGrammarQuestion();
+    }
+  });
+});
+
+/**
+ * Open instructions modal window
+ */
+const openModal = function () {
+  modal.classList.remove('modal--hidden');
+  overlay.classList.remove('overlay--hidden');
+};
+
+/**
+ * Close instructions modal window
+ */
+const closeModal = function () {
+  modal.classList.add('modal--hidden');
+  overlay.classList.add('overlay--hidden');
+};
+
+
 
 /**
  *
