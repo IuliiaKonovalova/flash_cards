@@ -494,7 +494,7 @@ img {
   grid-row: 2/3;
   justify-self: center;
   align-self: center;
-  background-color: hotpink;
+  /* background-color: hotpink; */
   font-size: 7vh;
   font-weight: bold;
 }
@@ -510,7 +510,7 @@ img {
 .btn__check__holder {
   grid-row: 4/5;
   justify-self: center;
-  align-self: center;
+  align-self: start;
   /* display: flex; */
 }
 
@@ -518,7 +518,8 @@ img {
   /* width: 100%; */
   font-size: 3rem;
   padding: 1rem;
-  width: 20vw;
+  width: 100%;
+  /* max-width: 90%; */
   border-radius: 0.2em;
 }
 
@@ -529,9 +530,10 @@ input {
 }
 
 input[required]:placeholder-shown {
-  background: hotpink;
-  color: #003580;
-  border-color: yellow;
+  background: var(--clr-primary-500);
+  color: #000e22;
+  border: 2px solid var(--clr-neutral-900);
+  text-align: center;
 }
 
 input:focus {
@@ -539,12 +541,33 @@ input:focus {
 }
 
 .btn__check {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  padding: 2rem;
+  box-shadow: inset 0px 1px 0px 0px #dcecfb;
+  background: linear-gradient(to bottom, #0669cc 1%, #54a3f1 100%);
+  background-color: #bddbfa;
   border-radius: 0.5em;
+  border: 1px solid #0669cc;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--clr-neutral-900);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem 2.5rem;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #03050788;
 }
+
+.btn__check:hover {
+  background: linear-gradient(to bottom, #0669cc 60%, #54a3f157 100%);
+  /* background-color: var(--clr-primary-500); */
+}
+
+.btn__check:active {
+  position: relative;
+  top: 1px;
+}
+
+
 
 @media screen and (max-width: 97rem) and (min-width: 46rem) {
 
