@@ -86,6 +86,30 @@ const grammarQuestions = [{
     ],
     correct: 'Yes, I do. I want to be a nurse.',
   },
+  {
+    grammarQuestion: "No, I don't. I don't want to be a doctor",
+    grammarTaskFrom: '.-',
+    grammarTaskTo: '?+',
+    grammarChoices: [
+      'Do I want to be a doctor.',
+      'Do I want be a doctor?',
+      "Don't I want to be a doctor?",
+      'Yes, I do. I want to be a doctor.',
+    ],
+    correct: 'Do I want be a doctor?',
+  },
+  {
+    grammarQuestion: "I don't want to be a singer",
+    grammarTaskFrom: '.',
+    grammarTaskTo: '.-',
+    grammarChoices: [
+      'No, I do. I dont want to be singer.',
+      "No, I don't. I don't want to be a singer.",
+      "Don't I want to be a singer?",
+      "No, I did. I didn't want to be a singer.",
+    ],
+    correct: "No, I don't. I don't want to be a singer.",
+  },
 ];
 
 const btnNextCard = document.querySelector('#card__next');
