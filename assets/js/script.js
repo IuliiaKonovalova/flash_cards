@@ -3045,7 +3045,6 @@ btnVoiceGb.addEventListener('click', clickHandlerGb);
  * Add voice on click
  * for US
  */
-
 function clickHandlerUs(event) {
   event.stopPropagation()
   let msg = new SpeechSynthesisUtterance();
@@ -3058,7 +3057,6 @@ function clickHandlerUs(event) {
  * Add voice on click
  * for GB
  */
-
 function clickHandlerGb(event) {
   event.stopPropagation()
   let msg = new SpeechSynthesisUtterance();
@@ -3084,28 +3082,24 @@ document.addEventListener('DOMContentLoaded', function () {
       generateCard();
     }
   });
-
 });
-
 
 
 /**
  *
  * Generate random index for the FC
  */
-
 const createRandom = function () {
   return Math.floor(Math.random() * flashcards.length);
 };
+
+
+let temporaryCardsArray = [];
 
 /**
  * Function generates the Flash Card for the user
  * with all visible elements
  */
-
-let temporaryCardsArray = [];
-
-
 const generateCard = function () {
   if (flashcards.length === 0) {
     flashcards.push.apply(flashcards, temporaryCardsArray);
