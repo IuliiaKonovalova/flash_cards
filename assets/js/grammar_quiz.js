@@ -58,9 +58,33 @@ const grammarQuestions = [{
       'Yes, I do. Bananas are yummy.',
       "No, I don't. Bananas are yummy.",
       'Yes, I do. Bananas is yucky.',
-      "No, I don't. Banana are yucky",
+      "No, I don't. Banana are yucky.",
     ],
     correct: 'Yes, I do. Bananas are yummy.',
+  },
+  {
+    grammarQuestion: 'What do you want to be?',
+    grammarTaskFrom: '?+',
+    grammarTaskTo: '.',
+    grammarChoices: [
+      'I wanted to be a teacher.',
+      "I want a teacher.",
+      'I want to be a teacher.',
+      "I want be a teacher.",
+    ],
+    correct: 'I want to be a teacher.',
+  },
+  {
+    grammarQuestion: 'I want to be a nurse.',
+    grammarTaskFrom: '.',
+    grammarTaskTo: '.+',
+    grammarChoices: [
+      'Yes, I want to be a nurse.',
+      "Yes, I be a nurse",
+      "Yes, don't. I want to be a teacher.",
+      "Yes, I do. I want to be a nurse.",
+    ],
+    correct: 'Yes, I do. I want to be a nurse.',
   },
 ];
 
