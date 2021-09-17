@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Link for FontAwesome icons-->
+  <script src="https://kit.fontawesome.com/9237ee6e28.js" crossorigin="anonymous"></script>
+
+  <!--Link to the css file-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Flash Cards</title>
+</head>
+
+<body>
+
+  <!--Menu Button-->
+
+  <div class="button__menu">
+    <a href="index.html" class="btn__navigation"><i class="fas fa-arrow-circle-left"></i></a>
+  </div>
+
+  <!--Flash Card-->
+
+  <div class="title__holder">
+    <h1 class="title">Listen & spell</h1>
+  </div>
+
+
+  <div class="card__holder">
+    <div class="card">
+      <div class="card__main card--front">
+        <div class="word__key"></div>
+        <div class="word__sound">
+          <div class="voice__option" id="voice__option--US">
+            <p class="voice__name">US</p>
+            <a class="voice__btn"><i class="fas fa-volume-up voice__icon" id="voice__icon--US"></i></a>
+          </div>
+          <div class="voice__option" id="voice__option--GB">
+            <p class="voice__name">GB</p>
+            <a class="voice__btn"><i class="fas fa-volume-up voice__icon " id="voice__icon--BG"></i></a>
+          </div>
+        </div>
+        <div class="word__answer"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--Button Next Card-->
+
+  <div class="button__holder">
+    <button class="card__next" id="card__next">next card</button>
+  </div>
+
+  <!--Script for js file-->
+
+  <script src="assets/js/spelling_quiz.js"></script>
+</body>
+
+</html>
