@@ -1,4 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Animal Shelter logo](documentation/yingwen_logo.png)
+
+---
+
+
+
+![size](https://img.shields.io/github/repo-size/IuliiaKonovalova/flash_cards?color=purple)
+
+
+
 
 Welcome USER_NAME,
 
