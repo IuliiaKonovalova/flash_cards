@@ -863,17 +863,9 @@ input:focus {
     padding: 1.5rem;
   }
 
-  /* .grammar-quiz__question--holder {
-    display: grid;
-    grid-template-columns: 0.5fr 4fr;
-    gap: 1rem;
-  }
-
-  .grammar-quiz__question,
-  .grammar-quiz__tasks {
+  .grammar-quiz__question {
     font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-  } */
+  }
 
   .grammar-quiz__answer {
     padding: 0.5rem;
