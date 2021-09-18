@@ -1,3 +1,24 @@
+const words = [{
+    topic: 'fruits',
+    image: 'assets/images/apple.jpg',
+    word: 'apple',
+    ipa: '[ˈæp.əl]',
+  },
+  {
+    topic: 'fruits',
+    image: 'assets/images/banana.jpg',
+    word: 'banana',
+    ipa: '[bəˈnæn.ə]',
+  },
+]
+
+
+//main variables
+const btnCheck = document.querySelector('#btn__check');
+const cardNextButton = document.querySelector('#card__next');
+const btnVoiceUs = document.querySelector("#voice__option--US");
+const btnVoiceGb = document.querySelector("#voice__option--GB");
+
 // Wait for the DOM to finish loading before running the quiz
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -20,3 +41,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 })
+
+
+/**
+ * Add voice task on click
+ */
+
+//American pronunciation
+
+//British pronunciation
