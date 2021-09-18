@@ -1,4 +1,6 @@
-const wordsArray = ['apple', 'banana', 'grapes']
+const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'strawberry', 'watermelon', 'melon', 'raspberries', 'pomegranate', 'plum', 'pineapple', 'persimmon', 'passion fruit', 'papaya', 'mangosteen', 'lime', 'mango', 'grapefruit', 'kiwi', 'lemon', 'lychee', 'mandarin', 'jackfruit', 'durian', 'fruits', 'dragon fruit', 'coconut',
+  'cherry', 'blueberries', 'pumpkin', 'blackberries', 'avocado', 'apricot', 'berries', 'color', 'blue', 'brown', 'gold', 'gray', 'green', 'pink', 'purple', 'white', 'red', 'silver', 'yellow',
+]
 
 
 //main variables
@@ -31,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
       checkSpelling();
     }
   });
+
 })
 
 
@@ -88,11 +91,8 @@ const generateWord = function () {
 
   //Delete shown word from the main array
   //Push the word into temporary array
-  // temporaryWordsArray.push(wordsArray[randomIndex]);
-  // wordsArray.splice([randomIndex], 1);
-
-
-
+  temporaryWordsArray.push(wordsArray[randomIndex]);
+  wordsArray.splice([randomIndex], 1);
 }
 
 /**
