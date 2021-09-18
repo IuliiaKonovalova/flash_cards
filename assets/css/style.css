@@ -472,6 +472,7 @@ img {
   display: none;
 }
 
+/* --- << Spelling_quiz page >> --- */
 
 .card--quiz {
   background: var(--linear-grad);
@@ -494,7 +495,6 @@ img {
   grid-row: 2/3;
   justify-self: center;
   align-self: center;
-  /* background-color: hotpink; */
   font-size: 7vh;
   font-weight: bold;
 }
@@ -527,12 +527,26 @@ input {
   font-family: inherit;
   padding: .5em;
   border: 3px solid var(--clr-bg);
+
 }
 
-input[required]:placeholder-shown {
-  background: var(--clr-primary-500);
-  color: #000e22;
+input:placeholder-shown {
+  background: #5bd3f7;
   border: 2px solid var(--clr-neutral-900);
+  text-align: center;
+  /* color: #000; */
+  /* font-size: 4rem; */
+  /* color: purple; */
+  font-style: italic;
+}
+
+input::placeholder {
+  color: #20054975;
+}
+
+input:not(:placeholder-shown) {
+  color: var(--clr-neutral-900);
+  /* background: #7ce0ff; */
   text-align: center;
 }
 

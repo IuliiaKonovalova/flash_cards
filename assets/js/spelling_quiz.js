@@ -1,16 +1,4 @@
-const wordsArray = [{
-    topic: 'fruits',
-    image: 'assets/images/apple.jpg',
-    word: 'apple',
-    ipa: '[ˈæp.əl]',
-  },
-  {
-    topic: 'fruits',
-    image: 'assets/images/banana.jpg',
-    word: 'banana',
-    ipa: '[bəˈnæn.ə]',
-  },
-]
+const wordsArray = ['apple', 'banana', 'grapes']
 
 
 //main variables
@@ -30,11 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   // Listen for the arrow right to switch the question:
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'ArrowRight') {
-      generateWord();
-    }
-  });
+  // btnCheck.addEventListener('keydown', function (e) {
+  //   if (e.key === 'ArrowRight') {
+  //     generateWord();
+  //   }
+  // });
+  btnNextCard.addEventListener('click', generateWord);
 
   // Listen for the Enter to check the spelling
   btnNextCard.addEventListener('keydown', function (event) {
@@ -86,11 +75,40 @@ const generateWord = function () {
     wordsArray.push.apply(wordsArray, temporaryWordsArray)
   }
 
-  let keyWord = document.getElementsByClassName('word__key')[0];
+  // let keyWord = document.getElementsByClassName('word__key')[0];
+  let answerInput = document.querySelector('#word__key--input');
+  answerInput.style.backgroundColor = "#5bd3f7";
+  const randomIndex = createRandom();
+  document.getElementsByClassName('word__key')[0].innerText = '';
+  answerInput.value = '';
 
-  let randomIndex = createRandom();
+  console.log(wordsArray[randomIndex])
 
-  keyWord.innerText = wordsArray[randomIndex].word;
+  currentWord = wordsArray[randomIndex];
 
-  currentWord = wordsArray[randomIndex].word;
+  //Delete shown word from the main array
+  //Push the word into temporary array
+  // temporaryWordsArray.push(wordsArray[randomIndex]);
+  // wordsArray.splice([randomIndex], 1);
+
+
+
 }
+
+/**
+ * Check whether the answer is correct
+ * display the correct answer
+ */
+
+const checkSpelling = function () {
+  document.getElementsByClassName('word__key')[0].innerText = currentWord;
+  let answerInput = document.querySelector('#word__key--input');
+  if (answerInput.value === currentWord) {
+
+    answerInput.style.backgroundColor = '#008a5a';
+  } else {
+    answerInput.style.backgroundColor = '#c26ee3';
+  }
+}
+
+btnCheck.addEventListener('click', checkSpelling)
