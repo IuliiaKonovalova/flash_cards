@@ -111,4 +111,4 @@ const checkSpelling = function () {
   }
 }
 
-btnCheck.addEventListener('click', checkSpelling);
+// btnCheck.addEventListener('click', checkSpelling);

@@ -481,8 +481,6 @@ img {
   grid-template-rows: repeat(4, 1fr);
 }
 
-
-
 .word__sound {
   grid-row: 1/2;
   justify-self: center;
@@ -503,23 +501,18 @@ img {
   grid-row: 3/4;
   justify-self: center;
   align-self: center;
-  /* display: flex; */
-  /* width: 100%; */
 }
 
 .btn__check__holder {
   grid-row: 4/5;
   justify-self: center;
   align-self: start;
-  /* display: flex; */
 }
 
 .word__key--input {
-  /* width: 100%; */
   font-size: 3rem;
   padding: 1rem;
   width: 100%;
-  /* max-width: 90%; */
   border-radius: 0.2em;
 }
 
@@ -534,9 +527,6 @@ input:placeholder-shown {
   background: #5bd3f7;
   border: 2px solid var(--clr-neutral-900);
   text-align: center;
-  /* color: #000; */
-  /* font-size: 4rem; */
-  /* color: purple; */
   font-style: italic;
 }
 
@@ -571,9 +561,12 @@ input:focus {
   text-shadow: 0px 1px 0px #03050788;
 }
 
+.btn__check:focus {
+  outline: none;
+}
+
 .btn__check:hover {
   background: linear-gradient(to bottom, #0669cc 60%, #54a3f157 100%);
-  /* background-color: var(--clr-primary-500); */
 }
 
 .btn__check:active {
