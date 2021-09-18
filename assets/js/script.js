@@ -3030,6 +3030,25 @@ const cardNextButton = document.querySelector('#card__next');
 const btnVoiceUs = document.querySelector("#voice__option--US");
 const btnVoiceGb = document.querySelector("#voice__option--GB");
 
+// Wait for the DOM to finish loading before running the quiz
+
+document.addEventListener('DOMContentLoaded', function () {
+  generateCard();
+
+  // Change Card on click
+
+  cardNextButton.addEventListener('click', generateCard);
+
+  // Click enter to go to another card
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+      generateCard();
+    }
+  });
+});
+
+
 // Flip card on the click
 
 card.addEventListener('click', function (e) {
@@ -3066,23 +3085,7 @@ function clickHandlerGb(event) {
 }
 
 
-// Wait for the DOM to finish loading before running the quiz
 
-document.addEventListener('DOMContentLoaded', function () {
-  generateCard();
-
-  // Change Card on click
-
-  cardNextButton.addEventListener('click', generateCard);
-
-  // Click enter to go to another card
-
-  cardNextButton.addEventListener('keydown', function (event) {
-    if (event.key === 'Enter') {
-      generateCard();
-    }
-  });
-});
 
 
 /**

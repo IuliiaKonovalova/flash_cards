@@ -20,30 +20,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   // Listen for the arrow right to switch the question:
-  // btnCheck.addEventListener('keydown', function (e) {
-  //   if (e.key === 'ArrowRight') {
-  //     generateWord();
-  //   }
-  // });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowRight') {
+      generateWord();
+    }
+  });
   btnNextCard.addEventListener('click', generateWord);
 
   // Listen for the Enter to check the spelling
-  btnNextCard.addEventListener('keydown', function (event) {
+  document.addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
       checkSpelling();
     }
   });
-
+  btnCheck.addEventListener('click', checkSpelling);
+  btnVoiceUs.addEventListener('click', clickHandlerUs);
+  btnVoiceGb.addEventListener('click', clickHandlerGb);
 })
 
 
-btnVoiceUs.addEventListener('click', clickHandlerUs);
-btnVoiceGb.addEventListener('click', clickHandlerGb);
+
 
 /**
  * Add US voice task on click
  */
-function clickHandlerUs(event) {
+function clickHandlerUs() {
   // event.stopPropagation()
   let msg = new SpeechSynthesisUtterance();
   msg.lang = 'en-US';
@@ -54,7 +55,7 @@ function clickHandlerUs(event) {
 /**
  * Add US voice task on click
  */
-function clickHandlerGb(event) {
+function clickHandlerGb() {
   event.stopPropagation()
   let msg = new SpeechSynthesisUtterance();
   msg.lang = 'en-GB';
@@ -77,15 +78,15 @@ const generateWord = function () {
   if (wordsArray.length === 0) {
     wordsArray.push.apply(wordsArray, temporaryWordsArray)
   }
-
-  // let keyWord = document.getElementsByClassName('word__key')[0];
+  //Update input for new word
   let answerInput = document.querySelector('#word__key--input');
   answerInput.style.backgroundColor = "#5bd3f7";
-  const randomIndex = createRandom();
+
+  // Hide the key word
   document.getElementsByClassName('word__key')[0].innerText = '';
   answerInput.value = '';
 
-  console.log(wordsArray[randomIndex])
+  const randomIndex = createRandom();
 
   currentWord = wordsArray[randomIndex];
 
@@ -99,7 +100,6 @@ const generateWord = function () {
  * Check whether the answer is correct
  * display the correct answer
  */
-
 const checkSpelling = function () {
   document.getElementsByClassName('word__key')[0].innerText = currentWord;
   let answerInput = document.querySelector('#word__key--input');
@@ -111,4 +111,4 @@ const checkSpelling = function () {
   }
 }
 
-btnCheck.addEventListener('click', checkSpelling)
+btnCheck.addEventListener('click', checkSpelling);
