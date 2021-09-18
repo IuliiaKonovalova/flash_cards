@@ -50,3 +50,17 @@ document.addEventListener('DOMContentLoaded', function () {
 //American pronunciation
 
 //British pronunciation
+
+
+/**
+ *
+ * Generate random index for the words array
+ */
+
+const createRandom = function () {
+  return Math.floor(Math.random() * flashcards.length);
+};
+
+/**
+ * Generates the word for the user
+ */
