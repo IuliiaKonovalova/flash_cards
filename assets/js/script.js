@@ -3029,6 +3029,8 @@ const card = document.querySelector('.card');
 const cardNextButton = document.querySelector('#card__next');
 const btnVoiceUs = document.querySelector("#voice__option--US");
 const btnVoiceGb = document.querySelector("#voice__option--GB");
+let currentWord;
+let temporaryCardsArray = [];
 
 // Wait for the DOM to finish loading before running the quiz
 
@@ -3046,19 +3048,16 @@ document.addEventListener('DOMContentLoaded', function () {
       generateCard();
     }
   });
+  btnVoiceUs.addEventListener('click', clickHandlerUs);
+  btnVoiceGb.addEventListener('click', clickHandlerGb);
 });
 
 
 // Flip card on the click
-
 card.addEventListener('click', function (e) {
   e.preventDefault();
   card.classList.toggle('is-flipped');
 });
-
-let currentWord;
-btnVoiceUs.addEventListener('click', clickHandlerUs);
-btnVoiceGb.addEventListener('click', clickHandlerGb);
 
 /**
  * Add voice on click
@@ -3084,10 +3083,6 @@ function clickHandlerGb(event) {
   speechSynthesis.speak(msg);
 }
 
-
-
-
-
 /**
  *
  * Generate random index for the FC
@@ -3096,8 +3091,6 @@ const createRandom = function () {
   return Math.floor(Math.random() * flashcards.length);
 };
 
-
-let temporaryCardsArray = [];
 
 /**
  * Function generates the Flash Card for the user
