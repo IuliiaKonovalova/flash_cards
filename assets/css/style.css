@@ -337,6 +337,10 @@ img {
   background-color: #1e62d0;
 }
 
+.card__next:focus {
+  outline: 0;
+}
+
 /* --- << Grammar_quiz page >> --- */
 
 .button__instructions {
@@ -562,7 +566,7 @@ input:focus {
 }
 
 .btn__check:focus {
-  outline: none;
+  outline: 0;
 }
 
 .btn__check:hover {
