@@ -3145,7 +3145,7 @@ const generateCard = function () {
   let randomIndex = createRandom();
 
   cardTopic.innerText = flashcards[randomIndex].topic;
-  cardImage.innerHTML = `<img src = ${flashcards[randomIndex].image}>`;
+  cardImage.innerHTML = `<img loading="lazy" src = ${flashcards[randomIndex].image} alt=${flashcards[randomIndex].imageAlt}>`;
 
   cardWord.innerText = flashcards[randomIndex].word;
   CardIpa.innerText = flashcards[randomIndex].ipa;
