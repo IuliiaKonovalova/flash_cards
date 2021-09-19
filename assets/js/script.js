@@ -538,7 +538,7 @@ const flashcards = [{
   {
     topic: 'actions',
     image: 'assets/images/play_tennis.jpg',
-    imageAlt: 'person plays tennis',
+    imageAlt: 'girl plays tennis',
     word: 'play tennis',
     ipa: '[pleɪ ˈten.ɪs]',
   },
@@ -592,14 +592,14 @@ const flashcards = [{
   {
     topic: 'actions',
     image: 'assets/images/play_the_fiddle.jpg',
-    imageAlt: 'man play the fiddle',
+    imageAlt: 'woman play the fiddle',
     word: 'play the fiddle',
     ipa: '[pleɪ ðə ˈfɪd.əl]',
   },
   {
     topic: 'actions',
     image: 'assets/images/play_the_violin.jpg',
-    imageAlt: 'man play the violin',
+    imageAlt: 'woman play the violin',
     word: 'play the violin',
     ipa: '[pleɪ ðə ˌvaɪəˈlɪn]',
   },
@@ -658,13 +658,6 @@ const flashcards = [{
     imageAlt: 'kids play with toys',
     word: 'play with',
     ipa: '[pleɪ wɪð]',
-  },
-  {
-    topic: 'actions',
-    image: 'assets/images/relay_race.jpg',
-    imageAlt: 'woman runs in relay race',
-    word: 'relay race',
-    ipa: '[ˈriː.leɪ reɪs]',
   },
   {
     topic: 'actions',
@@ -1854,6 +1847,7 @@ const flashcards = [{
   {
     topic: 'sport',
     image: 'assets/images/relay_race.jpg',
+    imageAlt: 'woman runs in relay race',
     word: 'the relay race',
     ipa: '[ðə ˈriː.leɪ reɪs]',
   },
