@@ -98,10 +98,16 @@ body {
 /* --- << FC page >> --- */
 
 /* Menu Button */
+.header {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
 
 .button__menu {
   grid-column: 1/2;
-  grid-row: 1/2;
   justify-self: left;
   align-items: center;
   margin: 1rem;
@@ -125,10 +131,6 @@ body {
   padding: 2vh 3vw;
   border-radius: var(--br);
   color: var(--clr-neutral-900);
-  grid-column: 1/2;
-  grid-row: 1/2;
-  justify-self: center;
-  align-items: center;
   display: flex;
   align-content: center;
   align-items: center;
@@ -142,7 +144,6 @@ body {
 
 .title__holder {
   grid-column: 2/3;
-  grid-row: 1/2;
   justify-self: center;
   align-items: center;
   display: flex;
