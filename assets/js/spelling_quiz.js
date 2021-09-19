@@ -110,5 +110,3 @@ const checkSpelling = function () {
     answerInput.style.backgroundColor = '#c26ee3';
   }
 }
-
-// btnCheck.addEventListener('click', checkSpelling);
