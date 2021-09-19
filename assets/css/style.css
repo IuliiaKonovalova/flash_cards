@@ -517,15 +517,14 @@ img {
 }
 
 .word__key--input {
-  font-size: 3rem;
+  font-size: 5vh;
   padding: 1rem;
-  width: 100%;
+  width: 27vw;
   border-radius: 0.2em;
 }
 
 input {
   font-family: inherit;
-  padding: .5em;
   border: 3px solid var(--clr-bg);
 
 }
@@ -543,7 +542,6 @@ input::placeholder {
 
 input:not(:placeholder-shown) {
   color: var(--clr-neutral-900);
-  /* background: #7ce0ff; */
   text-align: center;
 }
 
@@ -563,7 +561,7 @@ input:focus {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: bold;
-  padding: 1.5rem 2.5rem;
+  padding: 2vh 2.2vw;
   text-decoration: none;
   text-shadow: 0px 1px 0px #03050788;
 }
@@ -619,12 +617,6 @@ input:focus {
     padding: 1.5rem;
   }
 
-  /* .grammar-quiz__question--holder {
-    display: flex;
-    flex-direction: column;
-  } */
-
-
   .grammar-quiz__tasks,
   .grammar-quiz__question {
     font-size: 3vh;
@@ -635,6 +627,13 @@ input:focus {
     padding: 1rem;
     font-size: 2.5vh;
     letter-spacing: 0.05rem;
+  }
+
+
+  /* Media for spelling page */
+
+  .word__key--input {
+    width: 50vw;
   }
 }
 
@@ -774,6 +773,12 @@ input:focus {
     width: 3rem;
   }
 
+  /* Media for spelling page */
+
+  .word__key--input {
+    width: 73vw;
+    font-size: 3vh;
+  }
 
 
 }
