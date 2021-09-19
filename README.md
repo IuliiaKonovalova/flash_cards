@@ -11,7 +11,11 @@
 
 Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. 
+
+The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash_cards/)
+
+The last update to this file was: **July 2, 2021**
 
 ## Gitpod Reminders
 
