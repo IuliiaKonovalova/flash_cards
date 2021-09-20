@@ -863,6 +863,14 @@ input:focus {
 
   /* Media for quiz page */
 
+  .title__holder {
+    display: none;
+  }
+
+  .card__holder {
+    width: 30vw;
+  }
+
   .grammar-quiz__holder {
     padding: 1.5rem;
   }
@@ -881,7 +889,7 @@ input:focus {
     margin: 1rem;
   }
 
-  /* Styling instruction*/
+  /* Media for instruction*/
 
   .modal {
     width: 43rem;
