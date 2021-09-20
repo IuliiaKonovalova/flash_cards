@@ -15,7 +15,7 @@ This is the Code Institute student template for Gitpod. We have preinstalled all
 
 The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash_cards/)
 
-The last update to this file was: **July 2, 2021**
+![Responsive Mockup](documentation/responsive_mockup.png)
 
 ## Gitpod Reminders
 
