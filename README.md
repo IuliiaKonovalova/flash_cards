@@ -1,22 +1,15 @@
-![Animal Shelter logo](documentation/yingwen_logo.png)
+![Animal Shelter Logo](documentation/yingwen_logo.png)
 
----
+# *YINGWEN*
 
-
-
-![size](https://img.shields.io/github/repo-size/IuliiaKonovalova/flash_cards?color=purple)
-
-
-
-
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. 
+YINGWEN app was build in order to ease the struggles that Chinese students experience daily. Since Chinese children are not allowed to study English besides school facilities nowadays, they have to attain tons of information for a short period by themselves. This app will help them to learn English and get the highest grades in their final exams. YINGWEN app is mainly aimed at enhancing English skills and passing the final English exams at primary and middle schools.
 
 The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash_cards/)
 
 ![Responsive Mockup](documentation/responsive_mockup.png)
 
+
+hgkh
 
 
 
