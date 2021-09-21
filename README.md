@@ -9,7 +9,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 ![Responsive Mockup](documentation/responsive_mockup.png)
 
 
-hgkh
+
 
 
 
@@ -19,14 +19,25 @@ hgkh
 + ##### HTML
     - No errors or warnings were found when passing through the official W3C validator.
       - Menu Page:
-      - Flash Card Page:
+          ![Menu Page HTML Validator](documentation/menu_page_html_validator.png)
+      - Card Page:
+          ![Cards Page HTML Validator](documentation/flash_cards_page_html_validator.png)
       - Grammar Quiz:
+          ![Grammar Quiz Page HTML Validator](documentation/grammar_quiz_page_html_validator.png)
       - Spelling Quiz:
+          ![Spelling Quiz Page HTML Validator](documentation/spelling_quiz_page_html_validator.png)
     
 + ##### CSS
-    - No errors or warnings were found when passing through the official W3C (Jigsaw) validator except the warnings that all: unset properties do not exist.
+    - No errors or warnings were found when passing through the official W3C (Jigsaw) validator except the warnings that all: 
       - Menu Page:
-      - Flash Card Page:
+      - Cards Page:
+      - Grammar Quiz:
+      - Spelling Quiz:
+
++ ##### JS
+    - No errors or warnings were found when passing through the official Jshint validator except the warnings that all: 
+      - Menu Page:
+      - Cards Page:
       - Grammar Quiz:
       - Spelling Quiz:
 
@@ -34,8 +45,8 @@ hgkh
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
       - Menu Page:
           ![Menu Page Performance Score](documentation/menu_page_performance.png)
-      - Flash Card Page:
-          ![Flash Cards Page Performance Score](documentation/flash_cards_performance.png)
+      - Cards Page:
+          ![Cards Page Performance Score](documentation/flash_cards_performance.png)
       - Grammar Quiz:
           ![Grammar Quiz Page Performance Score](documentation/grammar_quiz_performance.png)
       - Spelling Quiz:
