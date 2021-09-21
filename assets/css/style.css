@@ -137,9 +137,12 @@ body {
   font-size: 4vh;
 }
 
+.btn__navigation--back {
+  outline: none;
+}
+
 .btn__navigation--back a {
   text-decoration: none;
-  outline: none;
 }
 
 .title__holder {
@@ -352,9 +355,10 @@ img {
   margin: 1rem;
 }
 
-.button__instructions a {
+.button__instructions .btn__navigation--back {
   text-decoration: none;
   outline: none;
+  border: none;
 }
 
 .grammar-quiz__holder {
