@@ -39,7 +39,14 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
 + ##### Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
-
+      - Menu Page:
+          ![Menu Page Performance Score](documentation/menu_page_performance.png)
+      - Flash Card Page:
+          ![Flash Cards Page Performance Score](documentation/flash_cards_performance.png)
+      - Grammar Quiz:
+          ![Grammar Quiz Page Performance Score](documentation/grammar_quiz_performance.png)
+      - Spelling Quiz:
+          ![Grammar Quiz Page Performance Score](documentation/spelling_quiz_performance.png)
 
 
 
