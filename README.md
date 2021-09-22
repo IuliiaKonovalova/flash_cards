@@ -51,6 +51,25 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 ​
 ---
 
++ ### Flash Cards Page
+
+    - It has a button at the top left corner of the screen, which leads to the menu page;
+
+    - It has Flash Cards, which consist a word's topic and a descriptive picture of word;
+
+    - It has a button, which replace the current word with another one; 
+
+    ![Flash Card Page](documentation/cards_page_front_screenshot.png)
+
+    - After clicking on the card:  
+
+        - Card has the key word, IPA of the word, and sound buttons, which allow the user to listen to the correct American and British pronunciation of the word:
+
+    ![Flash Card Back Page](documentation/cards_page_back_screenshot.png)
+
+---
+
+
 
 
 ## Validator testing
