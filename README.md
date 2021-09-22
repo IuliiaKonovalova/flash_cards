@@ -122,7 +122,11 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
 ---
 
+## Flowchart
 
+The flowchart represent the logic of the application:
+
+  ![Flash Card Page](documentation/app_flowchart.png)
 
 ## Validator testing
 + ##### HTML
