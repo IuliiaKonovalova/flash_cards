@@ -9,7 +9,25 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 ![Responsive Mockup](documentation/responsive_mockup.png)
 
 
+---
+## User Stories
 
+### First Time Visitor Goals:
+
+* As a First Time Visitor, I want to easily understand the main purpose of the app, so I can learn more about this app.
+* As a First Time Visitor, I want to be able to easily navigate through the app, so I can find the content.
+* As a First Time Visitor, I want to engage in learning, so I can boost my knowledge in English.
+
+### Returning VisitorGoals:
+
+* As a Returning Visitor, I want to see various quiz, so I can practice different skills in English.
+* As a Returning Visitor, I want to access information at one click, so I can learn at my own pace.
+
+### Frequent Visitor Goals:
+* As a Frequent User, I want to get constant access to learning materials, so I can continue learning.
+* As a Frequent User, I want to have different options for studying, so I can develop my English skills. 
+
+---
 
 
 
