@@ -166,15 +166,13 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 
 **COMPATIBILITY:**
 
-The website was tested on the following browsers: Chrome, Firefox, Brave.
-  - Noted Issues: The Speech Synthesis does not work properly in Brave browser  
-
-
-+ The website was checked by devtools implemented in Firefox and Chrome browsers.
-+ The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
-+ The functionality of the links in the website was checked as well by different users.
-
----
++ The app was tested on the following browsers: Chrome, Firefox, Brave, Edge.
+  - Noted Issues:
+    - The Speech Synthesis does not work in Brave browser;
+    - vw does not work properly in Edge browser;
++ The app was checked by devtools implemented in Firefox and Chrome browsers.
++ The app was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
++ The functionality of the links in the app was checked as well by different users.
 
 ---
 ## Validator testing

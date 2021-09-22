@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
  * Add US voice task on click
  */
 function clickHandlerUs() {
-  // event.stopPropagation()
   let msg = new SpeechSynthesisUtterance();
   msg.lang = 'en-US';
   msg.text = currentWord;
@@ -56,7 +55,6 @@ function clickHandlerUs() {
  * Add US voice task on click
  */
 function clickHandlerGb() {
-  event.stopPropagation()
   let msg = new SpeechSynthesisUtterance();
   msg.lang = 'en-GB';
   msg.text = currentWord;
