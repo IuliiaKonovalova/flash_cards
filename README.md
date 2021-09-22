@@ -69,7 +69,32 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
 ---
 
++ ### Grammar Quiz Page
 
+    - It has a button at the top left corner of the screen, which leads to the menu page;
+
+    - It has a button at the top right corner of the screen, which opens modal window with instructions for the quiz;
+
+    ![Flash Card Page](documentation/grammar_quiz_page_info_screenshot.png)
+
+    - It has a card with a question and a grammar task;
+    
+    - It has 4 probable answers for the question;
+    
+    - It has a button and the card to go to another question;
+
+    ![Flash Card Page](documentation/grammar_quiz_page_screenshot.png)
+
+    - When the user click on the right answer, the answer's background color changes to green:
+
+    ![Flash Card Page](documentation/grammar_quiz_page_correct_answer_screenshot.png)
+
+
+    - When the user click on the wrong answer, the answer's background color changes to ligh-pink, but the user allowed to find the correct answer anyway:
+
+    ![Flash Card Page](documentation/grammar_quiz_page_wrong_answer_screenshot.png)
+
+---
 
 
 ## Validator testing
