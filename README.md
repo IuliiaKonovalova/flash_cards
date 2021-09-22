@@ -166,9 +166,15 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 
 **COMPATIBILITY:**
 
-+ The app was tested on the following browsers: Chrome, Firefox, Brave, Edge.
-  - Chrome:
++ The app was tested on the following browsers: Chrome, Firefox, Brave, Edge:
 
+  - Chrome:
+  ![Menu Page](documentation/chrome_menu_page.png)
+  ![Flash Cards Page. Front](documentation/chrome_cards_front_page.png)
+  ![Flash Cards Page. Back](documentation/chrome_cards_back_page.png)
+  ![Grammar Quiz Page](documentation/chrome_grammar_quiz_page.png)
+  ![Spelling Quiz Page](documentation/chrome_spelling_quiz_page.png)
+  
   - Firefox:
 
   - Brave:
