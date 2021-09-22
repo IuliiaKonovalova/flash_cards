@@ -530,7 +530,6 @@ img {
 input {
   font-family: inherit;
   border: 3px solid var(--clr-bg);
-
 }
 
 input:placeholder-shown {

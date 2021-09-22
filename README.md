@@ -160,6 +160,23 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 'Segoe UI' (Tahoma, Geneva, Verdana, sans-serif) Font was used as the main font of the application in order to increase readability of the content on the pages.
 
 ---
+
+## Testing
+
+
+**COMPATIBILITY:**
+
+The website was tested on the following browsers: Chrome, Firefox, Brave.
+  - Noted Issues: The Speech Synthesis does not work properly in Brave browser  
+
+
++ The website was checked by devtools implemented in Firefox and Chrome browsers.
++ The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
++ The functionality of the links in the website was checked as well by different users.
+
+---
+
+---
 ## Validator testing
 + ##### HTML
     - No errors or warnings were found when passing through the official W3C validator.
