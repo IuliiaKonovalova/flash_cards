@@ -96,6 +96,33 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
 ---
 
++ ### Spelling Quiz Page
+
+    - It has a button at the top left corner of the screen, which leads to the menu page;
+
+    - It has a card with a an audio question;
+
+    - Card has 2 sound buttons -  allows the user to listen to American and British pronunciation in order to guess the right word:
+    
+    - It has input where the user can type his or her guess;
+
+    - It has a check button to check whether the spelling of the user was correct;
+
+    - It has a button at the bottom, which leads to another audio task:
+
+    ![Flash Card Page](documentation/spelling_quiz_page_screenshot.png)
+    
+    - When the user the spelling of the word is correct, the input background color changes to green and the user can see the original word;
+
+    ![Flash Card Page](documentation/spelling_quiz_page_correct_answer_screenshot.png)
+
+     When the user the spelling of the word is wrong, the input background color changes to pink and the user can see the original word;
+
+    ![Flash Card Page](documentation/spelling_quiz_page_wrong_answer_screenshot.png)
+
+---
+
+
 
 ## Validator testing
 + ##### HTML
