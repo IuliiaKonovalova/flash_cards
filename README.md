@@ -27,9 +27,29 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 * As a Frequent User, I want to get constant access to learning materials, so I can continue learning.
 * As a Frequent User, I want to have different options for studying, so I can develop my English skills. 
 
+## Features
+
++ ### Menu Page
+
+    - Represent: 
+
+        * the main goal of the application.
+        * Emphasize the the easiness of the using the application.
+        * Provides options for learning.
+
+    ![Menu Page](documentation/menu_page_screenshot.png)
+
+
+
+    - Menu page has 3 buttons:
+
+        1. Flash Cards Button leads to the page where the user can learn and practice English vocabulary;
+
+        1. Grammar Quiz Button leads to the page where the user can learn and practice English grammar;
+
+        1. Spelling Quiz Button leads to the page where the user can practice spelling of English words.
+​
 ---
-
-
 
 
 
