@@ -167,10 +167,24 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 **COMPATIBILITY:**
 
 + The app was tested on the following browsers: Chrome, Firefox, Brave, Edge.
+  - Chrome:
+
+  - Firefox:
+
+  - Brave:
+
+  - Edge:
+  ![Menu Page](documentation/edge_menu_page.png)
+  ![Flash Cards Page. Front](documentation/edge_cards_front_page.png)
+  ![Flash Cards Page. Back](documentation/edge_cards_back_page.png)
+  ![Grammar Quiz Page](documentation/edge_grammar_quiz_page.png)
+  ![Spelling Quiz Page](documentation/edge_spelling_quiz_page.png)
+
+
   - Noted Issues:
-    - The Speech Synthesis does not work in Brave browser;
+    - The Speech Synthesis does not work on Brave browser;
     - vw does not work properly in Edge browser;
-+ The app was checked by devtools implemented in Firefox and Chrome browsers.
++ The app was checked by devtools implemented on Firefox and Chrome browsers.
 + The app was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 + The functionality of the links in the app was checked as well by different users.
 
