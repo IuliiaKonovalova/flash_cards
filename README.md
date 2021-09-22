@@ -90,7 +90,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
     ![Flash Card Page](documentation/grammar_quiz_page_correct_answer_screenshot.png)
 
 
-    - When the user click on the wrong answer, the answer's background color changes to ligh-pink, but the user allowed to find the correct answer anyway:
+    - When the user click on the wrong answer, the answer's background color changes to light-pink, but the user allowed to find the correct answer anyway:
 
     ![Flash Card Page](documentation/grammar_quiz_page_wrong_answer_screenshot.png)
 
@@ -128,6 +128,38 @@ The flowchart represent the logic of the application:
 
   ![Flash Card Page](documentation/app_flowchart.png)
 
+---
+
+## Design
+
+![Background Color](documentation/background_color.png)
+Deep Dark Purple Color was used to reduce visual pressure for the user.
+
+![Main Blue Color](documentation/main_blue_color.png)
+Soft blue color was used as the main color for educational content due to its psychological effect: help the user to calmly concentrate on the question.
+
+![Accent Text Color](documentation/accent_text_color.png)
+Dark Purple color was used to increase the contrast between the background and the text and boost the readability of the content.
+
+![Neutral Text Color](documentation/neutral_text_color.png)
+Soft pinkish color was used for the title and call to action content in order to attract more user's attention toward educational content.
+
+![Highlight Color](documentation/highlight_color.png)
+Yellow Color was used to highlight the task in the grammar quiz question in order to draw user's attention how to answer the question.
+
+![Input Color](documentation/input_color.png)
+Light Blue Color was used as a background color of the input in order to calm down the user as he or she is about to answer question since this color creates a sense of tranquility.
+
+![Input Correct Answer Color](documentation/input_color_correct_answer.png)
+Soft Green Color was used to highlight the correct answer in quiz.
+
+![Input Wrong Answer Color](documentation/input_color_wrong_answer.png)
+Soft Pink Color was used to highlight the wrong answer in quiz, but at the same time reduce psychological pressure on the user.
+
+![Font](documentation/primary_font.png)
+'Segoe UI' (Tahoma, Geneva, Verdana, sans-serif) Font was used as the main font of the application in order to increase readability of the content on the pages.
+
+---
 ## Validator testing
 + ##### HTML
     - No errors or warnings were found when passing through the official W3C validator.
