@@ -368,7 +368,8 @@ const flashcards = [{
     imageAlt: 'white hourse runs',
     word: 'horse',
     ipa: '[hɔːrs]',
-  }, {
+  },
+  {
     topic: 'fruits',
     image: 'assets/images/apple.jpg',
     imageAlt: 'apple',
