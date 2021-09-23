@@ -1062,20 +1062,6 @@ const flashcards = [{
   },
   {
     topic: 'clothes',
-    image: 'assets/images/sweater.jpg',
-    imageAlt: '',
-    word: 'sweater',
-    ipa: '[]',
-  },
-  {
-    topic: 'clothes',
-    image: 'assets/images/sweater.jpg',
-    imageAlt: '',
-    word: 'sweater',
-    ipa: '[]',
-  },
-  {
-    topic: 'clothes',
     image: 'assets/images/cap.jpg',
     imageAlt: 'white cap on the table',
     word: 'cap',
