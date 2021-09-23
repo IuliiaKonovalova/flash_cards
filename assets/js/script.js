@@ -958,7 +958,7 @@ const flashcards = [{
   {
     topic: 'actions',
     image: 'assets/images/plant_trees.jpg',
-    imageAlt: 'young tree is about to planted',
+    imageAlt: 'young tree is about to be planted',
     word: 'plant trees',
     ipa: '[plænt triːs]',
   },
