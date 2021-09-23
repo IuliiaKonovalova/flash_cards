@@ -1435,7 +1435,7 @@ const flashcards = [{
     topic: 'food',
     image: 'assets/images/cottage_cheese.jpg',
     imageAlt: 'white cottage cheese in the square shaped bowl',
-    word: 'cottage_cheese',
+    word: 'cottage cheese',
     ipa: '[ˌkɑː.t̬ɪdʒ ˈtʃiːz]',
   },
   {

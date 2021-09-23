@@ -10,6 +10,8 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'chicken wings', 'chips', 'cottage cheese', 'crab', 'cupcake', 'donuts', 'fried chicken', 'fried egg', 'fried fish', 'hamburger', 'honey', 'lollipops', 'muffin', 'onion rings', 'pancakes', 'pasta', 'popcorn', 'porridge', 'pretzel', 'salad', 'sandwich', 'sausages', 'seafood', 'shrimps', 'soup', 'spices', 'steak', 'taco', 'waffles',
   'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
   'April', 'August', 'January', 'July', 'June', 'February', 'December', 'March', 'May', 'November', 'October', 'September',
+  'apple juice', 'orange juice', 'coffee', 'tea', 'coke', 'juice', 'lemonade', 'milk', 'milkshake', 'soda', 'soy milk', 'water', 'yogurt',
+
 ]
 
 
