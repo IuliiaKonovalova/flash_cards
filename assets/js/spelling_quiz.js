@@ -101,8 +101,7 @@ const generateWord = function () {
 const checkSpelling = function () {
   document.getElementsByClassName('word__key')[0].innerText = currentWord;
   let answerInput = document.querySelector('#word__key--input');
-  if (answerInput.value === currentWord) {
-
+  if (answerInput.value.toLowerCase() === currentWord) {
     answerInput.style.backgroundColor = '#008a5a';
   } else {
     answerInput.style.backgroundColor = '#c26ee3';
