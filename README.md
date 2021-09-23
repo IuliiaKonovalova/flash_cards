@@ -209,17 +209,25 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
     
 + ##### CSS
     - No errors or warnings were found when passing through the official W3C (Jigsaw) validator except the warnings that all: 
-      - Menu Page:
-      - Cards Page:
-      - Grammar Quiz:
-      - Spelling Quiz:
+
+    ![CSS Validator Errors](documentation/w3c_validator_errors.png)
+    ![CSS Validator Warnings](documentation/w3c_validator_warnings.png)
+
 
 + ##### JS
-    - No errors or warnings were found when passing through the official Jshint validator except the warnings that all: 
-      - Menu Page:
-      - Cards Page:
+    - No errors or warnings were found when passing through the official JSHint validator except the warnings that all: 
+
+      - Cards:
+          ![JSHint Validator Cards JS](documentation/jshint_flash_cards_js.png)
+
+
       - Grammar Quiz:
+          ![JSHint Validator Grammar Quiz JS](documentation/jshint_grammar_quiz_js.png)
+
+
       - Spelling Quiz:
+          ![JSHint Validator Spelling Quiz JS](documentation/jshint_spelling_quiz_js.png)
+
 
 + ##### Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
