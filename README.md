@@ -253,4 +253,15 @@ The live link can be found [here](https://iuliiakonovalova.github.io/flash_cards
 
 ---
 
+## Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/IuliiaKonovalova/animal_shelter.git`
+
+- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/IuliiaKonovalova/animal_shelter), which will start the Gitpod workspace for you.
+
+---
+
 
