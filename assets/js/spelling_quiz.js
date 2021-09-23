@@ -11,7 +11,8 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
   'April', 'August', 'January', 'July', 'June', 'February', 'December', 'March', 'May', 'November', 'October', 'September',
   'apple juice', 'orange juice', 'coffee', 'tea', 'coke', 'juice', 'lemonade', 'milk', 'milkshake', 'soda', 'soy milk', 'water', 'yogurt',
-
+  'bag', 'blackboard', 'book', 'eraser', 'brush', 'calculator', 'chair', 'chalk', 'clips', 'clock', 'colored pencils', 'computer', 'crayons', 'desk', 'dictionary', 'door', 'flag', 'folder', 'globe', 'glue', 'highlighter', 'locker', 'lunch box', 'map', 'marker', 'notebooks', 'pen', 'pencil', 'pencil case', 'projector',
+  'ruler', 'scissors', 'school', 'sharpener', 'stapler', 'stickers', 'tablet', 'tape', 'trash can',
 ]
 
 

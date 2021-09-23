@@ -1889,7 +1889,7 @@ const flashcards = [{
   {
     topic: 'school',
     image: 'assets/images/calculator.jpg',
-    imageAlt: 'white calculater on the white table',
+    imageAlt: 'white calculator on the white table',
     word: 'calculator',
     ipa: '[ˈkæl.kjə.leɪ.t̬ɚ]',
   },
@@ -2015,7 +2015,7 @@ const flashcards = [{
   {
     topic: 'school',
     image: 'assets/images/map.jpg',
-    imageAlt: 'balck and white map on the wall',
+    imageAlt: 'black and white map on the wall',
     word: 'map',
     ipa: '[mæp]',
   },
@@ -2051,7 +2051,7 @@ const flashcards = [{
     topic: 'school',
     image: 'assets/images/pencil_case.jpg',
     imageAlt: 'colorful pencil case',
-    word: 'pensil case',
+    word: 'pencil case',
     ipa: '[ˈpen.səl ˌkeɪs]',
   },
   {
