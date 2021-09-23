@@ -4140,7 +4140,7 @@ card.addEventListener('click', function (e) {
  * for US
  */
 function clickHandlerUs(event) {
-  event.stopPropagation()
+  event.stopPropagation();
   let msg = new SpeechSynthesisUtterance();
   msg.lang = 'en-US';
   msg.text = currentWord;
@@ -4152,7 +4152,7 @@ function clickHandlerUs(event) {
  * for GB
  */
 function clickHandlerGb(event) {
-  event.stopPropagation()
+  event.stopPropagation();
   let msg = new SpeechSynthesisUtterance();
   msg.lang = 'en-GB';
   msg.text = currentWord;

@@ -13,7 +13,7 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'apple juice', 'orange juice', 'coffee', 'tea', 'coke', 'juice', 'lemonade', 'milk', 'milkshake', 'soda', 'soy milk', 'water', 'yogurt',
   'bag', 'blackboard', 'book', 'eraser', 'brush', 'calculator', 'chair', 'chalk', 'clips', 'clock', 'colored pencils', 'computer', 'crayons', 'desk', 'dictionary', 'door', 'flag', 'folder', 'globe', 'glue', 'highlighter', 'locker', 'lunch box', 'map', 'marker', 'notebooks', 'pen', 'pencil', 'pencil case', 'projector',
   'ruler', 'scissors', 'school', 'sharpener', 'stapler', 'stickers', 'tablet', 'tape', 'trash can',
-]
+];
 
 
 //main variables
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
   btnCheck.addEventListener('click', checkSpelling);
   btnVoiceUs.addEventListener('click', clickHandlerUs);
   btnVoiceGb.addEventListener('click', clickHandlerGb);
-})
+});
 
 
 
@@ -87,7 +87,7 @@ const createRandom = function () {
  */
 const generateWord = function () {
   if (wordsArray.length === 0) {
-    wordsArray.push.apply(wordsArray, temporaryWordsArray)
+    wordsArray.push.apply(wordsArray, temporaryWordsArray);
   }
   //Update input for new word
   let answerInput = document.querySelector('#word__key--input');
@@ -105,7 +105,7 @@ const generateWord = function () {
   //Push the word into temporary array
   temporaryWordsArray.push(wordsArray[randomIndex]);
   wordsArray.splice([randomIndex], 1);
-}
+};
 
 /**
  * Check whether the answer is correct
@@ -119,4 +119,4 @@ const checkSpelling = function () {
   } else {
     answerInput.style.backgroundColor = '#c26ee3';
   }
-}
+};
