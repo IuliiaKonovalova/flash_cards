@@ -1,11 +1,15 @@
 const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'strawberry', 'watermelon', 'melon', 'raspberries', 'pomegranate', 'plum', 'pineapple', 'persimmon', 'passion fruit', 'papaya', 'mangosteen', 'lime', 'mango', 'grapefruit', 'kiwi', 'lemon', 'lychee', 'mandarin', 'jackfruit', 'durian', 'fruits', 'dragon fruit', 'coconut',
-  'cherry', 'blueberries', 'pumpkin', 'blackberries', 'avocado', 'apricot', 'berries', 'color', 'blue', 'brown', 'gold', 'gray', 'green', 'pink', 'purple', 'white', 'red', 'silver', 'yellow',
+  'cherry', 'blueberries', 'pumpkin', 'blackberries', 'avocado', 'apricot', 'berries',
+  'color', 'blue', 'brown', 'gold', 'gray', 'green', 'pink', 'purple', 'white', 'red', 'silver', 'yellow',
   'cat', 'alligator', 'bear', 'butterfly', 'camel', 'dolphin', 'donkey', 'frog', 'giraffe', 'goat', 'gorilla', 'hedgehog', 'hen', 'kangaroo', 'koala', 'owl', 'parrot', 'peacock', 'penguin', 'pig', 'pigeon', 'polar bear', 'puppy', 'raccoon', 'rhino', 'rhinoceros', 'rooster', 'seal', 'sheep', 'squirrel', 'swan', 'whale', 'wolf', 'dog', 'cow', 'kitten',
   'mouse', 'tiger', 'fish', 'rabbit', 'snake', 'lion', 'deer', 'fox', 'zebra', 'ox', 'bee', 'elephant', 'turtle', 'monkey', 'duck', 'bird', 'panda', 'animals', 'horse', 'sweater', 'blouse', 'boots', 'crocs', 'dress', 'flip-flops', 'hat', 'mittens', 'overalls', 'shorts', 'slippers', 'suit', 'T-shirt', 'sneakers', 'cap', 'coat', 'tie', 'shoe', 'shoes',
-  'jacket', 'jeans', 'pants', 'scarf', 'shirt', 'skirt', 'socks', 'vest', 'uniform', 'gloves', 'summer', 'winter', 'spring', 'fall', 'autumn',
-  'China', 'Canada', 'America', 'Britain', 'Japan', 'sweet potatoes', 'cookies', 'biscuits', 'bread', 'cherry pie', 'roast chicken', 'chocolate', 'cookbook', 'fish', 'egg', 'hot dog', 'ice cream', 'jam', 'noodles', 'nuts', 'oil', 'pizza', 'rice', 'tofu', 'bacon', 'baguettes', 'barbecue', 'butter', 'cake', 'candies', 'cereal', 'cheese', 'chicken nuggets',
+  'jacket', 'jeans', 'pants', 'scarf', 'shirt', 'skirt', 'socks', 'vest', 'uniform', 'gloves',
+  'summer', 'winter', 'spring', 'fall', 'autumn',
+  'China', 'Canada', 'America', 'Britain', 'Japan',
+  'sweet potatoes', 'cookies', 'biscuits', 'bread', 'cherry pie', 'roast chicken', 'chocolate', 'cookbook', 'fish', 'egg', 'hot dog', 'ice cream', 'jam', 'noodles', 'nuts', 'oil', 'pizza', 'rice', 'tofu', 'bacon', 'baguettes', 'barbecue', 'butter', 'cake', 'candies', 'cereal', 'cheese', 'chicken nuggets',
   'chicken wings', 'chips', 'cottage cheese', 'crab', 'cupcake', 'donuts', 'fried chicken', 'fried egg', 'fried fish', 'hamburger', 'honey', 'lollipops', 'muffin', 'onion rings', 'pancakes', 'pasta', 'popcorn', 'porridge', 'pretzel', 'salad', 'sandwich', 'sausages', 'seafood', 'shrimps', 'soup', 'spices', 'steak', 'taco', 'waffles',
-
+  'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
+  'April', 'August', 'January', 'July', 'June', 'February', 'December', 'March', 'May', 'November', 'October', 'September',
 ]
 
 
