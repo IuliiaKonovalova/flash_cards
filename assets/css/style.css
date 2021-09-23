@@ -224,8 +224,8 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 3rem auto;
-  width: 29vw;
+  padding: auto;
+  width: 27vw;
 }
 
 img {
@@ -255,7 +255,7 @@ img {
 .english__word {
   margin-top: 2rem;
   margin-bottom: 7vh;
-  padding: auto 1rem;
+  padding: 1rem;
   font-size: 5vh;
   letter-spacing: 0.4rem;
   font-weight: bold;
@@ -653,7 +653,6 @@ input:focus {
   .menu__link {
     width: 15rem;
     background-color: var(--clr-primary-500);
-    padding: 1rem auto;
     font-size: 1rem;
   }
 
