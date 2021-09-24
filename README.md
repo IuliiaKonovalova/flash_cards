@@ -278,4 +278,12 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ---
 
+## Credits
 
++ #### Content
+
+    - Inspiration for the come from my friends whose children are put in tough position at schools nowadays.
+    - IPA for each word was taken from [Cambridge Dictionary](https://dictionary.cambridge.org/).
+
+
++ #### Media
