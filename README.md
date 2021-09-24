@@ -336,3 +336,12 @@ In your IDE Terminal, type the following command to clone my repository:
     + Musical instruments: [accordion](https://unsplash.com/photos/hcxmDAjDGdQ), [fiddle](https://unsplash.com/photos/WVeIm5qGUrQ), [flute](https://unsplash.com/photos/8IA-_rr9O48), [piano](https://unsplash.com/photos/8QrPJ3Kfie4), [violin](https://unsplash.com/photos/uqKyeMaaAOQ);
 
     + Shapes: [circle](https://unsplash.com/photos/aMDyBCPNsmY), [cross](https://unsplash.com/photos/NWAnvRx5x3o), [rectangle](https://unsplash.com/photos/BY66BwIa9Bg), [square](https://unsplash.com/photos/rREvoaBucWo), [star](https://unsplash.com/photos/dChZrZx6mf8), [triangle](https://unsplash.com/photos/4ZPsW7PCNfA);
+
+
+  - All images were compressed by using the website [Compress JPEG](https://compressjpeg.com/).
+
+  - All images for the gallery were resized by using the website [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php).
+    
+  - Images for the README file were made or edited with [GIMP](https://www.gimp.org/).
+
+  - Screenshots for the readme file was made with [FlameShot](https://flameshot.org/) and [LightShot](https://app.prntscr.com/en/index.html).
