@@ -282,8 +282,13 @@ In your IDE Terminal, type the following command to clone my repository:
 
 + #### Content
 
-    - Inspiration for the come from my friends whose children are put in tough position at schools nowadays.
-    - IPA for each word was taken from [Cambridge Dictionary](https://dictionary.cambridge.org/).
+  - Inspiration for the come from my friends whose children are put in tough position at schools nowadays.
+  - IPA for each word was taken from [Cambridge Dictionary](https://dictionary.cambridge.org/).
 
 
 + #### Media
+
+  - All the images for the website were taken from [Unsplash](https://unsplash.com/).
+    
+    + Vegetables: [artichoke](https://unsplash.com/photos/ErMaQGihZvI), [asparagus](https://unsplash.com/photos/ReXxkS1m1H0), [beet](https://unsplash.com/photos/TmjyLCUpcDY), [bell pepper](https://unsplash.com/photos/f35j-5N2N8s), [broccoli](https://unsplash.com/photos/m1t-RJ1iCIU), [brussels sprouts](https://unsplash.com/photos/dqlxphCcA2g), [cauliflower](https://unsplash.com/photos/0XVrBLy73rw), [cabbage](https://unsplash.com/photos/ZAie-pIb2fI), [carrot](https://unsplash.com/photos/qrdbYqxnets), [celery](https://unsplash.com/photos/ZugQ-1NBaO0), [chilly pepper](https://unsplash.com/photos/nZUQgW0FVnc), [coriander](https://unsplash.com/photos/9rt6gV_IjhA), [corn](https://unsplash.com/photos/taUkjCVG8Q8), [cucumber](https://unsplash.com/photos/L8GbxVUQ-f0), [eggplant](https://unsplash.com/photos/zldpdRxO_wo), [french beans](https://unsplash.com/photos/bEnSMaiHeX0), [garlic](https://unsplash.com/photos/1tcFON22sfs), [ginger](https://unsplash.com/photos/2VePbF_YRK8), [green onion](https://unsplash.com/photos/7CcXR5wIhEY), [lady fingers](https://unsplash.com/photos/CoIJlCZEjnw), [leek](https://unsplash.com/photos/KN4ampW-QOI), [lettuce](https://unsplash.com/photos/o1cMRfaYD7I), [mint](https://unsplash.com/photos/boadZKqd1YM), [mushrooms](https://unsplash.com/photos/--9pYUo2f04), [onion](https://unsplash.com/photos/0_fkPHulv-M), [peas](https://unsplash.com/photos/Sgnhru4-z78), [potato](https://unsplash.com/photos/jJUuF4hqCQM), [radish](https://unsplash.com/photos/0-vqYojpPHA),   [spinach](https://unsplash.com/photos/XlA2994Txhw), [sweet potato](https://unsplash.com/photos/geYw6L4-WU8), [tomato](https://unsplash.com/photos/OlXUUQedQyM), [turnips](https://unsplash.com/photos/jzqyx7vfmpI), [vegetables](https://unsplash.com/photos/ks5flsI1mNo), [zucchinis](https://unsplash.com/photos/T78BW9onx-I);
+    
