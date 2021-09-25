@@ -3424,7 +3424,7 @@ const flashcards = [{
     topic: 'places',
     image: 'assets/images/petrol_station.jpg',
     imageAlt: 'gas station at night',
-    word: 'gas_station / petrol_station',
+    word: 'gas station / petrol station',
     ipa: '[ˈɡæs ˌsteɪ.ʃən / ˈpet.rəl ˌsteɪ.ʃən]',
   },
   {
