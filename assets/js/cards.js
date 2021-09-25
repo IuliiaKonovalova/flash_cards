@@ -2395,7 +2395,7 @@ const flashcards = [{
     topic: 'vegetables',
     image: 'assets/images/brussels_sprouts.jpg',
     imageAlt: 'heads of brussels sprouts on the cutting board',
-    word: 'Brussels_sprouts',
+    word: 'Brussels sprouts',
     ipa: '[ˌbrʌs.əlz ˈspraʊt]',
   },
   {
@@ -4108,6 +4108,7 @@ const btnVoiceGb = document.querySelector("#voice__option--GB");
 let currentWord;
 let temporaryCardsArray = [];
 
+const voiceOptions = document.querySelector('#voice__options')
 // Wait for the DOM to finish loading before running the quiz
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -4158,6 +4159,8 @@ function clickHandlerGb(event) {
   msg.text = currentWord;
   speechSynthesis.speak(msg);
 }
+
+
 
 /**
  *

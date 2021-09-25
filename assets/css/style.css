@@ -105,7 +105,6 @@ body {
   grid-template-columns: 1fr 3fr 1fr;
 }
 
-
 .button__menu {
   grid-column: 1/2;
   justify-self: left;

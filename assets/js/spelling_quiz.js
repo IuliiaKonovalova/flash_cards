@@ -119,4 +119,4 @@ const checkSpelling = function () {
   } else {
     answerInput.style.backgroundColor = '#c26ee3';
   }
-};
+}
