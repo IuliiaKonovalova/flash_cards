@@ -4108,7 +4108,10 @@ const btnVoiceGb = document.querySelector("#voice__option--GB");
 let currentWord;
 let temporaryCardsArray = [];
 
-const voiceOptions = document.querySelector('#voice__options')
+const modal = document.querySelector('#modal');
+const overlay = document.querySelector('#overlay');
+const btnCloseModal = document.querySelector('#close-modal');
+const btnOpenModal = document.querySelector('#button__instructions');
 // Wait for the DOM to finish loading before running the quiz
 
 document.addEventListener('DOMContentLoaded', function () {
