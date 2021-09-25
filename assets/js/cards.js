@@ -4130,7 +4130,38 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   btnVoiceUs.addEventListener('click', clickHandlerUs);
   btnVoiceGb.addEventListener('click', clickHandlerGb);
+
+  //Open Instructions for the quiz
+  btnOpenModal.addEventListener('click', openModal);
+
+  //Close instructions for the quiz
+  btnCloseModal.addEventListener('click', closeModal);
+
+  overlay.addEventListener('click', closeModal);
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+      closeModal();
+    }
+  });
 });
+
+
+/**
+ * Open instructions modal window
+ */
+const openModal = function () {
+  modal.classList.remove('modal--hidden');
+  overlay.classList.remove('overlay--hidden');
+};
+
+/**
+ * Close instructions modal window
+ */
+const closeModal = function () {
+  modal.classList.add('modal--hidden');
+  overlay.classList.add('overlay--hidden');
+};
 
 
 // Flip card on the click
