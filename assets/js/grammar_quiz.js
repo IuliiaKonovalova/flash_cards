@@ -96,7 +96,7 @@ const grammarQuestions = [{
       "Don't I want to be a doctor?",
       'Yes, I do. I want to be a doctor.',
     ],
-    correct: 'Do I want be a doctor?',
+    correct: 'Do I want to be a doctor?',
   },
   {
     grammarQuestion: "I don't want to be a singer",
