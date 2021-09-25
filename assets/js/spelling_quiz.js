@@ -146,11 +146,17 @@ const generateWord = function () {
  * display the correct answer
  */
 const checkSpelling = function () {
-  document.getElementsByClassName('word__key')[0].innerText = currentWord;
+
   let answerInput = document.querySelector('#word__key--input');
-  if (answerInput.value.toLowerCase() === currentWord) {
-    answerInput.style.backgroundColor = '#008a5a';
+  if (answerInput.value === '') {
+    btnCheck.getAttribute("aria-disabled") === "true";
   } else {
-    answerInput.style.backgroundColor = '#c26ee3';
+    document.getElementsByClassName('word__key')[0].innerText = currentWord;
+    btnCheck.getAttribute("aria-disabled") === "false";
+    if (answerInput.value.toLowerCase() === currentWord) {
+      answerInput.style.backgroundColor = '#008a5a';
+    } else {
+      answerInput.style.backgroundColor = '#c26ee3';
+    }
   }
 }
