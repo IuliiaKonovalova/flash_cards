@@ -55,6 +55,10 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
     - It has a button at the top left corner of the screen, which leads to the menu page;
 
+    - It has a button at the top right corner of the screen, which opens modal window with instructions for the quiz;
+
+    ![Flash Card Page](documentation/cards_page_info_screenshot.png)
+
     - It has Flash Cards, which consist a word's topic and a descriptive picture of word;
 
     - It has a button, which replace the current word with another one; 
@@ -75,7 +79,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
     - It has a button at the top right corner of the screen, which opens modal window with instructions for the quiz;
 
-    ![Flash Card Page](documentation/grammar_quiz_page_info_screenshot.png)
+    ![Grammar Quiz Info Page](documentation/grammar_quiz_page_info_screenshot.png)
 
     - It has a card with a question and a grammar task;
     
@@ -83,16 +87,16 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
     
     - It has a button and the card to go to another question;
 
-    ![Flash Card Page](documentation/grammar_quiz_page_screenshot.png)
+    ![Grammar Quiz Page](documentation/grammar_quiz_page_screenshot.png)
 
     - When the user click on the right answer, the answer's background color changes to green:
 
-    ![Flash Card Page](documentation/grammar_quiz_page_correct_answer_screenshot.png)
+    ![Grammar Quiz Page Correct Answer](documentation/grammar_quiz_page_correct_answer_screenshot.png)
 
 
     - When the user click on the wrong answer, the answer's background color changes to light-pink, but the user allowed to find the correct answer anyway:
 
-    ![Flash Card Page](documentation/grammar_quiz_page_wrong_answer_screenshot.png)
+    ![Grammar Quiz Page Wrong Answer](documentation/grammar_quiz_page_wrong_answer_screenshot.png)
 
 ---
 
