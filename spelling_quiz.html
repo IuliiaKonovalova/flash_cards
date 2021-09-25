@@ -71,8 +71,44 @@
   <!--Button Next Card-->
 
   <div class="button__holder">
-    <button class="card__next" id="card__next">next card</button>
+    <button class="card__next" id="card__next">next word</button>
   </div>
+
+
+  <!--Modal window for instructions-->
+
+  <div class="modal modal--hidden" id="modal">
+    <button class="close-modal" id="close-modal">&times;</button>
+    <div class="modal__instructions">
+      <ul>
+        <li class="instructions__element">
+          <div class="sign">1.</div>
+          <div class="instruction">click on speaker icons</div>
+        </li>
+        <li class="instructions__element">
+          <div class="sign">2.</div>
+          <div class="instruction">listen to the word</div>
+        </li>
+        <li class="instructions__element">
+          <div class="sign">3.</div>
+          <div class="instruction">type the word in the input</div>
+        </li>
+        <li class="instructions__element">
+          <div class="sign">4.</div>
+          <div class="instruction">click check button</div>
+        </li>
+        <li class="instructions__element">
+          <div class="sign">5.</div>
+          <div class="instruction">check your spelling</div>
+        </li>
+        <li class="instructions__element">
+          <div class="sign">6.</div>
+          <div class="instruction">click next word button</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="overlay overlay--hidden" id="overlay"></div>
 
   <!--Script for js file-->
 
