@@ -114,15 +114,15 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
     - It has a button at the bottom, which leads to another audio task:
 
-    ![Flash Card Page](documentation/spelling_quiz_page_screenshot.png)
+    ![Spelling Quiz Page](documentation/spelling_quiz_page_screenshot.png)
     
     - When the user the spelling of the word is correct, the input background color changes to green and the user can see the original word;
 
-    ![Flash Card Page](documentation/spelling_quiz_page_correct_answer_screenshot.png)
+    ![Spelling Quiz Page Correct Answer](documentation/spelling_quiz_page_correct_answer_screenshot.png)
 
      When the user the spelling of the word is wrong, the input background color changes to pink and the user can see the original word;
 
-    ![Flash Card Page](documentation/spelling_quiz_page_wrong_answer_screenshot.png)
+    ![Spelling Quiz Page Wrong Answer](documentation/spelling_quiz_page_wrong_answer_screenshot.png)
 
 ---
 
