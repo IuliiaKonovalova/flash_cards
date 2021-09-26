@@ -908,4 +908,10 @@ input:focus {
   .modal__instructions ul li {
     font-size: 3.5vh;
   }
+
+  /*Media for grammar spelling input*/
+
+  .word__key--input {
+    width: 50vw;
+  }
 }
