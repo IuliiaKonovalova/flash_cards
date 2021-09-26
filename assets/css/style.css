@@ -915,3 +915,33 @@ input:focus {
     width: 50vw;
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+  .card__holder {
+    width: 60vw;
+    height: 65vh;
+    justify-self: center;
+    align-self: end;
+  }
+
+  .english__word {
+    font-size: 1.2rem;
+  }
+
+  .voice__options {
+    font-size: 1rem;
+  }
+
+  .voice__icon {
+    font-size: 1rem;
+  }
+
+  .word__sound {
+    font-size: 1.1rem;
+  }
+
+  .word__key--input {
+    width: 40vw;
+  }
+}
