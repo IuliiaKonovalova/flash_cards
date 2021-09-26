@@ -15,7 +15,7 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'ruler', 'scissors', 'school', 'sharpener', 'stapler', 'stickers', 'tablet', 'tape', 'trash can',
   'cabbage', 'radish', 'chili pepper', 'bell pepper', 'corn', 'onion', 'green beans', 'peas', 'artichoke', 'asparagus', 'turnips', 'spinach', 'zucchinis', 'lady fingers', 'coriander', 'mint', 'mushrooms', 'vegetables', 'celery', 'garlic', 'ginger', 'green onion', 'cauliflower', 'leek', 'lettuce', 'Brussels sprouts', 'broccoli', 'beet', 'eggplant', 'sweet potatoes', 'tomato', 'potato', 'carrot', 'cucumber',
   'race', 'relay race', 'go fishing', 'go roller-skating', 'go skiing', 'go swimming', 'go climbing', 'go hiking', 'basketball', 'tennis ball', 'football', 'ping-pong ball', 'golf ball', 'baseball',
-
+  'flute', 'fiddle', 'accordion', 'piano', 'violin',
 ];
 
 
