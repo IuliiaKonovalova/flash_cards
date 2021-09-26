@@ -2233,7 +2233,7 @@ const flashcards = [{
     topic: 'vegetables',
     image: 'assets/images/chili_pepper.jpg',
     imageAlt: 'long chili pepper on the white table',
-    word: 'chili (pepper)',
+    word: 'chili pepper',
     ipa: '[ˈtʃɪl·i (ˌpep·ər)]',
   },
   {
@@ -2327,7 +2327,6 @@ const flashcards = [{
     word: 'mint',
     ipa: '[mɪnt]',
   },
-
   {
     topic: 'vegetables',
     image: 'assets/images/mushrooms.jpg',

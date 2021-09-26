@@ -13,6 +13,7 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'apple juice', 'orange juice', 'coffee', 'tea', 'coke', 'juice', 'lemonade', 'milk', 'milkshake', 'soda', 'soy milk', 'water', 'yogurt',
   'bag', 'blackboard', 'book', 'eraser', 'brush', 'calculator', 'chair', 'chalk', 'clips', 'clock', 'colored pencils', 'computer', 'crayons', 'desk', 'dictionary', 'door', 'flag', 'folder', 'globe', 'glue', 'highlighter', 'locker', 'lunch box', 'map', 'marker', 'notebooks', 'pen', 'pencil', 'pencil case', 'projector',
   'ruler', 'scissors', 'school', 'sharpener', 'stapler', 'stickers', 'tablet', 'tape', 'trash can',
+  'cabbage', 'radish', 'chili pepper', 'bell pepper', 'corn', 'onion', 'green beans', 'peas', 'artichoke', 'asparagus', 'turnips', 'spinach', 'zucchinis', 'lady fingers', 'coriander', 'mint', 'mushrooms', 'vegetables', 'celery', 'garlic', 'ginger', 'green onion', 'cauliflower', 'leek', 'lettuce', 'Brussels sprouts', 'broccoli', 'beet', 'eggplant', 'sweet potatoes', 'tomato', 'potato', 'carrot', 'cucumber'
 ];
 
 
