@@ -17,6 +17,7 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'race', 'relay race', 'go fishing', 'go roller-skating', 'go skiing', 'go swimming', 'go climbing', 'go hiking', 'basketball', 'tennis ball', 'football', 'ping-pong ball', 'golf ball', 'baseball',
   'flute', 'fiddle', 'accordion', 'piano', 'violin',
   'cloud', 'flower', 'grass', 'lake', 'leaf', 'leaves', 'moon', 'river', 'stars', 'sun', 'tree', 'branch', 'bush', 'cactus', 'cave', 'cliff', 'desert', 'earth', 'field', 'fire', 'forest', 'garden', 'hill', 'iceberg', 'icicles', 'island', 'jungle', 'lightning', 'meadow', 'moss', 'mountain', 'mud', 'mushrooms', 'oasis', 'ocean', 'path', 'planet', 'plant', 'ice', 'pond', 'rain', 'rainbow', 'rock', 'root', 'rose', 'sand', 'sea', 'seed', 'sky', 'smoke', 'snow', 'snowflake', 'soil', 'stones', 'volcano', 'waterfall', 'water', 'wave',
+  'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty',
 
 ];
 
