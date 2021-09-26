@@ -3919,7 +3919,7 @@ const flashcards = [{
   {
     topic: 'transport',
     image: 'assets/images/tractor.jpg',
-    imageAlt: 'green trackor on the field',
+    imageAlt: 'green tractor on the field',
     word: 'tractor',
     ipa: '[ˈtræk.tɚ]',
   },

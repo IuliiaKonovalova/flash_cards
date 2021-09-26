@@ -20,6 +20,8 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty',
   'airport', 'amusement park', 'apartment building', 'aquarium', 'underwater zoo', 'bank', 'beach', 'bookshop', 'bookstore', 'bridge', 'bus stop', 'circus', 'cinema', 'classroom', 'gate', 'hospital', 'house', 'hut', 'library', 'museum', 'park', 'police station', 'post office', 'restaurant', 'school', 'shopping mall', 'stadium', 'supermarket', 'theater', 'train station', 'zoo', 'atm', 'castle', 'church', 'crossing', 'crosswalk', 'factory', 'farm', 'fire station', 'gym', 'hotel', 'market', 'gas station', 'petrol station', 'pharmacy', 'road', 'sidewalk', 'pavement', 'street', 'swimming pool',
   'actor', 'actress', 'architect', 'businessman', 'businesswoman', 'artist', 'astronaut', 'baker', 'barber', 'builder', 'butcher', 'cameraman', 'carpenter', 'cashier', 'coach', 'cook', 'dancer', 'delivery man', 'cleaner', 'dentist', 'doctor', 'driver', 'farmer', 'firefighter', 'fisherman', 'florist', 'hairdresser', 'musician', 'nurse', 'pharmacist', 'pilot', 'player', 'policeman', 'policewoman', 'programmer', 'scientist', 'singer', 'soldier', 'sportsman', 'swimmer', 'tailor', 'teacher', 'vet', 'veterinarian', 'waiter', 'waitress', 'worker', 'writer',
+  'ambulance', 'bike', 'boat', 'bus', 'car', 'fire engine', 'helicopter', 'hot-air balloon', 'motorbike', 'on foot', 'plane', 'airplane', 'rocket', 'school bus', 'scooter', 'ship', 'skateboard', 'subway', 'taxi', 'tractor', 'train', 'truck', 'UFO', 'van',
+
 
 ];
 
