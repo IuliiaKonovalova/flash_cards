@@ -916,12 +916,14 @@ input:focus {
   }
 }
 
+
+/* --- Media for iPhone 4 and 4S Portrait--- */
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
   .card__holder {
     width: 60vw;
     height: 65vh;
-    justify-self: center;
     align-self: end;
   }
 
@@ -931,6 +933,28 @@ input:focus {
 
   .voice__options {
     font-size: 1rem;
+  }
+
+  .voice__icon {
+    font-size: 1rem;
+  }
+
+  .word__sound {
+    font-size: 1.1rem;
+  }
+
+  .word__key--input {
+    width: 40vw;
+  }
+}
+
+/* --- Media for iPhone 4 and 4S Landscape--- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .card__holder {
+    width: 60vw;
+    height: 65vh;
+    align-self: end;
   }
 
   .voice__icon {
