@@ -241,36 +241,47 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
           ![Spelling Quiz Page HTML Validator](documentation/spelling_quiz_page_html_validator.png)
     
 + ##### CSS
-    - No errors or warnings were found when passing through the official W3C (Jigsaw) validator except the warnings that all: 
+    - No errors or warnings were found when passing through the official W3C (Jigsaw) validator except the warnings that: root variable (  --linear-grad) could not be checked and -webkit-backface-visibility - is unknown. However, css code works perfectly. 
 
     ![CSS Validator Errors](documentation/w3c_validator_errors.png)
     ![CSS Validator Warnings](documentation/w3c_validator_warnings.png)
 
 
 + ##### JS
-    - No errors or warnings were found when passing through the official JSHint validator except the warnings that all: 
+    - No errors or warnings were found when passing through the official JSHint validator except the warnings that   
 
       - Cards:
+
           ![JSHint Validator Cards JS](documentation/jshint_flash_cards_js.png)
 
 
       - Grammar Quiz:
+
           ![JSHint Validator Grammar Quiz JS](documentation/jshint_grammar_quiz_js.png)
 
 
       - Spelling Quiz:
+
           ![JSHint Validator Spelling Quiz JS](documentation/jshint_spelling_quiz_js.png)
 
 
 + ##### Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+
       - Menu Page:
+
           ![Menu Page Performance Score](documentation/menu_page_performance.png)
+
       - Cards Page:
+
           ![Cards Page Performance Score](documentation/flash_cards_performance.png)
+
       - Grammar Quiz:
+
           ![Grammar Quiz Page Performance Score](documentation/grammar_quiz_performance.png)
+          
       - Spelling Quiz:
+
           ![Grammar Quiz Page Performance Score](documentation/spelling_quiz_performance.png)
 
 
