@@ -2848,7 +2848,7 @@ const flashcards = [{
   {
     topic: 'nature',
     image: 'assets/images/path.jpg',
-    imageAlt: 'path in the antural park',
+    imageAlt: 'path in the natural park',
     word: 'path',
     ipa: '[pæθ]',
   },
