@@ -18,6 +18,7 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'flute', 'fiddle', 'accordion', 'piano', 'violin',
   'cloud', 'flower', 'grass', 'lake', 'leaf', 'leaves', 'moon', 'river', 'stars', 'sun', 'tree', 'branch', 'bush', 'cactus', 'cave', 'cliff', 'desert', 'earth', 'field', 'fire', 'forest', 'garden', 'hill', 'iceberg', 'icicles', 'island', 'jungle', 'lightning', 'meadow', 'moss', 'mountain', 'mud', 'mushrooms', 'oasis', 'ocean', 'path', 'planet', 'plant', 'ice', 'pond', 'rain', 'rainbow', 'rock', 'root', 'rose', 'sand', 'sea', 'seed', 'sky', 'smoke', 'snow', 'snowflake', 'soil', 'stones', 'volcano', 'waterfall', 'water', 'wave',
   'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty',
+  'airport', 'amusement park', 'apartment building', 'aquarium', 'underwater zoo', 'bank', 'beach', 'bookshop', 'bookstore', 'bridge', 'bus stop', 'circus', 'cinema', 'classroom', 'gate', 'hospital', 'house', 'hut', 'library', 'museum', 'park', 'police station', 'post office', 'restaurant', 'school', 'shopping mall', 'stadium', 'supermarket', 'theater', 'train station', 'zoo', 'atm', 'castle', 'church', 'crossing', 'crosswalk', 'factory', 'farm', 'fire station', 'gym', 'hotel', 'market', 'gas station', 'petrol station', 'pharmacy', 'road', 'sidewalk', 'pavement', 'street', 'swimming pool',
 
 ];
 
