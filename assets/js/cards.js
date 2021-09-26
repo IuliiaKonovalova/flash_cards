@@ -3485,7 +3485,7 @@ const flashcards = [{
   {
     topic: 'professions',
     image: 'assets/images/businessman.jpg',
-    imageAlt: 'man in a suit smalies at the camera',
+    imageAlt: 'man in a suit smiles at the camera',
     word: 'businessman',
     ipa: '[ˈbɪz.nɪs.mən]',
   },
@@ -3562,7 +3562,7 @@ const flashcards = [{
   {
     topic: 'professions',
     image: 'assets/images/coach.jpg',
-    imageAlt: 'coachshows his game strategy in the folder',
+    imageAlt: 'coach shows his game strategy in the folder',
     word: 'coach',
     ipa: '[koʊtʃ]',
   },
@@ -3660,7 +3660,7 @@ const flashcards = [{
   {
     topic: 'professions',
     image: 'assets/images/nurse.jpg',
-    imageAlt: 'female nurse with the stetoscope',
+    imageAlt: 'female nurse with the stethoscope',
     word: 'nurse',
     ipa: '[nɝːs]',
   },
