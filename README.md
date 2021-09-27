@@ -225,6 +225,40 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
     - vw does not work properly in Edge browser;
 + The app was checked by devtools implemented on Firefox and Chrome browsers.
 + The app was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
+
+  1. Mobile Screens:
+
+      - Mobile 320x480:
+
+      ![Mobile 320x480](documentation/responsiveness/mobile_320_480.gif)
+
+      - Mobile 320x568:
+
+      ![Mobile 320x568](documentation/responsiveness/mobile_320_568.gif)
+
+      - Mobile 360x640:
+
+      ![Mobile 360x640](documentation/responsiveness/mobile_360_640.gif)
+
+      - Mobile 375x667:
+
+      ![Mobile 375x667](documentation/responsiveness/mobile_375_667.gif)
+
+      - Mobile 384x640:
+
+      ![Mobile 384x640](documentation/responsiveness/mobile_384_640.gif)
+
+      - Mobile 414x731:
+
+      ![Mobile 414x731](documentation/responsiveness/mobile_414_731.gif)
+
+      - Mobile 414x736:
+
+      ![Mobile 414x736](documentation/responsiveness/mobile_414_736.gif)
+      
+  1. Tablets Screens:
+
+      - Tablet     
 + The functionality of the links in the app was checked as well by different users.
 
 ---
@@ -279,7 +313,7 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
       - Grammar Quiz:
 
           ![Grammar Quiz Page Performance Score](documentation/grammar_quiz_performance.png)
-          
+
       - Spelling Quiz:
 
           ![Grammar Quiz Page Performance Score](documentation/spelling_quiz_performance.png)
