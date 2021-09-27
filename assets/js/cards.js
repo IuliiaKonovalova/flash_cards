@@ -4017,7 +4017,7 @@ const flashcards = [{
   {
     topic: 'shapes',
     image: 'assets/images/rectangle.jpg',
-    imageAlt: 'seiling on the shape of a rectangle',
+    imageAlt: 'ceiling on the shape of a rectangle',
     word: 'rectangle',
     ipa: '[ˈrek.tæŋ.ɡəl]',
   },
