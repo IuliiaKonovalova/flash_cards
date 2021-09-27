@@ -271,7 +271,7 @@ img {
 
 .voice__options {
   display: flex;
-  padding: 1.5rem;
+  padding: 1rem;
   font-size: 3vh;
 }
 
@@ -495,7 +495,7 @@ img {
   justify-self: center;
   align-self: center;
   display: flex;
-  font-size: 2rem;
+  font-size: 4vh;
 }
 
 .word__key {
@@ -675,27 +675,29 @@ input:focus {
   }
 
   .english__word {
-    font-size: 2.5rem;
+    font-size: 5vh;
     letter-spacing: 0.1rem;
     padding-bottom: 0;
   }
 
+  .english__ipa {
+    font-size: 4vh;
+  }
 
   .voice__options {
     display: flex;
-    padding: 0.6rem;
+    padding: 0.4rem;
     font-size: 3vh;
   }
 
   .voice__option {
     padding: 0.5rem;
-    margin: auto 1rem;
+    margin: 5vw;
   }
 
 
   .voice__name {
-    padding-right: 1rem;
-    font-weight: bold;
+    padding-right: 3vw;
   }
 
   .voice__icon {
@@ -773,10 +775,8 @@ input:focus {
     width: 3rem;
   }
 
-  /* Media for spelling page */
-
   .word__key--input {
-    width: 73vw;
+    width: 70vw;
     font-size: 3vh;
   }
 }
@@ -799,11 +799,11 @@ input:focus {
   }
 
   .card__holder {
-    grid-row: 1/3;
+    grid-row: 2/3;
     justify-self: center;
-    align-self: center;
+    align-self: end;
     height: 70vh;
-    width: 60vw;
+    width: 80vw;
   }
 
   .card--front {
@@ -829,7 +829,7 @@ input:focus {
   }
 
   .english__word {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .english__ipa {
@@ -838,7 +838,7 @@ input:focus {
   }
 
   .voice__options {
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
   }
 
   .voice__option {
@@ -921,17 +921,21 @@ input:focus {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
-  .card__holder {
-    width: 60vw;
+  /* .card__holder {
+    width: 80vw;
     height: 65vh;
     align-self: end;
   }
 
   .english__word {
-    font-size: 1.2rem;
+    font-size: 3vh;
   }
 
   .voice__options {
+    font-size: 0.5rem;
+  }
+
+  .voice__name {
     font-size: 1rem;
   }
 
@@ -945,13 +949,13 @@ input:focus {
 
   .word__key--input {
     width: 40vw;
-  }
+  }*/
 }
 
 /* --- Media for iPhone 4 and 4S Landscape--- */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .card__holder {
+  /* .card__holder {
     width: 60vw;
     height: 65vh;
     align-self: end;
@@ -967,5 +971,5 @@ input:focus {
 
   .word__key--input {
     width: 40vw;
-  }
+  }*/
 }
