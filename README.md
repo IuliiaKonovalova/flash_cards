@@ -409,3 +409,7 @@ In your IDE Terminal, type the following command to clone my repository:
   - Images for the README file were made or edited with [GIMP](https://www.gimp.org/).
 
   - Screenshots for the readme file was made with [FlameShot](https://flameshot.org/) and [LightShot](https://app.prntscr.com/en/index.html).
+
+  - Screenshots for the readme file was made with [Kazam](https://launchpad.net/kazam)
+
+  - GIFs were made using the website [EzGif](https://ezgif.com).
