@@ -1,3 +1,5 @@
+/* jshint esversion:8 */
+
 const flashcards = [{
     topic: 'animals',
     image: 'assets/images/cat.jpg',

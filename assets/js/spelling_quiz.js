@@ -1,3 +1,5 @@
+/* jshint esversion:8 */
+
 const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'strawberry', 'watermelon', 'melon', 'raspberries', 'pomegranate', 'plum', 'pineapple', 'persimmon', 'passion fruit', 'papaya', 'mangosteen', 'lime', 'mango', 'grapefruit', 'kiwi', 'lemon', 'lychee', 'mandarin', 'jackfruit', 'durian', 'fruits', 'dragon fruit', 'coconut',
   'cherry', 'blueberries', 'pumpkin', 'blackberries', 'avocado', 'apricot', 'berries',
   'color', 'blue', 'brown', 'gold', 'gray', 'green', 'pink', 'purple', 'white', 'red', 'silver', 'yellow',

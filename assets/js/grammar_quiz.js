@@ -1,3 +1,5 @@
+/* jshint esversion:8 */
+
 /// << << GRAMMAR QUIZ >> >> ///
 
 const grammarQuestions = [{
