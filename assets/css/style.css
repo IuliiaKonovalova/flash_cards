@@ -790,6 +790,11 @@ input:focus {
 
   /* Media for FCs */
 
+  .button__instructions,
+  .button__menu {
+    margin: 0.5rem;
+  }
+
   .btn__navigation--back {
     font-size: 2rem;
   }
@@ -835,10 +840,6 @@ input:focus {
   .english__ipa {
     margin-bottom: 2vh;
     font-size: 1rem;
-  }
-
-  .voice__options {
-    /* font-size: 1.3rem; */
   }
 
   .voice__option {
