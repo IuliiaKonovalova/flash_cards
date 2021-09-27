@@ -4107,10 +4107,66 @@ const flashcards = [{
   },
   {
     topic: 'body parts',
-    image: 'assets/images/van.jpg',
-    imageAlt: '',
-    word: 'van',
-    ipa: '[]',
+    image: 'assets/images/eyelashes.jpg',
+    imageAlt: 'portret photo of a smiling woman with arrow points at her right eye eyelashes',
+    word: 'eyelashes',
+    ipa: '[ˈaɪ.læʃəs]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/face.jpg',
+    imageAlt: 'portret photo of a smiling man with a circle around his face and an arrow points at this circle',
+    word: 'face',
+    ipa: '[feɪs]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/feet.jpg',
+    imageAlt: 'boy on the beach walks away from the camera with read arrow points on his feet',
+    word: 'feet',
+    ipa: '[fiːt]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/finger.jpg',
+    imageAlt: 'male hand with an arrow points at his little finger',
+    word: 'finger',
+    ipa: '[ˈfɪŋ.ɡɚ]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/foot.jpg',
+    imageAlt: 'girl on the beach jumps in the wave with red arrow points on her left foot',
+    word: 'foot',
+    ipa: '[fʊt]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/forehead.jpg',
+    imageAlt: 'portret photo of a smiling man with arrow on his forehead',
+    word: 'forehead',
+    ipa: '[ˈfɑː.rɪd]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/freckles.jpg',
+    imageAlt: 'portret photo of a smiling woman with arrow points at her freckles',
+    word: 'freckles',
+    ipa: '[ˈfrek.ələs]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/hair.jpg',
+    imageAlt: 'portret photo of a smiling man with arrow on his hair',
+    word: 'hair',
+    ipa: '[her]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/hand.jpg',
+    imageAlt: 'male hand',
+    word: 'hand',
+    ipa: '[hænd]',
   },
   {
     topic: 'body parts',
@@ -4119,6 +4175,7 @@ const flashcards = [{
     word: 'van',
     ipa: '[]',
   },
+
 ];
 
 const card = document.querySelector('.card');
