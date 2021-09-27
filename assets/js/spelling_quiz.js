@@ -22,7 +22,7 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'actor', 'actress', 'architect', 'businessman', 'businesswoman', 'artist', 'astronaut', 'baker', 'barber', 'builder', 'butcher', 'cameraman', 'carpenter', 'cashier', 'coach', 'cook', 'dancer', 'delivery man', 'cleaner', 'dentist', 'doctor', 'driver', 'farmer', 'firefighter', 'fisherman', 'florist', 'hairdresser', 'musician', 'nurse', 'pharmacist', 'pilot', 'player', 'policeman', 'policewoman', 'programmer', 'scientist', 'singer', 'soldier', 'sportsman', 'swimmer', 'tailor', 'teacher', 'vet', 'veterinarian', 'waiter', 'waitress', 'worker', 'writer',
   'ambulance', 'bike', 'boat', 'bus', 'car', 'fire engine', 'helicopter', 'hot-air balloon', 'motorbike', 'on foot', 'plane', 'airplane', 'rocket', 'school bus', 'scooter', 'ship', 'skateboard', 'subway', 'taxi', 'tractor', 'train', 'truck', 'UFO', 'van',
   'lentil', 'beans', 'buckwheat', 'oats', 'rice', 'soybeans', 'wheat', 'circle', 'cross', 'rectangle', 'square', 'star', 'triangle',
-
+  'arm', 'back', 'beard', 'cheek', 'chin', 'ear', 'elbow', 'eye', 'eyebrow', 'eyelashes', 'face', 'feet', 'finger', 'foot', 'forehead', 'freckles', 'hair', 'hand', 'head', 'knee', 'leg', 'lip', 'mole', 'mouth', 'mustache', 'nail', 'neck', 'nose', 'shoulder', 'tail', 'teeth', 'toes', 'tongue', 'tooth', 'tummy', 'wrinkles', 'wrist',
 ];
 
 
