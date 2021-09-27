@@ -4185,7 +4185,7 @@ const flashcards = [{
   {
     topic: 'body parts',
     image: 'assets/images/leg.jpg',
-    imageAlt: 'girl on the beach jumps in the wave with red arrow points on her lef leg',
+    imageAlt: 'girl on the beach jumps in the wave with red arrow points on her left leg',
     word: 'leg',
     ipa: '[leg]',
   },
@@ -4233,12 +4233,74 @@ const flashcards = [{
   },
   {
     topic: 'body parts',
-    image: 'assets/images/van.jpg',
-    imageAlt: '',
-    word: 'van',
-    ipa: '[]',
+    image: 'assets/images/nose.jpg',
+    imageAlt: 'portret photo of a smiling man with arrow on his nose',
+    word: 'nose',
+    ipa: '[noʊz]',
   },
-
+  {
+    topic: 'body parts',
+    image: 'assets/images/shoulder.jpg',
+    imageAlt: 'girl on the beach jumps in the wave with red arrow points on her left shoulder leg',
+    word: 'shoulder',
+    ipa: '[ˈʃoʊl.dɚ]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/tail.jpg',
+    imageAlt: 'ginger cat on the wooden fence',
+    word: 'tail',
+    ipa: '[teɪl]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/teeth.jpg',
+    imageAlt: 'portret photo of a old smiling man with a blue circle around his teeth and arrow on it',
+    word: 'teeth',
+    ipa: '[tiːθ]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/toes.jpg',
+    imageAlt: 'girl on the beach jumps in the wave with red arrow points on her toes',
+    word: 'toes',
+    ipa: '[toʊs]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/tongue.jpg',
+    imageAlt: 'portret photo of a woman with her tongue out and an arrow point on her tongue',
+    word: 'tongue',
+    ipa: '[tʌŋ]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/tooth.jpg',
+    imageAlt: 'portret photo of a old smiling man with arrow point on one of his teeth',
+    word: 'tooth',
+    ipa: '[tuːθ]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/tummy.jpg',
+    imageAlt: 'girl on the beach jumps in the wave with red arrow points on her tummy',
+    word: 'tummy',
+    ipa: '[ˈtʌm.i]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/wrinkles.jpg',
+    imageAlt: 'portret photo of a smiling man with arrow on his right eye wrinkles',
+    word: 'wrinkles',
+    ipa: '[ˈrɪŋ.kələs]',
+  },
+  {
+    topic: 'body parts',
+    image: 'assets/images/wrist.jpg',
+    imageAlt: 'male hand with an arrow on his wrist',
+    word: 'wrist',
+    ipa: '[rɪst]',
+  },
 ];
 
 const card = document.querySelector('.card');
