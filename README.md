@@ -189,41 +189,44 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 
   - Chrome:
 
-  ![Menu Page](documentation/chrome_menu_page.png)
-  ![Flash Cards Page. Front](documentation/chrome_cards_front_page.png)
-  ![Flash Cards Page. Back](documentation/chrome_cards_back_page.png)
-  ![Grammar Quiz Page](documentation/chrome_grammar_quiz_page.png)
-  ![Spelling Quiz Page](documentation/chrome_spelling_quiz_page.png)
+  ![Menu Page](documentation/compatibility/chrome_menu_page.png)
+  ![Flash Cards Page. Front](documentation/compatibility/chrome_cards_front_page.png)
+  ![Flash Cards Page. Back](documentation/compatibility/chrome_cards_back_page.png)
+  ![Grammar Quiz Page](documentation/compatibility/chrome_grammar_quiz_page.png)
+  ![Spelling Quiz Page](documentation/compatibility/chrome_spelling_quiz_page.png)
   
   - Firefox:
 
-  ![Menu Page](documentation/firefox_menu_page.png)
-  ![Flash Cards Page. Front](documentation/firefox_cards_front_page.png)
-  ![Flash Cards Page. Back](documentation/firefox_cards_back_page.png)
-  ![Grammar Quiz Page](documentation/firefox_grammar_quiz_page.png)
-  ![Spelling Quiz Page](documentation/firefox_spelling_quiz_page.png)
+  ![Menu Page](documentation/compatibility/firefox_menu_page.png)
+  ![Flash Cards Page. Front](documentation/compatibility/firefox_cards_front_page.png)
+  ![Flash Cards Page. Back](documentation/compatibility/firefox_cards_back_page.png)
+  ![Grammar Quiz Page](documentation/compatibility/firefox_grammar_quiz_page.png)
+  ![Spelling Quiz Page](documentation/compatibility/firefox_spelling_quiz_page.png)
 
   - Brave:
 
-  ![Menu Page](documentation/brave_menu_page.png)
-  ![Flash Cards Page. Front](documentation/brave_cards_front_page.png)
-  ![Flash Cards Page. Back](documentation/brave_cards_back_page.png)
-  ![Grammar Quiz Page](documentation/brave_grammar_quiz_page.png)
-  ![Spelling Quiz Page](documentation/brave_spelling_quiz_page.png)
+  ![Menu Page](documentation/compatibility/brave_menu_page.png)
+  ![Flash Cards Page. Front](documentation/compatibility/brave_cards_front_page.png)
+  ![Flash Cards Page. Back](documentation/compatibility/brave_cards_back_page.png)
+  ![Grammar Quiz Page](documentation/compatibility/brave_grammar_quiz_page.png)
+  ![Spelling Quiz Page](documentation/compatibility/brave_spelling_quiz_page.png)
 
   - Edge:
 
-  ![Menu Page](documentation/edge_menu_page.png)
-  ![Flash Cards Page. Front](documentation/edge_cards_front_page.png)
-  ![Flash Cards Page. Back](documentation/edge_cards_back_page.png)
-  ![Grammar Quiz Page](documentation/edge_grammar_quiz_page.png)
-  ![Spelling Quiz Page](documentation/edge_spelling_quiz_page.png)
+  ![Menu Page](documentation/compatibility/edge_menu_page.png)
+  ![Flash Cards Page. Front](documentation/compatibility/edge_cards_front_page.png)
+  ![Flash Cards Page. Back](documentation/compatibility/edge_cards_back_page.png)
+  ![Grammar Quiz Page](documentation/compatibility/edge_grammar_quiz_page.png)
+  ![Spelling Quiz Page](documentation/compatibility/edge_spelling_quiz_page.png)
 
 
   - Noted Issues:
     - The Speech Synthesis does not work on Brave browser;
     - vw does not work properly in Edge browser;
+
+
 + The app was checked by devtools implemented on Firefox and Chrome browsers.
+
 + The app was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
   1. Mobile Screens:
