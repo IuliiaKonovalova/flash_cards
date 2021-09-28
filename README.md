@@ -466,3 +466,14 @@ In your IDE Terminal, type the following command to clone my repository:
 
 
 ---
+
+
+## Wireframes
+
+### Mobile devices
+
+
+### Tablet devices
+
+
+### Desktop devices
