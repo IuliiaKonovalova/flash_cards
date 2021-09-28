@@ -4333,8 +4333,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  btnVoiceUs.addEventListener('click', clickHandlerUs);
-  btnVoiceGb.addEventListener('click', clickHandlerGb);
+  //listen click for audio
+  btnVoiceUs.addEventListener('click', function (event) {
+    speakFunction(event, "US");
+  });
+  btnVoiceGb.addEventListener('click', function (event) {
+    speakFunction(event, "GB");
+  });
+
 
   //Open Instructions for the quiz
   btnOpenModal.addEventListener('click', openModal);
@@ -4350,6 +4356,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+
 
 
 /**
@@ -4377,28 +4385,14 @@ card.addEventListener('click', function (e) {
 
 /**
  * Add voice on click
- * for US
  */
-function clickHandlerUs(event) {
+function speakFunction(event, lang) {
   event.stopPropagation();
   let msg = new SpeechSynthesisUtterance();
-  msg.lang = 'en-US';
+  msg.lang = `en-${lang}`;
   msg.text = currentWord.replace('/', 'or');
   speechSynthesis.speak(msg);
 }
-
-/**
- * Add voice on click
- * for GB
- */
-function clickHandlerGb(event) {
-  event.stopPropagation();
-  let msg = new SpeechSynthesisUtterance();
-  msg.lang = 'en-GB';
-  msg.text = currentWord.replace('/', 'or');
-  speechSynthesis.speak(msg);
-}
-
 
 
 /**
