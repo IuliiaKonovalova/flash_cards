@@ -63,9 +63,13 @@ document.addEventListener('DOMContentLoaded', function () {
       checkSpelling();
     }
   });
+
+  //listen click to check spelling
   btnCheck.addEventListener('click', checkSpelling);
-  btnVoiceUs.addEventListener('click', clickHandlerUs);
-  btnVoiceGb.addEventListener('click', clickHandlerGb);
+
+  //listen click for audio
+  btnVoiceUs.addEventListener('click', () => speakFunction("US"));
+  btnVoiceGb.addEventListener('click', () => speakFunction("GB"));
 
   //Open Instructions for the quiz
   btnOpenModal.addEventListener('click', openModal);
@@ -103,20 +107,10 @@ const closeModal = function () {
 /**
  * Add US voice task on click
  */
-function clickHandlerUs() {
+function speakFunction(lang) {
   let msg = new SpeechSynthesisUtterance();
-  msg.lang = 'en-US';
-  msg.text = currentWord;
-  speechSynthesis.speak(msg);
-}
-
-/**
- * Add US voice task on click
- */
-function clickHandlerGb() {
-  let msg = new SpeechSynthesisUtterance();
-  msg.lang = 'en-GB';
-  msg.text = currentWord;
+  msg.lang = `en-${lang}`;
+  msg.text = currentWord.replace('/', 'or');
   speechSynthesis.speak(msg);
 }
 
