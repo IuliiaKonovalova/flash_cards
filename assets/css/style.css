@@ -519,31 +519,28 @@ img {
 }
 
 .word__key--input {
-  font-size: 5vh;
-  padding: 1rem;
+  font-size: 4vh;
+  padding: 1rem 0.2rem;
   width: 27vw;
   border-radius: 0.2em;
-}
-
-input {
-  font-family: inherit;
-  border: 3px solid var(--clr-bg);
+  text-align: center;
+  border: 2px solid var(--clr-neutral-900);
 }
 
 input:placeholder-shown {
   background: #5bd3f7;
-  border: 2px solid var(--clr-neutral-900);
-  text-align: center;
   font-style: italic;
 }
 
 input::placeholder {
   color: #20054975;
+  font-size: 3vh;
 }
 
 input:not(:placeholder-shown) {
   color: var(--clr-neutral-900);
-  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
 }
 
 input:focus {
