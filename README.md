@@ -258,7 +258,23 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
       
   1. Tablets Screens:
 
-      - Tablet     
+      - Tablet 600x960:
+        
+      ![Tablet 600x960](documentation/responsiveness/tablet_600_960.gif)
+
+      - Tablet 768x1024:
+
+      ![Tablet 768x1024](documentation/responsiveness/tablet_768_1024.gif)
+
+      - Tablet 800x1280:
+        
+      ![Tablet 800x1280](documentation/responsiveness/tablet_800_1280.gif)
+
+      - Tablet 1366x1024:
+
+      ![Tablet 1366x1024](documentation/responsiveness/tablet_1366_1024.gif)
+
+
 + The functionality of the links in the app was checked as well by different users.
 
 ---
