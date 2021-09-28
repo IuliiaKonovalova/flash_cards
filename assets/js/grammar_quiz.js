@@ -93,7 +93,7 @@ const grammarQuestions = [{
     grammarTaskFrom: '.-',
     grammarTaskTo: '?+',
     grammarChoices: [
-      'Do I want to be a doctor.',
+      'Do I want to be a doctor?',
       'Do I want be a doctor?',
       "Don't I want to be a doctor?",
       'Yes, I do. I want to be a doctor.',
