@@ -105,7 +105,7 @@ const closeModal = function () {
 };
 
 /**
- * Add US voice task on click
+ * Add voice task on click American or British accents
  */
 function speakFunction(lang) {
   let msg = new SpeechSynthesisUtterance();
