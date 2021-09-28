@@ -273,6 +273,40 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
       - Tablet 1366x1024:
 
       ![Tablet 1366x1024](documentation/responsiveness/tablet_1366_1024.gif)
+      
+  1. Desktop Screens:
+
+      - Desktop 1024x600:
+        
+      ![Desktop 1024x600](documentation/responsiveness/desktop_1024_600.gif)
+
+      - Desktop 1024x800:
+
+      ![Desktop 1024x800](documentation/responsiveness/desktop_1024_800.gif)
+
+      - Desktop 1366x768:
+        
+      ![Desktop 1366x768](documentation/responsiveness/desktop_1366_768.gif)
+
+      - Desktop 1440x900:
+
+      ![Desktop 1440x900](documentation/responsiveness/desktop_1440_900.gif)
+
+      - Desktop 1600x900:
+        
+      ![Desktop 1600x900](documentation/responsiveness/desktop_1600_900.gif)
+
+      - Desktop 1680x1050:
+
+      ![Desktop 1680x1050](documentation/responsiveness/desktop_1680_1050.gif)
+
+      - Desktop 1920x1080:
+        
+      ![Desktop 1920x1080](documentation/responsiveness/desktop_1920_1080.gif)
+
+      - Desktop 1920x1200:
+
+      ![Desktop 1920x1200](documentation/responsiveness/desktop_1920_1200.gif)
 
 
 + The functionality of the links in the app was checked as well by different users.
@@ -429,3 +463,6 @@ In your IDE Terminal, type the following command to clone my repository:
   - Screenshots for the readme file was made with [Kazam](https://launchpad.net/kazam)
 
   - GIFs were made using the website [EzGif](https://ezgif.com).
+
+
+---
