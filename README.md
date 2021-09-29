@@ -537,6 +537,14 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ---
 
+## Acknowledgements
+
+[Tim Nelson](https://github.com/TravelTimN)
+
+I am enormously thankful to my mentor Tim Nelson for his guidance and valuable advice!
+
+
+---
 
 ## Wireframes
 
