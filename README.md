@@ -317,7 +317,7 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 ---
 ## Validator testing
 + ##### HTML
-    - No errors or warnings were found when passing through the official W3C validator.
+    - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
       - Menu Page:
           ![Menu Page HTML Validator](documentation/menu_page_html_validator.png)
       - Card Page:
@@ -328,14 +328,14 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
           ![Spelling Quiz Page HTML Validator](documentation/spelling_quiz_page_html_validator.png)
     
 + ##### CSS
-    - No errors or warnings were found when passing through the official W3C (Jigsaw) validator except the warnings that: root variable (  --linear-grad) could not be checked and -webkit-backface-visibility - is unknown. However, css code works perfectly. 
+    - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator except the warnings that: root variable (  --linear-grad) could not be checked and -webkit-backface-visibility - is unknown. However, css code works perfectly. 
 
     ![CSS Validator Errors](documentation/w3c_validator_errors.png)
     ![CSS Validator Warnings](documentation/w3c_validator_warnings.png)
 
 
 + ##### JS
-    - No errors or warnings were found when passing through the official JSHint validator except the warnings that   
+    - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except the warnings that   
 
       - Cards:
 
