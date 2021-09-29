@@ -181,7 +181,7 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 ---
 
 ### Bugs
-+ #### Solved bugs
++ **Solved bugs**
 
 
 1. The function that initiates the flipping of a flashcard did not allow the click on the pronunciation buttons to listen to the correct pronunciation of a word.
@@ -214,12 +214,37 @@ const checkSpelling = function () {
 }
 ```
 
-+ #### Unsolved bugs
++ **Unsolved bugs**
 
     - None.
 
 ---
 
++ **Mistakes**
+
+    - Mistakes were made while committing changes.
+
+    - There were 5 mistakes in the following commits:
+
+        + **4489f6d**: Fixed size of the cards for small screens
+
+        *Supposed to be:* Fix size of the cards for small screens
+
+        + **5d24aaa**: Added images for the chrome browser in readme file
+        
+        *Supposed to be:* Add images for the chrome browser in readme file
+
+        + **cc83772**: Ad header element to html files
+        
+        *Supposed to be:* Add header element to html files
+
+        + **9cb8fa5**: Removed back side of the card when the new card is loaded
+        
+        *Supposed to be:* Remove back side of the card when the new card is loaded
+
+        + **cdbd9b6**: Tyding up css file
+        
+        *Supposed to be:* Tidy up css file
 
 
 ## Testing
@@ -516,6 +541,8 @@ In your IDE Terminal, type the following command to clone my repository:
 ## Wireframes
 
 ### Mobile devices
+
+
 
 
 ### Tablet devices
