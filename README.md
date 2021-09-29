@@ -548,8 +548,13 @@ In your IDE Terminal, type the following command to clone my repository:
 ![Grammar Quiz Page. Mobile Screen](documentation/wireframes/mobile_grammar_quiz_page.png)
 ![Spelling Quiz Page. Mobile Screen](documentation/wireframes/mobile_spelling_quiz_page.png)
 
-
 ### Tablet devices
 
+![Menu Page. Tablet Screen](documentation/wireframes/tablet_menu_page.png)
+![FCs Page. Front. Tablet Screen](documentation/wireframes/tablet_cards_page.png)
+![FCs Page. Back. Tablet Screen](documentation/wireframes/tablet_cards_page_back.png)
+![Grammar Quiz Page. Tablet Screen](documentation/wireframes/tablet_grammar_quiz_page.png)
+![Spelling Quiz Page. Tablet Screen](documentation/wireframes/tablet_spelling_quiz_page.png)
 
 ### Desktop devices
+
