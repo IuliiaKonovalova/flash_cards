@@ -357,19 +357,19 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 
       - Menu Page:
 
-          ![Menu Page Performance Score](documentation/menu_page_performance.png)
+          ![Menu Page Performance Score](documentation/lighthouse_report/menu_page_performance.png)
 
       - Cards Page:
 
-          ![Cards Page Performance Score](documentation/flash_cards_performance.png)
+          ![Cards Page Performance Score](documentation/lighthouse_report/flash_cards_performance.png)
 
       - Grammar Quiz:
 
-          ![Grammar Quiz Page Performance Score](documentation/grammar_quiz_performance.png)
+          ![Grammar Quiz Page Performance Score](documentation/lighthouse_report/grammar_quiz_performance.png)
 
       - Spelling Quiz:
 
-          ![Grammar Quiz Page Performance Score](documentation/spelling_quiz_performance.png)
+          ![Grammar Quiz Page Performance Score](documentation/lighthouse_report/spelling_quiz_performance.png)
 
 
 ---
