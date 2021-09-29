@@ -180,6 +180,48 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 
 ---
 
+### Bugs
++ #### Solved bugs
+
+
+1. The function that initiates the flipping of a flashcard did not allow the click on the pronunciation buttons to listen to the correct pronunciation of a word.
+
+    - *Solutions:* Add ```event.stopPropagation();``` method to the speakFunction(), which takes two parameters: event and lang.
+    
+1. The audio played '/' as "slash" for the words that had two spelling variations.
+        
+    - *Solution:* Add ```replace();``` method with two parameters ```currentWord.replace('/', 'or');```to the speakFunction().
+
+1.  The settings for input required in spelling_quiz.html did not work; therefore, if the input was empty, the user could check the spelling without typing a word in the input area.
+
+    - *Solution:* Add if-else statement to the checkSpelling function that disables Check button if the input is empty and enable Check button if the input is not empty.
+
+```js
+const checkSpelling = function () {
+
+  let answerInput = document.querySelector('#word__key--input');
+  if (answerInput.value === '') {
+    btnCheck.getAttribute("aria-disabled") === "true";
+  } else {
+    document.getElementsByClassName('word__key')[0].innerText = currentWord;
+    btnCheck.getAttribute("aria-disabled") === "false";
+    if (answerInput.value.toLowerCase() === currentWord) {
+      answerInput.style.backgroundColor = '#008a5a';
+    } else {
+      answerInput.style.backgroundColor = '#c26ee3';
+    }
+  }
+}
+```
+
++ #### Unsolved bugs
+
+    - None.
+
+---
+
+
+
 ## Testing
 
 
