@@ -37,7 +37,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
         * Emphasize the the easiness of the using the application.
         * Provides options for learning.
 
-    ![Menu Page](documentation/menu_page_screenshot.png)
+    ![Menu Page](documentation/app_features/menu_page_screenshot.png)
 
 
 
@@ -57,19 +57,19 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
     - It has a button at the top right corner of the screen, which opens modal window with instructions for the quiz;
 
-    ![Flash Card Page](documentation/cards_page_info_screenshot.png)
+    ![Flash Card Page](documentation/app_features/cards_page_info_screenshot.png)
 
     - It has Flash Cards, which consist a word's topic and a descriptive picture of word;
 
     - It has a button, which replace the current word with another one; 
 
-    ![Flash Card Page](documentation/cards_page_front_screenshot.png)
+    ![Flash Card Page](documentation/app_features/cards_page_front_screenshot.png)
 
     - After clicking on the card:  
 
         - Card has the key word, IPA of the word, and sound buttons, which allow the user to listen to the correct American and British pronunciation of the word:
 
-    ![Flash Card Back Page](documentation/cards_page_back_screenshot.png)
+    ![Flash Card Back Page](documentation/app_features/cards_page_back_screenshot.png)
 
 ---
 
@@ -79,7 +79,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
     - It has a button at the top right corner of the screen, which opens modal window with instructions for the quiz;
 
-    ![Grammar Quiz Info Page](documentation/grammar_quiz_page_info_screenshot.png)
+    ![Grammar Quiz Info Page](documentation/app_features/grammar_quiz_page_info_screenshot.png)
 
     - It has a card with a question and a grammar task;
     
@@ -87,16 +87,16 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
     
     - It has a button and the card to go to another question;
 
-    ![Grammar Quiz Page](documentation/grammar_quiz_page_screenshot.png)
+    ![Grammar Quiz Page](documentation/app_features/grammar_quiz_page_screenshot.png)
 
     - When the user click on the right answer, the answer's background color changes to green:
 
-    ![Grammar Quiz Page Correct Answer](documentation/grammar_quiz_page_correct_answer_screenshot.png)
+    ![Grammar Quiz Page Correct Answer](documentation/app_features/grammar_quiz_page_correct_answer_screenshot.png)
 
 
     - When the user click on the wrong answer, the answer's background color changes to light-pink, but the user allowed to find the correct answer anyway:
 
-    ![Grammar Quiz Page Wrong Answer](documentation/grammar_quiz_page_wrong_answer_screenshot.png)
+    ![Grammar Quiz Page Wrong Answer](documentation/app_features/grammar_quiz_page_wrong_answer_screenshot.png)
 
 ---
 
@@ -114,15 +114,15 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
     - It has a button at the bottom, which leads to another audio task:
 
-    ![Spelling Quiz Page](documentation/spelling_quiz_page_screenshot.png)
+    ![Spelling Quiz Page](documentation/app_features/spelling_quiz_page_screenshot.png)
     
     - When the user the spelling of the word is correct, the input background color changes to green and the user can see the original word;
 
-    ![Spelling Quiz Page Correct Answer](documentation/spelling_quiz_page_correct_answer_screenshot.png)
+    ![Spelling Quiz Page Correct Answer](documentation/app_features/spelling_quiz_page_correct_answer_screenshot.png)
 
      When the user the spelling of the word is wrong, the input background color changes to pink and the user can see the original word;
 
-    ![Spelling Quiz Page Wrong Answer](documentation/spelling_quiz_page_wrong_answer_screenshot.png)
+    ![Spelling Quiz Page Wrong Answer](documentation/app_features/spelling_quiz_page_wrong_answer_screenshot.png)
 
 ---
 
