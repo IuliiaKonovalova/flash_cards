@@ -25,6 +25,7 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'ambulance', 'bike', 'boat', 'bus', 'car', 'fire engine', 'helicopter', 'hot-air balloon', 'motorbike', 'on foot', 'plane', 'airplane', 'rocket', 'school bus', 'scooter', 'ship', 'skateboard', 'subway', 'taxi', 'tractor', 'train', 'truck', 'UFO', 'van',
   'lentil', 'beans', 'buckwheat', 'oats', 'rice', 'soybeans', 'wheat', 'circle', 'cross', 'rectangle', 'square', 'star', 'triangle',
   'arm', 'back', 'beard', 'cheek', 'chin', 'ear', 'elbow', 'eye', 'eyebrow', 'eyelashes', 'face', 'feet', 'finger', 'foot', 'forehead', 'freckles', 'hair', 'hand', 'head', 'knee', 'leg', 'lip', 'mole', 'mouth', 'mustache', 'nail', 'neck', 'nose', 'shoulder', 'tail', 'teeth', 'toes', 'tongue', 'tooth', 'tummy', 'wrinkles', 'wrist',
+  'come', 'dance', 'drink', 'eat', 'fly', 'give', 'jump', 'learn', 'listen', 'look', 'plant', 'play', 'run', 'see', 'sing', 'sit', 'study', 'swim', 'talk', 'wait', 'wake up', 'walk', 'watch', 'work', 'write',
 ];
 
 
