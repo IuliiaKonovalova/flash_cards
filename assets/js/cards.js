@@ -586,7 +586,7 @@ const flashcards = [{
     image: 'assets/images/blueberries.jpg',
     imageAlt: 'blueberries',
     word: 'blueberries',
-    ipa: '[ˈbluːˌbər.is]',
+    ipa: '[ˈbluːˌbər.ɪs]',
   },
   {
     topic: 'fruits',
@@ -600,7 +600,7 @@ const flashcards = [{
     image: 'assets/images/blackberries.jpg',
     imageAlt: 'blackberries',
     word: 'blackberries',
-    ipa: '[ˈblæk.ber.is]',
+    ipa: '[ˈblæk.ber.ɪs]',
   },
   {
     topic: 'fruits',
@@ -621,7 +621,7 @@ const flashcards = [{
     image: 'assets/images/berries.jpg',
     imageAlt: 'berries',
     word: 'berries',
-    ipa: '[ˈber.is]',
+    ipa: '[ˈber.ɪs]',
   },
   {
     topic: 'colors',
@@ -864,7 +864,7 @@ const flashcards = [{
     image: 'assets/images/play_the_accordion.jpg',
     imageAlt: 'man plays accordion',
     word: 'play the accordion',
-    ipa: '[pleɪ ðə əˈkɔːr.di.ən/]',
+    ipa: '[pleɪ ðə əˈkɔːr.di.ən]',
   },
   {
     topic: 'actions',
@@ -1242,7 +1242,7 @@ const flashcards = [{
     image: 'assets/images/biscuits.jpg',
     imageAlt: 'cookies with chocolate chips',
     word: 'cookies / biscuits',
-    ipa: '[ˈkʊk.is / ˈbɪs.kɪts]',
+    ipa: '[ˈkʊk.ɪs / ˈbɪs.kɪts]',
   },
   {
     topic: 'food',
@@ -1571,7 +1571,7 @@ const flashcards = [{
     image: 'assets/images/sausages.jpg',
     imageAlt: 'long meat sausages',
     word: 'sausages',
-    ipa: '[ˈsɑː.sɪdʒ]',
+    ipa: '[ˈsɑː.sɪdʒəs]',
   },
   {
     topic: 'food',
@@ -1878,8 +1878,8 @@ const flashcards = [{
     topic: 'school',
     image: 'assets/images/eraser.jpg',
     imageAlt: 'many pink erasers on the table',
-    word: 'eraser',
-    ipa: '[ɪˈreɪ.sɚ]',
+    word: 'eraser / rubber',
+    ipa: '[ɪˈreɪ.sɚ / ˈrʌb.ɚ]',
   },
   {
     topic: 'school',
