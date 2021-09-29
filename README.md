@@ -319,19 +319,19 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 + ##### HTML
     - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
       - Menu Page:
-          ![Menu Page HTML Validator](documentation/menu_page_html_validator.png)
+          ![Menu Page HTML Validator](documentation/validators_testing/menu_page_html_validator.png)
       - Card Page:
-          ![Cards Page HTML Validator](documentation/flash_cards_page_html_validator.png)
+          ![Cards Page HTML Validator](documentation/validators_testing/flash_cards_page_html_validator.png)
       - Grammar Quiz:
-          ![Grammar Quiz Page HTML Validator](documentation/grammar_quiz_page_html_validator.png)
+          ![Grammar Quiz Page HTML Validator](documentation/validators_testing/grammar_quiz_page_html_validator.png)
       - Spelling Quiz:
-          ![Spelling Quiz Page HTML Validator](documentation/spelling_quiz_page_html_validator.png)
+          ![Spelling Quiz Page HTML Validator](documentation/validators_testing/spelling_quiz_page_html_validator.png)
     
 + ##### CSS
     - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator except the warnings that: root variable (  --linear-grad) could not be checked and -webkit-backface-visibility - is unknown. However, css code works perfectly. 
 
-    ![CSS Validator Errors](documentation/w3c_validator_errors.png)
-    ![CSS Validator Warnings](documentation/w3c_validator_warnings.png)
+    ![CSS Validator Errors](documentation/validators_testing/w3c_validator_errors.png)
+    ![CSS Validator Warnings](documentation/validators_testing/w3c_validator_warnings.png)
 
 
 + ##### JS
@@ -339,17 +339,17 @@ Soft Pink Color was used to highlight the wrong answer in quiz, but at the same 
 
       - Cards:
 
-          ![JSHint Validator Cards JS](documentation/jshint_flash_cards_js.png)
+          ![JSHint Validator Cards JS](documentation/validators_testing/jshint_flash_cards_js.png)
 
 
       - Grammar Quiz:
 
-          ![JSHint Validator Grammar Quiz JS](documentation/jshint_grammar_quiz_js.png)
+          ![JSHint Validator Grammar Quiz JS](documentation/validators_testing/jshint_grammar_quiz_js.png)
 
 
       - Spelling Quiz:
 
-          ![JSHint Validator Spelling Quiz JS](documentation/jshint_spelling_quiz_js.png)
+          ![JSHint Validator Spelling Quiz JS](documentation/validators_testing/jshint_spelling_quiz_js.png)
 
 
 + ##### Accessibility and performance 
