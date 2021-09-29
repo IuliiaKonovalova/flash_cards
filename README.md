@@ -558,3 +558,9 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ### Desktop devices
 
+![Menu Page. Desktop Screen](documentation/wireframes/desktop_menu_page.png)
+![FCs Page. Front. Desktop Screen](documentation/wireframes/desktop_cards_page.png)
+![FCs Page. Back. Desktop Screen](documentation/wireframes/desktop_cards_page_back.png)
+![Grammar Quiz Page. Desktop Screen](documentation/wireframes/desktop_grammar_quiz_page.png)
+![Spelling Quiz Page. Desktop Screen](documentation/wireframes/desktop_spelling_quiz_page.png)
+
