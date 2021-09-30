@@ -4516,7 +4516,7 @@ const flashcards = [{
   {
     topic: 'weather',
     image: 'assets/images/rainstorm.jpg',
-    imageAlt: 'balck and white photo of a rainstorm in the sea',
+    imageAlt: 'black and white photo of a rainstorm in the sea',
     word: 'rainstorm',
     ipa: '[ˈreɪn.stɔːrm]',
   },
@@ -4530,9 +4530,58 @@ const flashcards = [{
   {
     topic: 'weather',
     image: 'assets/images/sandstorm.jpg',
-    imageAlt: 'sanddstorm in the desert',
+    imageAlt: 'sandstorm in the desert',
     word: 'sandstorm',
     ipa: '[ˈsænd.stɔːrm]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/snowstorm.jpg',
+    imageAlt: 'severe snowstorm and people trying to get through',
+    word: 'snowstorm',
+    ipa: '[ˈsnoʊ.stɔːrm]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/snowy.jpg',
+    imageAlt: 'trees in the forest covered in thick layer of snow',
+    word: 'snowy',
+    ipa: '[ˈsnəʊ.i]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/sunny.jpg',
+    imageAlt: 'sunny day in the countryside',
+    word: 'sunny',
+    ipa: '[ˈsʌn.i]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/warm.jpg',
+    imageAlt: 'man standing in a jacket and a hat covered in sunshine and the hot-air balloon in the background',
+    word: 'warm',
+    ipa: '[wɔːrm]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/wet.jpg',
+    imageAlt: 'drops of water on the metal background',
+    word: 'wet',
+    ipa: '[wet]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/windstorm.jpg',
+    imageAlt: 'black and white photo of a strong wind on the field',
+    word: 'windstorm',
+    ipa: '[ˈwɪnd.stɔːrm]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/windy.jpg',
+    imageAlt: 'palm banding from the wind',
+    word: 'windy',
+    ipa: '[ˈwɪn.di]',
   },
 ];
 
