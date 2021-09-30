@@ -521,6 +521,9 @@ In your IDE Terminal, type the following command to clone my repository:
 
     + Shapes: [circle](https://unsplash.com/photos/aMDyBCPNsmY), [cross](https://unsplash.com/photos/NWAnvRx5x3o), [rectangle](https://unsplash.com/photos/BY66BwIa9Bg), [square](https://unsplash.com/photos/rREvoaBucWo), [star](https://unsplash.com/photos/dChZrZx6mf8), [triangle](https://unsplash.com/photos/4ZPsW7PCNfA);
 
+    + Verbs: [come](https://unsplash.com/photos/aWL1bd2Pc14), [dance](https://unsplash.com/photos/194XhH_Zw4o), [drink](https://unsplash.com/photos/_SAT0OZMwyc), [eat](https://unsplash.com/photos/-9CjvlbUGhY), [fly](https://unsplash.com/photos/F0CW4F8ut3U), [give](https://unsplash.com/photos/BFdSCxmqvYc), [jump](https://unsplash.com/photos/Hr6dzqNLzhw), [learn](https://unsplash.com/photos/leyUrzdwurc), [listen](https://unsplash.com/photos/SBIak0pKUIE), [look](https://unsplash.com/photos/1bhp9zBPHVE), [plant](https://unsplash.com/photos/VMNmf0aARuQ), [play](https://unsplash.com/photos/CgfRXcX-oko), [run](https://unsplash.com/photos/z4WH11FMfIQ), [see](https://unsplash.com/photos/111AmmhN2Ss), [sing](https://unsplash.com/photos/NaTzgXieUlo), [sit](https://unsplash.com/photos/OroUwAwLs-8), [study](https://unsplash.com/photos/93W0xn4961g), [swim](https://unsplash.com/photos/ZbbhkQ0M2AM), [talk](https://unsplash.com/photos/eF7HN40WbAQ), [wait](https://unsplash.com/photos/SquKfH21-JA), [wake up](https://unsplash.com/photos/wBuPCQiweuA), [walk](https://unsplash.com/photos/WCWgY3L_xVw), [watch](https://unsplash.com/photos/yubCnXAA3H8), [work](https://unsplash.com/photos/JaoVGh5aJ3E), [write](https://unsplash.com/photos/NUQtVifTqs4);
+
+
 
   - All images were compressed by using the website [Compress JPEG](https://compressjpeg.com/).
 
