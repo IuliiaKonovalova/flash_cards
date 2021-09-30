@@ -4478,6 +4478,62 @@ const flashcards = [{
     word: 'write',
     ipa: '[raɪt]',
   },
+  {
+    topic: 'weather',
+    image: 'assets/images/cloudy.jpg',
+    imageAlt: 'sky filled with gray massive clouds',
+    word: 'cloudy',
+    ipa: '[ˈklaʊ.di]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/cold.jpg',
+    imageAlt: 'man wears an orange jacket and turns his back to the camera on the forrest covered in snow background',
+    word: 'cold',
+    ipa: '[koʊld]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/dry.jpg',
+    imageAlt: 'desert with dry tree and dry soil in a photo',
+    word: 'dry',
+    ipa: '[draɪ]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/foggy.jpg',
+    imageAlt: 'foggy forest in the mountains',
+    word: 'foggy',
+    ipa: '[ˈfɑː.ɡi]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/hot.jpg',
+    imageAlt: 'man in the desert',
+    word: 'hot',
+    ipa: '[hɑːt]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/rainstorm.jpg',
+    imageAlt: 'balck and white photo of a rainstorm in the sea',
+    word: 'rainstorm',
+    ipa: '[ˈreɪn.stɔːrm]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/rainy.jpg',
+    imageAlt: 'balck and white photo of the rain',
+    word: 'rainy',
+    ipa: '[ˈreɪ.ni]',
+  },
+  {
+    topic: 'weather',
+    image: 'assets/images/sandstorm.jpg',
+    imageAlt: 'sanddstorm in the desert',
+    word: 'sandstorm',
+    ipa: '[ˈsænd.stɔːrm]',
+  },
 ];
 
 const card = document.querySelector('.card');
