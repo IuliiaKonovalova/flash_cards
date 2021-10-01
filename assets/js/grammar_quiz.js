@@ -304,6 +304,66 @@ const grammarQuestions = [{
     ],
     correct: "No, it isn't. It's long.",
   },
+  {
+    grammarQuestion: 'Do you have 2 heads?',
+    grammarTaskFrom: '?+',
+    grammarTaskTo: '.-',
+    grammarChoices: [
+      "No, I don't. I have 1 head.",
+      "No, I do. I have 1 head.",
+      "No, I'm not. I have 1 head.",
+      "No, I don't. I don't have 1 head.",
+    ],
+    correct: "No, I don't. I have 1 head.",
+  },
+  {
+    grammarQuestion: 'Do you have 1 tummy?',
+    grammarTaskFrom: '?+',
+    grammarTaskTo: '.+',
+    grammarChoices: [
+      "Yes, I do. I have 1 tummy.",
+      "Yes, I don't. I have 1 tummy.",
+      "Yes, I am. I have 1 tummy.",
+      "Yes, I do. I have 1 tumy.",
+    ],
+    correct: "Yes, I do. I have 1 tummy.",
+  },
+  {
+    grammarQuestion: 'Do you have 2 arms?',
+    grammarTaskFrom: '?+',
+    grammarTaskTo: '.+',
+    grammarChoices: [
+      "Yes, I do. I have 2 arms.",
+      "Yes, I don't. I have 2 arms.",
+      "Yes, I am. I have 2 arms.",
+      "Yes, I do. I have 2 arm.",
+    ],
+    correct: "Yes, I do. I have 2 arms.",
+  },
+  {
+    grammarQuestion: 'I have 10 toes.',
+    grammarTaskFrom: '.',
+    grammarTaskTo: '?-',
+    grammarChoices: [
+      "Don't I have 10 toes?",
+      "Dont I have 10 toes?",
+      "Am I have 10 toes?",
+      "Do I have 10 toes?",
+    ],
+    correct: "Don't I have 10 toes?",
+  },
+  {
+    grammarQuestion: 'You have 2 knees.',
+    grammarTaskFrom: '.',
+    grammarTaskTo: '.+',
+    grammarChoices: [
+      "Yes, you do. You have 2 knees.",
+      "Yes, you are. You have 2 knees.",
+      "Yes, you does. You have 2 knees.",
+      "Yes, you do. You has 2 knees.",
+    ],
+    correct: "Yes, you do. You have 2 knees.",
+  },
 ];
 
 const btnNextCard = document.querySelector('#card__next');
