@@ -364,6 +364,42 @@ const grammarQuestions = [{
     ],
     correct: "Yes, you do. You have 2 knees.",
   },
+  {
+    grammarQuestion: 'She has 2 knees.',
+    grammarTaskFrom: '.',
+    grammarTaskTo: '.+',
+    grammarChoices: [
+      "Yes, she does. She has 2 knees.",
+      "Yes, she do. She has 2 knees.",
+      "Yes, she is. She has 2 knees.",
+      "Yes, she does. She have 2 knees.",
+    ],
+    correct: "Yes, she does. SHe has 2 knees.",
+  },
+  {
+    grammarQuestion: 'She has 5 fingers.',
+    grammarTaskFrom: '.',
+    grammarTaskTo: '.-',
+    grammarChoices: [
+      "No, she doesn't. She has 10 fingers.",
+      "No, she does. She has 10 fingers.",
+      "No, she don't. She have 10 fingers.",
+      "No, she don't. She has 10 fingers.",
+    ],
+    correct: "No, she doesn't. She has 10 fingers.",
+  },
+  {
+    grammarQuestion: 'Does he have 1 foot.',
+    grammarTaskFrom: '?+',
+    grammarTaskTo: '.-',
+    grammarChoices: [
+      "No, he doesn't. He has 2 feet.",
+      "No, he doesn't. He has 2 foots.",
+      "No, he does. He has 2 feet.",
+      "No, he don't. He has 2 feet.",
+    ],
+    correct: "No, he doesn't. He has 2 feet.",
+  },
 ];
 
 const btnNextCard = document.querySelector('#card__next');
