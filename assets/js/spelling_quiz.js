@@ -1,4 +1,4 @@
-/* jshint esversion:8 */
+/* jshint esversion:8, expr:true */
 
 const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'strawberry', 'watermelon', 'melon', 'raspberries', 'pomegranate', 'plum', 'pineapple', 'persimmon', 'passion fruit', 'papaya', 'mangosteen', 'lime', 'mango', 'grapefruit', 'kiwi', 'lemon', 'lychee', 'mandarin', 'jackfruit', 'durian', 'fruits', 'dragon fruit', 'coconut',
   'cherry', 'blueberries', 'pumpkin', 'blackberries', 'avocado', 'apricot', 'berries',
@@ -27,6 +27,7 @@ const wordsArray = ['apple', 'banana', 'grapes', 'orange', 'peach', 'pear', 'str
   'arm', 'back', 'beard', 'cheek', 'chin', 'ear', 'elbow', 'eye', 'eyebrow', 'eyelashes', 'face', 'feet', 'finger', 'foot', 'forehead', 'freckles', 'hair', 'hand', 'head', 'knee', 'leg', 'lip', 'mole', 'mouth', 'mustache', 'nail', 'neck', 'nose', 'shoulder', 'tail', 'teeth', 'toes', 'tongue', 'tooth', 'tummy', 'wrinkles', 'wrist',
   'come', 'dance', 'drink', 'eat', 'fly', 'give', 'jump', 'learn', 'listen', 'look', 'plant', 'play', 'run', 'see', 'sing', 'sit', 'study', 'swim', 'talk', 'wait', 'wake up', 'walk', 'watch', 'work', 'write',
   'cloudy', 'cold', 'dry', 'foggy', 'hot', 'rainstorm', 'rainy', 'sandstorm', 'snowstorm', 'snowy', 'sunny', 'warm', 'wet', 'windstorm', 'windy',
+  'mother', 'father', 'grandmother', 'grandfather', 'sister', 'brother', 'baby', 'child', 'children',
 ];
 
 
@@ -167,4 +168,4 @@ const checkSpelling = function () {
       answerInput.style.backgroundColor = '#c26ee3';
     }
   }
-}
+};
