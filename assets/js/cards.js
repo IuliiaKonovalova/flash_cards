@@ -4689,6 +4689,7 @@ const createRandom = function () {
  * with all visible elements
  */
 const generateCard = function () {
+  card.classList.remove('is-flipped');
   if (flashcards.length === 0) {
     flashcards.push.apply(flashcards, temporaryCardsArray);
   }
@@ -4703,12 +4704,17 @@ const generateCard = function () {
   cardTopic.innerText = flashcards[randomIndex].topic;
   cardImage.innerHTML = `<img loading="lazy" src = ${flashcards[randomIndex].image} alt=${flashcards[randomIndex].imageAlt}>`;
 
-  cardWord.innerText = flashcards[randomIndex].word;
-  CardIpa.innerText = flashcards[randomIndex].ipa;
+  //Reveal the content of the back side of the card after 1 sec
+  //Prevents the reavealing the content of the next of the card to the user
+  setTimeout(() => {
+    cardWord.innerText = flashcards[randomIndex].word;
+    CardIpa.innerText = flashcards[randomIndex].ipa;
 
-  currentWord = flashcards[randomIndex].word;
+    currentWord = flashcards[randomIndex].word;
 
-  card.classList.remove('is-flipped');
-  temporaryCardsArray.push(flashcards[randomIndex]);
-  flashcards.splice([randomIndex], 1);
+    temporaryCardsArray.push(flashcards[randomIndex]);
+    flashcards.splice([randomIndex], 1);
+  }, 1000);
+
+
 };
