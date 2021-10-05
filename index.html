@@ -11,6 +11,8 @@
     content="English, study English, English flash cards, english quiz, grammar quiz, english grammar quiz, spelling, spelling quiz, English spelling quiz, English words, index cards" />
   <meta name="author" content="Iuliia Konovalova" />
   <link rel="icon" href="favicon.ico">
+  <!--Link for FontAwesome icons-->
+  <script src="https://kit.fontawesome.com/9237ee6e28.js" crossorigin="anonymous"></script>
   <!--Link to the css file-->
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Flash Cards</title>
@@ -24,6 +26,12 @@
     <h1 class="menu__title">Yingwen</h1>
     <p class="menu__incentive">Rote-learning is simple here!</p>
   </header>
+
+  <!--Instructions Button-->
+
+  <div class="button__instructions" id="button__instructions">
+    <button class="btn__navigation--back" aria-label="go to info modal"><i class="fas fa-mail-bulk"></i></button>
+  </div>
 
   <!--Menu options-->
 
@@ -41,6 +49,24 @@
       <a href="spelling_quiz.html" aria-label="go to spelling quiz" class="menu__link">Spelling quiz</a>
     </div>
   </main>
+
+
+  <!--Modal window for credits-->
+
+  <aside class="modal modal--hidden" id="modal">
+    <button class="close-modal" id="close-modal">&times;</button>
+    <div class="modal__contact">
+      <div class="contact__title">The website was developed by <span class="contact__name">Iuliia Konovalova</span>
+      </div>
+      <div class="contact__links">
+        <div class="contact__github"><a href="https://github.com/IuliiaKonovalova" target="_blank" rel="noopener"
+            aria-label="Visit my github page"><i class="fab fa-github-square"></i></a></div>
+        <div class="contact__linkedin"><a href="https://www.linkedin.com/in/iuliia-konovalova-27948020b/"
+            target="_blank" rel="noopener" aria-label="Visit my linkedin page"><i class="fab fa-linkedin"></i></a></div>
+      </div>
+    </div>
+  </aside>
+  <div class="overlay overlay--hidden" id="overlay"></div>
 
   <!--Script for js file-->
 
