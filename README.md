@@ -326,9 +326,9 @@ const checkSpelling = function () {
 
       ![Mobile 384x640](documentation/responsiveness/mobile_384_640.gif)
 
-      - Mobile 414x731:
+      - Mobile 411x731:
 
-      ![Mobile 414x731](documentation/responsiveness/mobile_414_731.gif)
+      ![Mobile 411x731](documentation/responsiveness/mobile_411_731.gif)
 
       - Mobile 414x736:
 
