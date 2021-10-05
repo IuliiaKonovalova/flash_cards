@@ -797,6 +797,8 @@ input:focus {
     grid-template-rows: 1fr 5fr 1fr;
   }
 
+  /* Media for Menu Page */
+
   .menu__header {
     align-self: center;
   }
