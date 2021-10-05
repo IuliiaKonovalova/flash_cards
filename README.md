@@ -41,13 +41,17 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 
 
 
-    - Menu page has 3 buttons:
+    - Menu page has 3 main buttons:
 
         1. Flash Cards Button leads to the page where the user can learn and practice English vocabulary;
 
         1. Grammar Quiz Button leads to the page where the user can learn and practice English grammar;
 
         1. Spelling Quiz Button leads to the page where the user can practice spelling of English words.
+
+    - It also has a button at the top right corner of the screen, which opens modal window with contact information;
+
+    ![Flash Card Page](documentation/app_features/menu_page_contact_screenshot.png)
 ​
 ---
 
