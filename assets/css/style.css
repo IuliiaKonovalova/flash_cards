@@ -93,8 +93,10 @@ body {
   cursor: pointer;
 }
 
+/*Styling contact modal*/
+
 .modal__contact {
-  padding: 5rem;
+  padding: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 3fr 1fr;
@@ -109,6 +111,12 @@ body {
   letter-spacing: 0.2rem;
   justify-self: center;
   align-self: center;
+  width: 100%;
+}
+
+.contact__title {
+  display: inline-block;
+  width: 90%;
 }
 
 .contact__name {
@@ -131,8 +139,7 @@ body {
 }
 
 .contact__icons {
-  font-size: 8vh;
-  color: var(--clr-neutral-100);
+  font-size: 7vh;
 }
 
 .icon__contact {
@@ -682,7 +689,7 @@ input:focus {
 
 @media screen and (max-width: 46rem) {
 
-  /* --- << Menu page >> --- */
+  /* Media for menu page */
 
   body {
     grid-template-columns: 1fr 3fr 1fr;
@@ -705,6 +712,20 @@ input:focus {
     width: 15rem;
     background-color: var(--clr-primary-500);
     font-size: 1rem;
+  }
+
+  /*Media for contact modal*/
+
+  .modal__contact {
+    padding: 3rem;
+  }
+
+  .contact__main {
+    font-size: 3vh;
+  }
+
+  .contact__icons {
+    font-size: 5vh;
   }
 
   /* Media for FCs */
@@ -859,6 +880,29 @@ input:focus {
     width: 15rem;
     background-color: var(--clr-primary-500);
     font-size: 1rem;
+  }
+
+  /*Media for contact modal*/
+
+  .modal__contact {
+    gap: 0;
+  }
+
+
+  .modal__contact {
+    padding: 3rem;
+  }
+
+  .contact__name {
+    margin-top: 0;
+  }
+
+  .contact__main {
+    font-size: 1rem;
+  }
+
+  .contact__icons {
+    font-size: 1.5rem;
   }
 
 
