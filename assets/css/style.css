@@ -93,7 +93,51 @@ body {
   cursor: pointer;
 }
 
+.modal__contact {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  gap: 1rem;
+}
 
+
+.contact__main {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  font-size: 4vh;
+  letter-spacing: 0.2rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.contact__name {
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 2vh;
+}
+
+.contact__github {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: start;
+}
+
+.contact__linkedin {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-self: center;
+}
+
+.contact__icons {
+  font-size: 8vh;
+  color: var(--clr-neutral-100);
+}
+
+.icon__contact {
+  color: var(--clr-neutral-100);
+}
 
 /* --- << FC page >> --- */
 
