@@ -246,6 +246,10 @@ const checkSpelling = function () {
         
         *Supposed to be:* Tidy up css file
 
+        + **e5c938b**: Styling menu page and contact button
+        
+        *Supposed to be:* Style menu page and contact button
+
 
 ## Testing
 
