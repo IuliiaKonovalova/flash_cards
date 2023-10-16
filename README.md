@@ -145,6 +145,7 @@ The flowchart represent the logic of the application:
 - [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
 - [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project. 
+- [JS](https://www.w3schools.com/js/) - was used to add interactivity to the site.
 - [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
