@@ -8,20 +8,18 @@ const btnVoiceGb = document.querySelector("#voice__option--GB");
 let currentWord;
 let temporaryWordsArray = [];
 let wordsArray
-
+// Variables related to modal
 const modal = document.querySelector('#modal');
 const overlay = document.querySelector('#overlay');
 const btnCloseModal = document.querySelector('#close-modal');
 const btnOpenModal = document.querySelector('#button__instructions');
 
-// Wait for the DOM to finish loading before running the quiz
 
+/**
+ * Wait for the DOM to finish loading before running the quiz
+ */
 document.addEventListener('DOMContentLoaded', function () {
   fetchWordsData();
-  // New word;
-
-
-
   // Listen for the arrow right to switch the question:
   document.addEventListener('keydown', function (e) {
     if (e.key === 'ArrowRight') {
@@ -57,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function () {
       closeModal();
     }
   });
-
 });
 
 
@@ -92,6 +89,7 @@ const openModal = function () {
   overlay.classList.remove('overlay--hidden');
 };
 
+
 /**
  * Close instructions modal window
  */
@@ -99,6 +97,7 @@ const closeModal = function () {
   modal.classList.add('modal--hidden');
   overlay.classList.add('overlay--hidden');
 };
+
 
 /**
  * Add voice task on click American or British accents
@@ -117,6 +116,7 @@ function speakFunction(lang) {
   }
 }
 
+
 /**
  *
  * Generate random index for the words array
@@ -124,6 +124,7 @@ function speakFunction(lang) {
 const createRandom = function () {
   return Math.floor(Math.random() * wordsArray.length);
 };
+
 
 /**
  * Generates the word for the user
@@ -148,6 +149,7 @@ const generateWord = function () {
   temporaryWordsArray.push(wordsArray[randomIndex]);
   wordsArray.splice([randomIndex], 1);
 };
+
 
 /**
  * Check whether the answer is correct
