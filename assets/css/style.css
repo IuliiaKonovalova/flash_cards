@@ -219,7 +219,8 @@ body {
   align-items: center;
   justify-self: center;
   justify-content: center;
-  width: 30vw;
+  width: 100%;
+  max-width: 40rem;
   height: 60vh;
   perspective: 60vw;
 }
@@ -926,7 +927,8 @@ input:focus {
     justify-self: center;
     align-self: end;
     height: 70vh;
-    width: 80vw;
+    width: 100%;
+    max-width: 25rem;
   }
 
   .card--front {
