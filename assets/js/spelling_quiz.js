@@ -72,7 +72,6 @@ async function fetchWordsData() {
     }
     const data = await res.json();
     if (Array.isArray(data.wordsArray)) {
-      console.log(data.wordsArray);
       wordsArray = data.wordsArray;
       generateWord();
       return wordsArray;
@@ -80,7 +79,6 @@ async function fetchWordsData() {
       throw new Error("Data does not contain an array of words");
     }
   } catch (error) {
-    console.error("Error fetching words data:", error);
     return [];
   }
 }
@@ -106,14 +104,16 @@ const closeModal = function () {
  * Add voice task on click American or British accents
  */
 function speakFunction(lang) {
-  console.log(currentWord);
   if (typeof currentWord === 'string') {
     let msg = new SpeechSynthesisUtterance();
     msg.lang = `en-${lang}`;
     msg.text = currentWord.replace('/', 'or');
     speechSynthesis.speak(msg);
   } else {
-    console.error("currentWord is not a string.");
+    let msg = new SpeechSynthesisUtterance();
+    msg.lang = `en-${lang}`;
+    msg.text = currentWord.join(' or ');
+    speechSynthesis.speak(msg);
   }
 }
 
@@ -122,7 +122,6 @@ function speakFunction(lang) {
  * Generate random index for the words array
  */
 const createRandom = function () {
-  console.log(wordsArray.length);
   return Math.floor(Math.random() * wordsArray.length);
 };
 
@@ -142,10 +141,7 @@ const generateWord = function () {
   answerInput.value = '';
 
   const randomIndex = createRandom();
-  console.log(randomIndex);
-
   currentWord = wordsArray[randomIndex];
-  console.log(currentWord);
 
   //Delete shown word from the main array
   //Push the word into temporary array
