@@ -7,41 +7,39 @@ const modal = document.querySelector('#modal');
 const overlay = document.querySelector('#overlay');
 const btnCloseModal = document.querySelector('#close-modal');
 const btnOpenModal = document.querySelector('#button__instructions');
+let answers = document.getElementsByClassName('grammar-quiz__answer');
 let grammarQuestions;
+let currentAnswer;
+let temporaryQuestionsArray = [];
 
-// Wait for the DOM to finish loading before running the quiz
 
+/**
+ * Wait for the DOM to finish loading before running the quiz
+ */
 document.addEventListener('DOMContentLoaded', function () {
-
+  // Fetch data from the JSON file
   fetchQuizData()
-
   //Open Instructions for the quiz
   btnOpenModal.addEventListener('click', openModal);
-
   //Close instructions for the quiz
   btnCloseModal.addEventListener('click', closeModal);
-
+  // Close modal with Esc key
   overlay.addEventListener('click', closeModal);
-
+  // Close modal with Esc key
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
       closeModal();
     }
   });
-
   // Change Card on click
-
   btnNextCard.addEventListener('click', generateGrammarQuestion);
-
   // Click enter to go to another card
-
   btnNextCard.addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
       generateGrammarQuestion();
     }
   });
 });
-
 
 
 /**
@@ -66,7 +64,8 @@ async function fetchQuizData() {
     return []
   }
 }
-//New question
+
+
 /**
  * Open instructions modal window
  */
@@ -74,6 +73,7 @@ const openModal = function () {
   modal.classList.remove('modal--hidden');
   overlay.classList.remove('overlay--hidden');
 };
+
 
 /**
  * Close instructions modal window
@@ -84,24 +84,19 @@ const closeModal = function () {
 };
 
 
-
 /**
  *
  * Generate random index for the Quiz
  */
-
 const createRandomBlock = function () {
   return Math.floor(Math.random() * grammarQuestions.length);
 };
 
-let currentAnswer;
-let temporaryQuestionsArray = [];
 
 /**
  * Function generates the Flash Card for the user
  * with all visible elements
  */
-
 const generateGrammarQuestion = function () {
   if (grammarQuestions.length === 0) {
     grammarQuestions.push.apply(
@@ -123,19 +118,16 @@ const generateGrammarQuestion = function () {
     'task__to'
   )[0];
   //Generate random order of the answers
-
   grammarQuestions.forEach((questionBlock) =>
     questionBlock.grammarChoices.sort(() => Math.random() - 0.5)
   );
 
   //Applying random question function
-
   let randomBlockIndex = createRandomBlock();
 
   currentAnswer = grammarQuestions[randomBlockIndex].correct;
 
   //Add data to the html from the grammarQuestions array
-
   grammarQuestion.innerText =
     grammarQuestions[randomBlockIndex].grammarQuestion;
 
@@ -152,16 +144,18 @@ const generateGrammarQuestion = function () {
   grammarQuestions.splice([randomBlockIndex], 1);
 };
 
-let answers = document.getElementsByClassName('grammar-quiz__answer');
 
+/**
+ * Add event listener to the answers
+*/
 for (let answer of answers) {
   answer.addEventListener('click', checkAnswers);
 }
 
+
 /**
  * Checking whether answer is correct
  * */
-
 function checkAnswers(event) {
   if (event.target.innerText === currentAnswer) {
     event.target.style.backgroundColor = '#008a5a';
